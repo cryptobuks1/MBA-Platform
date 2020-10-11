@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Admin Extension : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="admin/view/template/common/footer.tpl">
+           
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <footer id="footer"><?php echo $text_footer; ?><br /><?php echo $text_version; ?></footer></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <footer id="footer"><?php echo $text_footer; ?><br /></footer></div>
+                ]]>
+            </add>
+        </operation>
+        
+    </file>
+    <file name="admin/controller/common/header.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['text_logout'] = $this->language->get('text_logout');
+                ]]> 
+            </search>  
+            <add>
+                <![CDATA[
+                    $site_information = $this->session->data['inf_site_information'];
+                    $data['logo'] = ROOT_URL . "uploads/images/logos/" . $site_information['logo'];
+                ]]>      
+            </add>         
+        </operation>        
+    </file>
+    <file name="admin/view/template/common/header.tpl">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <a href="<?php echo $home; ?>" class="navbar-brand"><img src="view/image/logo.png" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" /></a></div>
+                ]]> 
+            </search>  
+            <add>
+                <![CDATA[
+                    <a href="<?php echo $home; ?>" class="navbar-brand"><img src="<?php echo $logo; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" style="height:24px;" /></a></div>
+                ]]>      
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring fa-lg"></i></a>
+                ]]> 
+            </search>  
+            <add>
+                <![CDATA[
+                    <li class="dropdown hidden"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring fa-lg"></i></a>
+                ]]>      
+            </add>
+        </operation>
+        
+    </file>
+    
+</modification>

@@ -1,0 +1,44 @@
+<?php
+$lang['auto_responder_settings'] = "Otomatik Yanıtlayıcı";
+$lang['auto_responder_details_updated'] = "Otomatik Ayrıntıları Updated";
+$lang['unable_to_update_auto_responder_details'] = "Otomatik Cevaplayıcı Bilgilerini Güncellemek İçin Açılamıyor";
+$lang['mail_deleted'] = "Posta Silinmiş";
+$lang['mail_not_deleted'] = "Posta Silinemedi";
+$lang['rows'] = "Satır";
+$lang['shows'] = "Gösterir";
+$lang['enter_subject'] = "Konu girmelisiniz";
+$lang['enter_mail_content'] = "Posta içeriğini girmelisiniz";
+$lang['enter_mail_number'] = "Posta numarasını Girmeniz gerekir";
+$lang['enter_mail_send_date'] = "Tarih seçmeniz gerekir Göndermek için";
+
+$lang['subject'] = "Konu";
+$lang['mail_content'] = "Posta İçeriği";
+$lang['mail_send_date'] = "Posta Gönderme Tarihi";
+$lang['select_date'] = "----------Tarih Seç------------";
+$lang['update'] = "Güncelleme";
+$lang['auto_responder_details'] = "Otomatik yanıtlayıcı ayrıntıları ";
+
+$lang['edit'] = "Edit";
+$lang['delete'] = "Sil";
+$lang['No_Auto_responder_Detail_Found'] = "Hayır Otomatik yanıtlayıcı bilgi Bulunamadı";
+$lang['available_in_live_sites_only'] = "Sadece canlı siteler mevcut";
+$lang['mail_number'] = "Posta Numarası";
+$lang['select_number'] = "Seçin Numarası------------------";
+$lang['mail_id'] = "Posta kodu";
+$lang['mail_msg'] = "Ben {}, </b> bu alanlar...gerçek değerler ile değiştirilecektir. <b> içinde İçeriğini Düzenlemek!";
+$lang['auto_responder_details'] = "Otomatik Yanıtlayıcı Ayrıntıları";
+$lang['insert'] = "Ekle";
+$lang['date_to_send'] = "Tarih Göndermek için";
+$lang['do_you_want_to_edit_this'] = "Bu Düzenlemek ister misiniz?";
+$lang['do_you_want_to_delete_this'] = "Bu Silmek istiyor musunuz?";
+$lang['note'] = "Not";
+$lang['these_are_the_optional_packages_please_check'] = "Bu modül isteğe bağlıdır. Lütfen kontrol edin ";
+$lang['more_details'] = "Daha fazla bilgi için";
+$lang['Add'] = "Eklemek";
+$lang['Details'] = "ayrıntılar";
+$lang['Back'] = "Geri";
+$lang['mail_send_date'] = "Posta Gönder Tarihi";
+$lang['details_deleted'] = "Ayrıntılar başarıyla silindi";
+$lang['details_not_deleted'] = "Ayrıntılar silinemiyor";
+$lang['read_details'] = "Ayrıntıları oku";
+$lang['go_to_leads'] = "İlanlar";

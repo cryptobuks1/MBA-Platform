@@ -1,0 +1,39 @@
+
+#myform {
+	border:1px outset #ccc;
+	background:#fff url(h600.png) repeat-x;
+	padding:10px; 
+	margin:20px 0;
+	width:350px;
+	-moz-border-radius:4px;
+	
+}
+
+
+
+/* https://www.quirksmode.org/css/forms.html */
+
+/*
+#inputs label {
+	text-align: right;
+	width: 50px;
+	padding-right: 20px;
+}
+
+#inputs br {
+	clear: left;
+}
+
+#myform h3 {
+	text-align:center;
+	margin:0 0 10px 0;
+}
+
+#inputs label, #inputs input, #inputs textarea, #inputs select {
+	display: block;
+	width: 90px;
+	float: left;
+	margin-bottom: 10px;
+}
+*/
+

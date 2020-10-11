@@ -1,0 +1,14 @@
+---------- Date: 2019-10-28 11:31:04 ~ IP : 117.200.76.189 ----------
+REQUEST URI : /jason/store/
+MOD DETAILS:
+   modFile   : /home/demo6iossmlm/public_html/jason/store/vqmod/xml/catalog_header.xml
+   id        : Catalog Header : Updates
+   version   : 2.3.0.2
+   vqmver    : 2.6.0
+   author    : Infinite Open Source Solutions
+
+File Name    : catalog/view/theme/parallax/template/common/header.tpl(8)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <li><a href="<?php echo $register; ?>"> <span><?php echo $text_register; ?></span></a></li>
+----------------------------------------------------------------------
+
+

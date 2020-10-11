@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Startup : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="catalog/controller/account/register.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    public function index() {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $this->response->redirect($this->url->link('register/packages', '', true));
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/regpayment/*.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    if (!$this->model_account_inf_register->isRegistrationAllowed()) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $user_type = $this->customer->getUserType();
+                    if ($user_type != 'admin' && $this->model_account_inf_register->isRegistrationBlocked()) {
+                        $this->session->data['error_redirect'] = $this->language->get('error_registration_blocked');
+                        echo $this->url->link('common/home', '', true);
+                        exit();
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/model/checkout/order.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    public function addOrder($data) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    public function updateOrderType($order_id, $type) {
+                        $this->db->query("UPDATE " . DB_PREFIX . "order SET order_type = '$type' WHERE order_id = '" . (int)$order_id . "'");
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+</modification>

@@ -1,0 +1,45 @@
+<?php
+$lang['upgrade_plan'] = "Plan Yükselt";
+$lang['invalid_reference_url_ex'] = "Geçersiz referans URL ! eski";
+$lang['your_request_has_saved_successfully'] = "İsteğiniz başarıyla kurtardı!";
+$lang['upgrade_infinite_mlm'] = "Yükseltme Infinite MLM";
+$lang['please_fill_the_following_details_all_fields_are_mandatory'] = "aşağıdaki ayrıntıları doldurun ( tüm alanların doldurulması zorunludur ) .";
+$lang['mlm_plan_details'] = "MLM Plan ayrıntılar";
+$lang['you_must_enter_mlm_plan_details'] = "Sen MLM Planı Ayrıntıları girin olmalı";
+$lang['you_must_enter_reference_url'] = "Sen Referans URL girin olmalı";
+$lang['you_must_select_mlm_documents'] = "Sen MLM Planı Belgeleri seçin olmalı";
+$lang['do_you_need_shopping_cart_ecommerce'] = "Alışveriş Sepeti / E-ticaret İhtiyacınız Var mı?";
+$lang['do_you_need_repurchase_monthly_subscribe'] = "Yeniden Satın Alma / Aylık Abonelik İhtiyacınız Var mı?";
+$lang['do_you_need_website_replication'] = "Web Sitesi Çoğaltma İhtiyacınız Var mı?";
+$lang['reference_url'] = "Başvuru URL";
+$lang['mlm_plan_documents'] = "MLM Planı Belgeleri";
+$lang['your_feedback_send_successfully_thank_you_for_posting_feedback'] = "Görüşleriniz başarıyla gönderildi,geri göndermeden için teşekkür ederiz";
+$lang['feedback_sending_failed'] = "Geri Bildirim Başarısız gönderme...";
+$lang['infinite_mlm_feedback'] = "Infinite MLM Geri bildirim";
+$lang['feedback_subject'] = "Geri bildirim konu";
+$lang['feedback_details'] = "Geri bildirim ayrıntılar";
+$lang['send'] = "göndermek";
+$lang['you_must_enter_feedback_subject'] = "Sen girmelisiniz Geri bildirim konu..";
+$lang['you_must_enter_feedback_details'] = "Sen girmelisiniz Geri bildirim ayrıntılar..";
+$lang['send_feedback'] = "göndermek Geri bildirim";
+$lang['you_are_already_upgraded_your_plan'] = "Zaten planı yükseltilir";
+$lang['select_file'] = "Dosya Seç";
+$lang['change'] = "değişim";
+$lang['yes'] = "Evet";
+
+$lang['reference'] = "Referans";
+$lang['example'] = "örnek";
+$lang['updation_failed'] = "updation Başarısız";
+$lang['feedbacks'] = "Geri bildirimler";
+
+$lang['update'] = "Güncelleme ";
+$lang['shopping_status'] = "Alışveriş Durumu ";
+$lang['replication_status'] = "Çoğaltma durumu ";
+$lang['document'] = "Belge";
+$lang['repurchase_status'] = "Repo Durum";
+$lang['invalid_reference_url'] = "Geçersiz referans URL";
+$lang['please_select_file'] = "Lütfen bir fil seç";
+$lang['invalid_file_name'] = "Geçersiz dosya adı";
+$lang['max_size_200MB'] = "Yüklemeye çalıştığınız dosya 200 MB’den büyük";
+$lang['filetype_not_allowed'] = "Yüklemeye çalıştığınız dosya türüne izin verilmiyor";
+$lang['error_uploading_file'] = "Dosya yükleme başarısız";

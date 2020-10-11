@@ -1,0 +1,27 @@
+<?php
+$lang['leg_count'] = "Leg Count";
+$lang['select_user_name'] = "Benutzernamen auswählen";
+$lang['userid_fullname'] = "Benutzername Vollständiger Name";
+$lang['left_point'] = "Linker Punkt";
+$lang['right_point'] = "rechten Punkt";
+$lang['left_carry'] = "Linke Carry";
+$lang['right_carry'] = "Rechts Carry";
+$lang['total_pair'] = "insgesamt Pair";
+$lang['amount'] = "Höhe";
+$lang['no_leg_count_found'] = "Kein Leg Count gefunden";
+$lang['view_commission_details'] = "View Commission Details";
+$lang['view_income_details'] = "Einkommensdetails anzeigen";
+$lang['view_income_statement'] = "Ansicht Einkommensrechnung";
+$lang['view_ewallet_details'] = "Anzeigen E-Wallet Details";
+$lang['view_user_epin'] = "Benutzer E-pin";
+$lang['user_account'] = "Benutzerkonto";
+$lang['user_name'] = "Benutzername";
+$lang['commission_details'] ='Kommission Details';
+$lang['total'] = "Gesamt";
+$lang['view'] = "Aussicht";
+$lang['Username_not_Exists'] = "Benutzername existiert nicht";
+$lang['you_must_enter_user_name'] = "Sie müssen Benutzernamen eingeben";
+$lang['rows'] = "Reihen";
+$lang['shows'] = "Shows ";
+$lang['binary_details'] = "Binäre Details";
+$lang['No_Leg_Count_Found'] = "Kein Leg Zählung gefunden";

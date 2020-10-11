@@ -1,0 +1,32 @@
+<?php
+$lang['total_joining_count'] = "Общий кол-во соединений";
+$lang['daily_joining'] = "Ежедневное присоединение";
+$lang['joining_status'] = "Присоединение к статусу";
+$lang['daily'] = "Ежедневно";
+$lang['date'] = "Дата";
+$lang['search'] = "Поиск";
+$lang['weekly_joining'] = "Еженедельное присоединение";
+$lang['blocked'] = "блокированный";
+$lang['sponser_name'] = "Имя спонсора";
+$lang['date_of_joining'] = "Дата присоединения";
+$lang['You_must_select_a_date'] = "Вы должны выбрать дату.";
+$lang['You_must_select_from_date'] = "Вы должны выбрать с даты ...";
+$lang['You_must_select_to_date'] = "Вы должны выбрать дату ...";
+$lang['You_must_select_a_Todate_greaterThan_Fromdate'] = "Вы должны выбрать дату «Дата» больше, чем с даты";
+$lang['past_expiry_date'] = "Дата истечения срока не может быть в прошлом ...";
+$lang['You_must_Select_From_To_Date_Correctly'] = "Вы должны правильно выбрать из и до даты ..";
+$lang['user_not_found'] = "Пользователь не найден";
+$lang['pls_select_joining_date'] = "Выберите дату присоединения.";
+$lang['plese_select_from_date'] = "Пожалуйста, выберите дату.";
+$lang['plese_select_to_date'] = "Пожалуйста, выберите дату.";
+$lang['rows'] = "Ряды";
+$lang['shows'] = "шоу";
+$lang['submit'] = "Отправить";
+$lang['user_name'] = "Имя пользователя";
+$lang['status'] = "Положение дел";
+$lang['active'] = "активный";
+$lang['new_members'] = "Новые участники";
+$lang['Today'] = "Cегодня";
+$lang['Yesterday'] = "Вчера";
+$lang['first_pair'] = "Первая пара";
+

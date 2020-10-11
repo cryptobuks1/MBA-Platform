@@ -1,0 +1,44 @@
+<?php
+$lang['auto_responder_settings'] = "Respuesta Automática";
+$lang['auto_responder_details_updated'] = "AutoResponder Detalles Actualizado";
+$lang['unable_to_update_auto_responder_details'] = "No Se Puede Actualizar AutoResponder Detalles";
+$lang['mail_deleted'] = "Correo Eliminado";
+$lang['mail_not_deleted'] = "No Se Puede Eliminar El Correo";
+$lang['rows'] = "Filas";
+$lang['shows'] = "Muestra";
+$lang['enter_subject'] = "Usted debe Introducir el Asunto";
+$lang['enter_mail_content'] = "Usted debe Entrar en el contenido del Correo electrónico";
+$lang['enter_mail_number'] = "Usted debe Entrar en número de Correo de";
+$lang['enter_mail_send_date'] = "Usted debe seleccionar la Fecha para Enviar";
+
+$lang['subject'] = "Tema";
+$lang['mail_content'] = "El Contenido Del Correo Electrónico";
+$lang['mail_send_date'] = "La Fecha De Envío De Correo";
+$lang['select_date'] = "----------Seleccione La Fecha------------";
+$lang['update'] = "Actualización";
+$lang['auto_responder_details'] = "Auto respondedor detalles ";
+
+$lang['edit'] = "Editar";
+$lang['delete'] = "Eliminar";
+$lang['No_Auto_responder_Detail_Found'] = "No Auto respondedor de Detalles que se Encuentran";
+$lang['available_in_live_sites_only'] = "Disponible en vivir solamente en los sitios";
+$lang['mail_number'] = "Número De Correo De";
+$lang['select_number'] = "---------Seleccione El Número De---------";
+$lang['mail_id'] = "Id de correo electrónico";
+$lang['mail_msg'] = "No puede Modificar el Contenido dentro de <b> { },</b> estos campos...será reemplazado por los valores reales!!";
+$lang['auto_responder_details'] = "Auto Respondedor Detalles";
+$lang['insert'] = "Insertar";
+$lang['date_to_send'] = "La fecha para Enviar";
+$lang['do_you_want_to_edit_this'] = "¿Quieres Editar esto?";
+$lang['do_you_want_to_delete_this'] = "¿Desea Eliminar este?";
+$lang['note'] = "Nota";
+$lang['these_are_the_optional_packages_please_check'] = "Este módulo es opcional. Por favor, compruebe ";
+$lang['more_details'] = "Para obtener más detalles";
+$lang['Add'] = "Añadir";
+$lang['Details'] = "Detalles";
+$lang['Back'] = "Espalda";
+$lang['mail_send_date'] = "Fecha de envío del correo";
+$lang['details_deleted'] = "Detalles borrados con éxito";
+$lang['details_not_deleted'] = "Imposible borrar detalles";
+$lang['read_details'] = "Leer detalles";
+$lang['go_to_leads'] = "Conductores";

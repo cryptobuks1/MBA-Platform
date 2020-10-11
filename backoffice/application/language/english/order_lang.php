@@ -1,0 +1,52 @@
+<?php
+$lang['order_details'] = "Order Details";
+$lang['order_history'] = "Order History";
+$lang['user_name_does_not_exist'] = "Username does not exist.";
+$lang['invalid_order_id'] = "Invalid Order ID.";
+$lang['select_user_name'] = "Select Username";
+$lang['view_orders'] = "View Orders";
+$lang['customer'] = "Customer";
+$lang['product'] = "Product";
+$lang['quantity'] = "Quantity";
+$lang['date'] = "Date";
+$lang['shipping_method'] = "Shipping Method";
+$lang['shipping_address'] = "Shipping Address";
+$lang['order_id'] = "Order ID";
+$lang['order_products_details'] = "Product Details";
+$lang['date_added'] = "Date Added";
+$lang['payment_address'] = "Payment Address";
+$lang['order_products'] = "Order Products";
+$lang['model'] = "Model";
+$lang['price'] = "Price";
+$lang['total'] = "Total";
+$lang['type_member_name'] = "Type member name";
+$lang['view_more'] = "View More";
+$lang['invalid_order'] = "Invalid Order";
+$lang['user_name'] = "Username";
+$lang['action'] = "Action";
+$lang['pair_value'] = "PV";
+$lang['total_pair_value'] = "Total PV";
+$lang['bv'] = "BV";
+$lang['total_bv'] = "Total BV";
+$lang['total_price'] = "Total Price";
+$lang['no_data'] = "No Data Found";
+$lang['click_here_to_print'] = "Click here to print";
+$lang['note'] = "Note";
+$lang['these_are_the_optional_packages_please_check'] = "This module is optional. Please";
+$lang['click_here'] = "Click here";
+$lang['more_details'] = "For more details";
+// Need to Add other Lang
+$lang['order_activation'] = "Order Activation";
+$lang['activate'] = "Activate";
+$lang['fullname'] = "Full name";
+$lang['email'] = "Email";
+$lang['reg_amount'] = "Registration Amount";
+$lang['address'] = "Address";
+$lang['order_already_processed'] = "Order already processed";
+$lang['order_successfully_updated'] = "Order successfully activated";
+$lang['error_on_order_updation'] = "Error on updation";
+$lang['my_order'] = "My Order";
+$lang['no_order_found'] = "No Order Found";
+$lang['total_pv']="Total PV";
+
+

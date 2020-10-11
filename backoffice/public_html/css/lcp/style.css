@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f3f4;
+    background-size: cover;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #a0a0a0;
+    font-size: 13px;
+}
+.padding_top {
+    margin-top: 50px;
+}
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #7266ba !important;
+    border-color: #7266ba;
+}
+.btn {
+    font-weight: 500;
+    border-radius: 2px;
+    outline: 0!important;
+}
+.btn-sm, .btn-group-sm > .btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.lcp_logo img {
+	    width: 127px;
+    margin-bottom: 20px;
+}
+.val-error {
+    color: #b94a48;
+}
+#comment {
+    height: 90px !important;
+}
+.no-display {
+    display: none;
+}

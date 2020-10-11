@@ -1,0 +1,24 @@
+<?php
+$lang['unsubscribe_user'] = "Unsubscribe User";
+$lang['selelect_mlm_user'] = "Selelect MLM User";
+$lang['unsubscribe'] = "Unsubscribe";
+$lang['unsubscribe_user_sucessfully'] = "Unsubscribe user sucessfully";
+$lang['password'] = "Password";
+$lang['login'] = "Super Admin Login";
+$lang['select_mlm_user'] = "Selelect MLM User";
+$lang['send_news_letter'] = "Send News Letter";
+$lang['newsletter_to_subscribers'] = "Newsletter To subscribers";
+$lang['send_newsletter'] = "Send NewsLetter";
+$lang['newsletter_send_sucessfully'] = "Newsletter Send Successfully";
+$lang['newsletter_sending_failed'] = "Newsletter Sending Failed";
+$lang['you_must_enter_username'] = "You must enter username";
+$lang['you_must_enter_subject'] = "You must enter subject";
+$lang['you_must_enter_message'] = "You must enter message";
+$lang['unsubscribe_user'] = "Unsubscribe User";
+$lang['unsubscribe'] = "Unsubscribe";
+$lang['unsubscribe_user_sucessfully'] = "Unsubscribe user sucessfully";
+$lang['invalid_user'] = "Invalid User";
+$lang['Send_Mail_To'] = "Send mail to";
+$lang['subject'] = "Subject";
+$lang['error_Unsubscribe_user'] = "Failure Unsubscribe user.";
+$lang['error_on_unsubscribe_user'] = "Failur on Unsubscribe user";

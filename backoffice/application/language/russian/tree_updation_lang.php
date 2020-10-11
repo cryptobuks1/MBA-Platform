@@ -1,0 +1,33 @@
+<?php
+
+$lang['left'] = "Оставил";
+$lang['right'] = "Правильно";
+$lang['delete'] = "Удалить";
+$lang['delete_user'] = "Удалить пользователя";
+$lang['select_user_name'] = "Выберите имя пользователя";
+$lang['invalid_user_name'] = "Неверное имя пользователя";
+$lang['invalid_sponsor_name'] = "Недопустимое имя спонсора";
+$lang['cant_delete_admin_user'] = "Ты можешь";
+$lang['cant_select_admin_user'] = "Ты можешь";
+$lang['cant_delete_user_with_child'] = "Ты можешь";
+$lang['success_delete_user'] = "Пользователь удален успешно удален";
+$lang['error_delete_user'] = "Ошибка при удалении пользователя";
+$lang['success_change_sponsor'] = "Спонсор успешно сменился";
+$lang['error_change_sponsor'] = "Ошибка при изменении спонсора";
+$lang['success_change_placement'] = "Места размещения успешно изменены";
+$lang['error_change_placement'] = "Ошибка при изменении места размещения";
+$lang['change_sponsor'] = "Сменить спонсор";
+$lang['change'] = "+ Изменить";
+$lang['select_new_sponsor'] = "Выберите новый спонсор";
+$lang['cant_select_downline_as_sponsor'] = "Ты можешь";
+$lang['choose_another_sponsor'] = "Ты можешь";
+$lang['change_placement'] = "Изменение места размещения";
+$lang['select_new_placement'] = "Выбрать новое место размещения";
+$lang['select_new_position'] = "Выберите новую позицию";
+$lang['select_position'] = "Выберите позицию";
+$lang['invalid_placement_name'] = "Недопустимое имя места размещения";
+$lang['choose_another_placement'] = "Ты можешь";
+$lang['cant_select_downline_as_placement'] = "Ты можешь";
+$lang['must_select_position'] = "Вы должны выбрать позицию";
+$lang['position_not_available'] = "Позиция недоступна";
+$lang['choose_another_position'] = "Ты можешь";

@@ -1,0 +1,47 @@
+<?php
+
+$lang['view'] = "View";
+$lang['select_user_id'] = "Select User ID";
+$lang['amount_type'] = " Amount Type";
+$lang['amount_total'] = "Amount Total";
+$lang['income_details'] = "User Earnings";
+$lang['current_position'] = "Current Position";
+$lang['change_position'] = "Change Position";
+$lang['left'] = "Left";
+$lang['right'] = "Right";
+$lang['you_must_select_user'] = "You must select username";
+$lang['user_name'] = "Username";
+$lang['level'] = "Level";
+$lang['amount'] = "Amount";
+$lang['Total_income'] = "Total income";
+$lang['binary'] = "Binary";
+$lang['perc'] = "  Percentage of payout for the month";
+$lang['total_commsion_details'] = "Total Commsion details";
+$lang['Username_not_Exists'] = "Username not exists";
+$lang['no_income_details_were_found'] = "No Income Details Were Found";
+$lang['pin_purchased'] = "Pin Purchased";
+$lang['payout_released'] = "Payout Released";
+$lang['referral_commission'] = "Referral commission";
+$lang['binary_commission'] = "Binary Commission";
+$lang['rank_commission'] = "Rank Commission";
+$lang['level_commission'] = "Level Commission";
+$lang['type_members_name'] = "Type member's name here";
+$lang['level_commission_by_repurchase'] = "Level Commission by Purchase";
+$lang['binary_commission_by_repurchase'] = "Binary Commission by Purchase";
+$lang['board_commission'] = "Board Commission";
+$lang['table_commission'] = "Table Fill Commission";
+//Newly added
+$lang['rows'] = "Rows";
+$lang['shows'] = "Shows";
+$lang['select_user'] = "Select user";
+$lang['from'] = "From";
+$lang['username_not_exists'] = "Username does not exists";
+$lang['you_must_enter_username'] = "You must enter username";
+$lang['user_overview'] = "User Overview";
+$lang['select_amount_type'] = "Select amount type";
+$lang['repurchase_level_commission'] = "Level commission by Purchase";
+$lang['invalid_user_name'] = "Invalid username";
+$lang['daily_investment'] = "Daily Investment";
+$lang['xup_commission'] = "X-UP commission";
+$lang['xup_repurchase_level_commission'] = "X-UP commission by purchase";
+$lang['xup_upgrade_level_commission'] = "X-UP commission by upgrade";

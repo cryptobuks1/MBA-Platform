@@ -1,0 +1,83 @@
+<?php 
+$lang['add_currency'] = "Aggiungere valuta";
+$lang['enter_title'] = "Inserire Titolo";
+$lang['enter_code'] = "Inserire Codice";
+$lang['enter_value'] = "Inserisci Valore";
+$lang['enter_symbol_left'] = "Inserisci Simbolo Sinistra";
+$lang['enter_symbol_right'] = "Inserisci Simbolo Destra";
+$lang['enter_decimal'] = "Inserisci decimale";
+$lang['enter_status'] = "Inserisci Stato";
+$lang['currency_title'] = "valuta Titolo";
+$lang['currency_code'] = "Codice Valuta";
+$lang['currency_value'] = "Valore di valuta";
+$lang['symbol_left'] = "Simbolo sinistra";
+$lang['symbol_right'] = "Simbolo destra";
+$lang['decimal'] = "decimale";
+$lang['status'] = "stato";
+$lang['please_select'] = "------- Scegli ------";
+$lang['enabled'] = "permettere";
+$lang['disabled'] = "Disabilitato";
+$lang['currency_management'] = "Gestione valuta";
+$lang['edit'] = "Modifica";
+$lang['delete'] = "cancellare";
+$lang['currency_added'] = "valuta Aggiunto";
+$lang['Unable_to_add_currecy'] = "Impossibile aggiungere valuta";
+$lang['currency_updated'] = "Valuta Dettagli Aggiornato";
+$lang['Unable_to_update_currecy'] = "Impossibile aggiornare valuta";
+$lang['currency_deleted'] = "valuta Deleted";
+$lang['Unable_to_delete_currecy'] = "Impossibile eliminare valuta";
+$lang['set_as_default'] = "Imposta come predefinito ";
+$lang['default_currency_updated'] = "Aggiornato con successo Valuta di default";
+$lang['unable_to_update_default_currency'] = "Impossibile aggiornare Valuta predefinita";
+$lang['Currency_values_are_updated'] = "I valori di valuta sono aggiornati";
+$lang['unable_to_update_currency_values'] = "Impossibile aggiornare i valori di valuta";
+$lang['convert_currency'] = "Delle importazioni di valuta Tariffe";
+$lang['no_currency'] = "NO valuta";
+$lang['currency_deleted_successfully'] = "Valuta cancellato con successo.";
+$lang['error_on_deleting_currency'] = "Eliminazione di valuta non è riuscita.";
+$lang['sure_you_want_to_delete_this_currency_there_is_no_undo'] = "Sei sicuro di voler cancellare questa valuta? Non può essere annullata!";
+$lang['sure_you_want_to_edit_this_currency'] = "Sei sicuro di voler modificare questa valuta?";
+$lang['sure_you_want_to_set_this_currency_is_default'] = "Sei sicuro di voler questa valuta è di default?";
+$lang['action'] = "azione";
+$lang['symbol_left'] = "Simbolo sinistra";
+$lang['symbol_right'] = "Simbolo destra";
+$lang['currency_value_must_be_greater_than_zero'] = "valore valuta deve essere maggiore di zero.";
+$lang['edit_currency'] = "Cambia valuta";
+
+$lang['rows'] = "Righe";
+$lang['shows'] = "Spettacoli";
+$lang['update'] = "Aggiornare";
+
+
+$lang['title'] = "titolo";
+$lang['alphabets_only'] = "Alfabeti Solo";
+$lang['digits_only'] = "Cifre";
+
+$lang['note'] = "Nota";
+$lang['these_are_the_optional_packages_please_check'] = "Questo modulo è opzionale. Si prega di controllare ";
+$lang['more_details'] = "Per ulteriori dettagli";
+$lang['click_here'] = "Clicca qui";
+$lang['add_new_currency']="Aggiungi nuova valuta";
+
+$lang['plan'] = "Piano";
+$lang['epin'] = "E-Pin";
+$lang['mail'] = "posta";
+$lang['payment'] = "Pagamento";
+$lang['payout'] = "payout";
+$lang['additional'] = "addizionale";
+$lang['theme'] = "Tema";
+$lang['sms'] = "sms";
+$lang['rank'] = "Rango";
+$lang['stairstep'] = "Scalino";
+
+$lang['left'] = "Sinistra";
+$lang['right'] = "Destra";
+$lang['active'] = "Attivo";
+$lang['inactive'] = "Non attivo";
+$lang['default'] = "Predefinito";
+$lang['enter_symbol'] = "Devi inserire un simbolo";
+$lang['enter_symbol_type'] = "È necessario selezionare il tipo di simbolo";
+$lang['symbol_type'] = "Posizione del simbolo";
+$lang['default_currency_cant_be_disabled'] = "La valuta predefinita non può essere disabilitata";
+$lang['disabled_currency_cant_be_default'] = "La valuta disabilitata non può essere impostata come valuta predefinita";
+$lang['symbol'] = "Simbolo";

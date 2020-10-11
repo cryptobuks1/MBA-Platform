@@ -1,0 +1,21 @@
+#Exclude all sessions from git for backoffice and backoffice admin, but keeps folder and index.html
+
+backoffice/application/sessions/*
+!backoffice/application/sessions/.gitkeep 
+!backoffice/application/sessions/index.html
+
+backoffice_admin/application/sessions/*
+!backoffice_admin/application/sessions/.gitkeep 
+!backoffice_admin/application/sessions/index.html
+
+backoffice/application/logs/error.log
+backoffice_admin/application/logs/error.log
+
+#Store gitgnores
+store/system/storage/cache/*
+!store/system/storage/cache/.gitkeep
+store/system/storage/session/*
+store/system/storage/session/.gitkeep
+store/system/storage/logs/ci_enc.log
+store/system/storage/logs/error.log
+setup/.env

@@ -1,0 +1,34 @@
+<?php
+
+// Amount types
+$lang['level_commission'] = "等级佣金";
+$lang['repurchase_level_commission'] = "购买水平佣金";
+$lang['upgrade_level_commission'] = "通过升级升级";
+$lang['xup_commission'] = "X-UP佣金";
+$lang['xup_repurchase_level_commission'] = "购买X-UP佣金";
+$lang['xup_upgrade_level_commission'] = "升级X-UP佣金";
+$lang['leg'] = "二元佣金";
+$lang['repurchase_leg'] = "购买二元佣金";
+$lang['upgrade_leg'] = "二进制佣金升级";
+$lang['matching_bonus'] = "匹配奖金";
+$lang['matching_bonus_purchase'] = "通过购买匹配奖金";
+$lang['matching_bonus_upgrade'] = "通过升级匹配奖金";
+$lang['referral'] = "推荐委员会";
+$lang['rank_bonus'] = "排名佣金";
+$lang['daily_investment'] = "每日投资";
+$lang['board_commission'] = "董事会佣金";
+$lang['table_commission'] = "表填写佣金";
+$lang['donation'] = "捐款";
+$lang['purchase_donation'] = "注册金额";
+$lang['stair_step'] = "楼梯步委员会";
+$lang['override_bonus'] = "覆盖佣金";
+$lang['donation_debit'] = "扣除的金额作为捐赠";
+$lang['donation_credit'] = "金额记作捐赠";
+$lang['pool_bonus'] = "泳池奖金";
+$lang['fast_start_bonus'] = "快速启动奖金";
+$lang['vacation_fund'] = "度假基金";
+$lang['education_fund'] = "教育基金";
+$lang['car_fund'] = "汽车基金";
+$lang['house_fund'] = "众议院基金";
+$lang['sales_commission'] = "回扣";
+$lang['bw_sales_commission'] = "销售佣金支付";

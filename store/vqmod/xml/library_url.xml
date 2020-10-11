@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>URL Library : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="system/library/url.php">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    $url = $this->ssl . 'index.php?route=' . $route;
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if (strpos($route,'account/') !== false && (strcmp("account/forgotten", $route) === 0 || strcmp("account/success", $route) === 0 || strcmp("account/package", $route) === 0)) {
+                            $url = dirname($this->ssl) . '/backoffice';
+                    } else {
+                        $url = $this->ssl . 'index.php?route=' . $route;
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    $url = $this->url . 'index.php?route=' . $route;
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if (strpos($route,'account/') !== false && (strcmp("account/login", $route) === 0 || strcmp("account/forgotten", $route) === 0 || strcmp("account/success", $route) === 0 || strcmp("account/package", $route) === 0 || strcmp("account/register", $route) === 0)) {
+                            $url = dirname($this->url) . '/backoffice';
+                    } else {
+                        $url = $this->url . 'index.php?route=' . $route;
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    return $url; 
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if(DEMO_STATUS == 'yes') {
+                        if (isset($_GET['id']) && is_numeric($_GET['id'])) {
+                            $db_prefix = $_GET['id'] . "_oc_";
+                        }
+                        elseif (isset($_COOKIE['oc_table_prefix'])) {
+                            $db_prefix = $_COOKIE['oc_table_prefix'];
+                        }
+                        else {
+                            $db_prefix = '';
+                        }
+                        return $url . '&id=' . str_replace("_oc_", "", $db_prefix); 
+                    }
+                    else {
+                        return $url; 
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

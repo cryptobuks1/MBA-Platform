@@ -1,0 +1,13 @@
+{
+  "require": {
+    "authy/php": "2.*",
+    "mailgun/mailgun-php": "^2.3",
+    "guzzlehttp/psr7": "^1.4",
+    "phpoffice/phpspreadsheet": "^1.5",
+    "sentry/sentry": "^1.11",
+    "php-http/curl-client": "^1.7",
+    "square/connect": "^2.20181212",
+    "sofort/sofortlib-php": "^3.3",
+    "vlucas/phpdotenv": "2.6.4"
+  }
+}

@@ -1,0 +1,33 @@
+#notificator {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+}
+
+#notificator .msg {
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    width: 350px;
+    min-height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: #E74C3C;
+    border: 4px solid #C0392B;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    z-index: 999;
+
+}
+
+.close_notification {
+    float: right;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+}

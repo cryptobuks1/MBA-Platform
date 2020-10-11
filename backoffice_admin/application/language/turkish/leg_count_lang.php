@@ -1,0 +1,27 @@
+<?php
+$lang['leg_count'] = "Bacak Sayısı";
+$lang['select_user_name'] = "Kullanıcı Adı Seçin";
+$lang['userid_fullname'] = "kullanıcı adı - Ad Soyad";
+$lang['left_point'] = "Sol İşaret";
+$lang['right_point'] = "Doğru Nokta";
+$lang['left_carry'] = "Sol Taşımak";
+$lang['right_carry'] = "Doğru Taşıma";
+$lang['total_pair'] = "Toplam Çift";
+$lang['amount'] = "Miktar";
+$lang['no_leg_count_found'] = "Hayır Bacak Sayısı Bulundu";
+$lang['view_commission_details'] = "Görünüm Komisyonu Ayrıntılar";
+$lang['view_income_details'] = "Görünüm Gelir Ayrıntılar";
+$lang['view_income_statement'] = "Görünüm Gelir Tablosu";
+$lang['view_ewallet_details'] = "Görünüm E-Cüzdan Ayrıntılar";
+$lang['view_user_epin'] = "Görünüm Kullanıcı xyz";
+$lang['user_account'] = "Kullanıcı Hesabı";
+$lang['user_name'] = "Kullanıcı Adı";
+$lang['commission_details'] ="Komisyon Detayları";
+$lang['total'] = "Toplam";
+$lang['view'] = "Görünüm";
+$lang['Username_not_Exists'] = "Kullanıcı adı değil var yok";
+$lang['you_must_enter_user_name'] = "Kullanıcı adı girmelisiniz";
+$lang['rows'] = "satırlar";
+$lang['shows'] = "Gösteriler";
+$lang['binary_details'] = "İkili Ayrıntılar";
+$lang['No_Leg_Count_Found'] = "bulunamadı Bacak sayısı";

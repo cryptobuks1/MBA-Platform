@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Admin Extension : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="catalog/language/en-gb/en-gb.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['code']                  = 'en';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                    $_['text_register'] = 'Register';
+                    $_['error_registration_blocked'] = 'Sorry, you can\'t introduce new user. Please contact Admin for more details.';
+                    $_['error_repurchase_blocked'] = 'Sorry, you can\'t purchase products. Please contact Admin for more details.';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/de-DE.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['code']					= 'de';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                    $_['text_register'] = 'Register';
+                    $_['error_registration_blocked'] = 'Entschuldigung, du kannst keinen neuen Benutzer einführen. Bitte kontaktieren Sie Admin für weitere Details.';
+                    $_['error_repurchase_blocked'] = 'Entschuldigung, Sie können keine Produkte kaufen. Bitte kontaktieren Sie den Admin für weitere Details.';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/common/footer.php">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    $_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_powered']  = '<a href="https://ioss.in/">Infinite Open Source Solutions</a> &copy; ' . date('Y') . ' All Rights Reserved.';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/common/footer.php">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    $_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_powered']  = '<a href="https://ioss.in/">Infinite Open Source Solutions</a> &copy; ' . date('Y') . ' All Rights Reserved.';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/common/header.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_all']           = 'Show All';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_logged_as']           = 'You are logged in as ';
+                    $_['text_register_new_member']           = 'Register New Member';
+                    $_['text_register']           = 'Register';
+                    $_['text_my_backoffice']           = 'My Backoffice';
+                    $_['text_note']           = 'Note';
+                    $_['text_module_optional']           = 'This module is optional. ';
+                    $_['text_click_here']           = 'Click here';
+                    $_['text_details']           = 'for more details';
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/common/header.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_all']			= 'Alle';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_logged_as']           = 'Sie sind angemeldet als';
+                    $_['text_register_new_member']           = 'Registrieren Neues Mitglied';
+                    $_['text_register']           = 'Register';
+                    $_['text_my_backoffice']           = 'My Back Office';
+                    $_['text_note']           = 'Hinweis';
+                    $_['text_module_optional']           = 'Dieses Modul ist optional. ';
+                    $_['text_click_here']           = 'Klick hier';
+                    $_['text_details']           = 'für mehr Details';
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/product/product.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['error_rating']             = 'Warning: Please select a review rating!';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/product/product.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['error_captcha']     = 'Code stimmt nicht mit Angezeigtem überein';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/product/category.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_limit']        = 'Show:';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/product/category.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_limit']		= 'Anzeige';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/product/manufacturer.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_limit']        = 'Show:';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/product/manufacturer.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_limit']		= 'Anzeige';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/extension/module/featured.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_tax']      = 'Ex Tax:';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/extension/module/featured.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_tax']		= 'Netto';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_product_pv_value'] = 'PV';
+                    $_['text_product_bv_value'] = 'BV';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/checkout/cart.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['error_recurring_required'] = 'Please select a payment recurring!';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['column_pv'] = 'PV';
+                    $_['column_total_pv'] = 'Total PV';
+                    $_['column_bv'] = 'BV';
+                    $_['column_total_bv'] = 'Total BV';
+                    $_['button_register'] = 'Register';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/checkout/cart.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['error_recurring_required']	= 'Bitte ein Abonnement wählen';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['column_pv'] = 'PV';
+                    $_['column_total_pv'] = 'Total PV';
+                    $_['column_bv'] = 'BV';
+                    $_['column_total_bv'] = 'Total BV';
+                    $_['button_register'] = 'Register';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/checkout/checkout.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['entry_email']                    = 'E-Mail';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['entry_email_username'] = 'Email / Username';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/checkout/checkout.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['entry_email']						= 'Email';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['entry_email_username'] = 'Email / Username';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/account/account.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_transactions']  = 'Transactions';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_access_my_backoffice'] = 'Access My Backoffice';
+                    $_['column_total_pv'] = 'Total PV';
+                    $_['column_bv'] = 'BV';
+                    $_['column_total_bv'] = 'Total BV';
+                    $_['button_register'] = 'Register';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/account/account.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['text_transactions']		= 'Transaktionen';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_access_my_backoffice'] = 'Zugriff auf mein Backoffice';
+                    $_['column_total_pv'] = 'Total PV';
+                    $_['column_bv'] = 'BV';
+                    $_['column_total_bv'] = 'Total BV';
+                    $_['button_register'] = 'Register';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/account/login.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['heading_title']                = 'Account Login';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['error_login_blocked'] = "You can't login to the system, Please contact Admin for more details";
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/account/login.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['heading_title']                 = 'Anmeldung';
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['error_login_blocked'] = "Sie können sich nicht am System anmelden. Wenden Sie sich für weitere Informationen an den Administrator";
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/en-gb/extension/payment/ewallet.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['please_enter_tran_password']  = "Please enter transaction password";
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['ewallet_text_title']= 'E-Wallet Login';
+                    $_['error_username_exist']		= 'Username Already Exist';
+                    $_['entry_username']		= 'Username';
+                    $_['entry_tran_password']		= 'Transaction Password';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/language/de-DE/extension/payment/ewallet.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $_['please_enter_tran_password']  = "Please enter transaction password";
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['ewallet_text_title']= 'E-Wallet Login';
+                    $_['error_username_exist']		= 'Username Already Exist';
+                    $_['entry_username']		= 'Username';
+                    $_['entry_tran_password']		= 'Transaction Password';
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+    
+</modification>

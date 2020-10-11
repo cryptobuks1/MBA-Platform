@@ -1,0 +1,40 @@
+<?php
+$lang['enter_title'] = "أدخل عنوان";
+$lang['add_language'] = "إضافة اللغة";
+$lang['enter_code'] = "أدخل رمز";
+$lang['lang_code'] = "كود اللغة";
+$lang['lang_name'] = "عنوان";
+$lang['default_language_updated'] = "اللغة الافتراضية التحديث";
+$lang['language_updated'] = "اللغة الافتراضية التحديث";
+$lang['unable_to_update_default_language'] = "غير قادر على تحديث اللغة الافتراضية";
+$lang['Unable_to_update_language'] = "غير قادر على تحديث اللغة";
+$lang['language_added'] = "واضاف لغة";
+$lang['language_deleted'] = "لغة محذوفة";
+$lang['Unable_to_add_language'] = "غير قادر على إضافة اللغة";
+$lang['lang_name_in_english'] = "اسم الملف";
+$lang['no_language'] = "لا اللغة";
+$lang['enter_value'] = "أدخل القيمة";
+$lang['multi_lang_settings'] = "لغة متعددة";
+$lang['multi_lang_management'] = "ادارة لغة متعددة";
+$lang['sure_you_want_to_delete_this_language_there_is_no_undo'] = "هل أنت متأكد أنك تريد حذف هذه اللغة؟ لا يوجد التراجع!";
+$lang['sure_you_want_to_edit_this_language'] = "هل أنت متأكد أنك تريد تعديل هذه اللغة؟";
+$lang['sure_you_want_to_set_this_language_is_default'] = "هل أنت متأكد أنك تريد هذه اللغة هو الافتراضي؟";
+$lang['status'] = "الحالة";
+$lang['please_select'] = "-------اختر من فضلك------";
+$lang['enabled'] = "تمكين";
+$lang['disabled'] = "تعطيل";
+$lang['action'] = "عمل";
+$lang['Unable_to_delete_language'] = "غير قادر على حذف اللغة";
+$lang['enter_symbol_left'] = "أدخل رمز اليسار";
+$lang['enter_symbol_right'] = "أدخل رمز الحق";
+$lang['enter_decimal'] = "أدخل عشري";
+$lang['enter_status'] = "أدخل الوضع";
+$lang['update'] = "التحديث";
+$lang['rows'] = "الصفوف";
+$lang['shows'] = "يظهر";
+
+
+$lang['note'] = "ملاحظة";
+$lang['these_are_the_optional_packages_please_check'] = "هذه الوحدة هو اختياري. من فضلك";
+$lang['click_here'] = "انقر هنا";
+$lang['more_details'] = "لمزيد من التفاصيل";

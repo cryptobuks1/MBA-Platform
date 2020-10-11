@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Cart Library : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="catalog/model/catalog/product.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $sql .= " GROUP BY p.product_id";
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if (!empty($data['filter_package_type'])) {
+			$sql .= " AND p.package_type = '" . $data['filter_package_type'] . "'";
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after" offset="19">
+                <![CDATA[
+                    $sql = "SELECT COUNT(DISTINCT p.product_id) AS total";
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if (!empty($data['filter_package_type'])) {
+			$sql .= " AND p.package_type = '" . $data['filter_package_type'] . "'";
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'viewed'           => $query->row['viewed']
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $query->row['package_type'],
+                    'pair_value'           => $query->row['pair_value'],
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/model/catalog/category.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    public function getTotalCategoriesByCategoryId($parent_id = 0) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    public function getPairValue($product_id) {
+                        $query = $this->db->query("SELECT pair_value FROM `" . DB_PREFIX . "product` WHERE product_id = '" . $product_id . "' AND status = '1'");
+                        return $query->row['pair_value'];
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/product/product.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['product_id'] = (int)$this->request->get['product_id'];
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                    $data['package_type'] = $product_info['package_type'];
+                    $data['pair_value'] = $product_info['pair_value'];
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $result['package_type'],
+                    'pair_value'           => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id']),
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $result['package_type'],
+                    'pair_value'           => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/common/home.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product','product_id=' . $result['product_id']),
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'pair_value'        => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['button_cart'] = $this->language->get('button_cart');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/product/product.tpl">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if ($package_type != 'registration') { ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after" offset="1">
+                <![CDATA[
+                    <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <li><?php echo $text_product_pv_value; ?> : <?php echo $pair_value; ?></li>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after" offset="1">
+                <![CDATA[
+                    <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/product/product.tpl">
+        <operation error="log">
+            <search position="after" offset="2">
+                <![CDATA[
+                    <h2 class="new-price"><?php echo $special; ?></h2>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <li><?php echo $text_product_pv_value; ?> : <?php echo $pair_value; ?></li>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <input type="text" name="quantity" value="<?php echo $minimum; ?>"  id="input-quantity" class="input-text qty" />
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <input type="text" name="quantity" value="<?php echo $minimum; ?>"  id="input-quantity" class="input-text qty"  <?php if ($package_type == 'registration') { ?> disabled="" <?php } ?> />
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <div class="qty-arrows">
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="qty-arrows" <?php if ($package_type == 'registration') { ?> style="display:none;" <?php } ?> >
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/product/quicview.tpl">
+        <operation error="log">
+            <search position="after" offset="2">
+                <![CDATA[
+                    <h2 class="new-price"><?php echo $special; ?></h2>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <li><?php echo $text_product_pv_value; ?> : <?php echo $pair_value; ?></li>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <input type="text" name="quantity" value="<?php echo $minimum; ?>"  id="input-quantity" class="input-text qty" />
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <input type="text" name="quantity" value="<?php echo $minimum; ?>"  id="input-quantity" class="input-text qty"  <?php if ($package_type == 'registration') { ?> disabled="" <?php } ?> />
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <div class="qty-arrows">
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="qty-arrows" <?php if ($package_type == 'registration') { ?> style="display:none;" <?php } ?> >
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/extension/module/featured.tpl">
+        <operation error="log">
+            <search position="after" offset="1">
+                <![CDATA[
+                    <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/extension/module/featured.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/common/home.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/module/featured.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $data['products'] = array();
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'pair_value'        => $product_info['pair_value'],
+                    'package_type'        => $product_info['package_type'],
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/product/category.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $data['products'] = array();
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $result['package_type'],
+                    'pair_value'           => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/product/category.tpl">
+        <operation error="log">
+            <search position="after" offset="1">
+                <![CDATA[
+                    <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/product/category.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/product/special.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/product/manufacturer.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'manufacturer_id=' . $result['manufacturer_id'] . '&product_id=' . $result['product_id'] . $url),
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $result['package_type'],
+                    'pair_value'           => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $data['products'] = array();
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/product/special.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'] . $url),
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'package_type'           => $result['package_type'],
+                    'pair_value'           => $result['pair_value'],
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $data['products'] = array();
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_product_pv_value'] = (MLM_PLAN == "Binary") ? $this->language->get('text_product_pv_value') : $this->language->get('text_product_bv_value');
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/product/manufacturer_info.tpl">
+        <operation error="log">
+            <search position="after" offset="1">
+                <![CDATA[
+                    <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span>
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/product/manufacturer_info.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <div class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="product-name"><span><?php echo $text_product_pv_value; ?> : <?php echo $product['pair_value']; ?></span></div>
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

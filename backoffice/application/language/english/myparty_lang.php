@@ -1,0 +1,65 @@
+<?php
+$lang['party_name'] = "Party Name";
+$lang['view_order'] = "View Order";
+$lang['party'] = "party";
+$lang['amount'] = "Amount";
+$lang['select'] = "Select";
+$lang['my_party_portal'] = "My Party Portal";
+$lang['the_selected_party_is_closed'] = "The selected party is closed";
+$lang['you_may_use'] = "You may use this tool as the starting point from which you can manage every aspect of your party. Simply follow the steps below to begin. It is not necessary to complete all of the steps at the same time. You can set up the party and invite guests now, and then return later, when the party is over, and complete the remaining steps. If you prefer, you could wait until the party has taken place and perform all of the steps at once.";
+$lang['add_guests_and_manage_evites'] = "Add guests and manage e-vites";
+
+$lang['guest_name'] = "Guest Name";
+$lang['guest_email'] = "Guest Email";
+$lang['guest_phone'] = "Guest Phone";
+$lang['enter_the_party_orders_into_a_batch'] = "Enter the Party Orders into a Batch";
+$lang['batch_orders'] = "Batch Orders";
+$lang['count'] = "Count";
+$lang['edit_order'] = "Edit Order";
+$lang['total'] = "Total";
+$lang['price'] = "Price";
+$lang['no_unprocessed_orders'] = "No Unprocessed Orders";
+$lang['processed_orders'] = "Processed Orders";
+$lang['no_processed_orders'] = "No Processed Orders";
+$lang['close_the_party'] = "Close The Party";
+$lang['when_all_steps_have_been_completed'] = "When all steps have been completed, you must close the party.  Once it is closed, it will not be possible to make changes to a party.<br/><br/>";
+$lang['no_orders_found'] = "No Orders Found";
+$lang['order_products_for'] = "Order Products for";
+$lang['unprocessed_orders'] = "Unprocessed Orders";
+$lang['orders'] = "Orders";
+$lang['select_party'] = "----Select Party----";
+$lang['new_party'] = "New Party";
+$lang['step'] = " Step";
+$lang['one'] = " One";
+$lang['two'] = " Two";
+$lang['three'] = " Three";
+$lang['four'] = " Four";
+$lang['five'] = " Five";
+$lang['are_you_sure_want_to_close_this_party'] = "Are you sure want to close this party?";
+$lang['select_a_party_to_view'] = "Select a party to view";
+$lang['start_dates'] = "Start Dates";
+$lang['end_dates'] = "End Date";
+$lang['set_up_a_new_party'] = "Set up a new party";
+$lang['proceed'] = "Proceed";
+$lang['add_another_guest'] = "Add Another Guest";
+$lang['enter_order_now'] = "Enter Order Now";
+$lang['process_selected_order_now'] = "Process Selected Orders Now !";
+$lang['view'] = "View";
+$lang['close_party'] = "Close Party";
+//Newly added
+ $lang['guests_added'] = "Guests added";
+
+$lang['please_select_order'] = "Please select order";
+$lang['order_processed'] = "Order processed";
+$lang['order_not_processed'] = "Order not processed";
+$lang['you_cant_close_this_party_untill_all_orders_are_processed'] = "You can't close this party until all orders  are processed";
+$lang['party_closed'] = "Party closed";
+$lang['select_a_party_to_view_or_set_up_a_new_party'] = "Select a party to view or set up a new party";
+$lang['promote_your_party'] = "Promote Your Party";
+$lang['host'] = "Host";
+$lang['contact_info'] = "Contact Info";
+$lang['address'] = "Address";
+$lang['start_date'] = "Start Date";
+$lang['end_date'] = "End Date";
+$lang['setup_party'] = "Setup Party";
+

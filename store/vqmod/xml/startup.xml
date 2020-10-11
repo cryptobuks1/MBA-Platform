@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Startup : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="system/startup.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    require_once(DIR_SYSTEM . 'helper/json.php');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    require_once(DIR_SYSTEM . 'helper/session.php');
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/startup/startup.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    if (isset($this->request->get['tracking'])) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    
+                    if (!$this->customer->isLogged() && isset($_COOKIE['ci_session']) && (!isset($this->request->get['route']) || $this->request->get['route'] != 'account/logout')) {
+                        $this->customer->loginFromMLM();
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->registry->set('openbay', new Openbay($this->registry));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    // Check whether opencart store enabled in MLM demo or not
+                    $table_query = $this->db->query("SELECT count(*) AS table_count FROM information_schema.TABLES WHERE (TABLE_SCHEMA = '" . DB_DATABASE . "') AND (TABLE_NAME = '" . MLM_DB_PREFIX . "module_status')");
+                    if ($table_query->num_rows) {
+                        $table_count = $table_query->row['table_count'];
+                        if ($table_count) {
+                            $opencart_status_query = $this->db->query("SELECT opencart_status, opencart_status_demo FROM " . MLM_DB_PREFIX . "module_status WHERE id = 1");
+                            foreach ($opencart_status_query->rows as $result) {
+                                if (!($result['opencart_status_demo'] == "yes" && $result['opencart_status'] == "yes")) {
+                                    echo "<script>alert('Store is not enabled in your demo');</script>";
+                                    echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                                }
+                            }
+                        } else {
+                            echo "<script>alert('Invalid Demo URL');</script>";
+                            echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                        }
+                    } else {
+                        echo "<script>alert('Invalid Demo URL');</script>";
+                        echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                    }
+                    
+                    if(DEMO_STATUS == 'yes') {
+                        // Check whether demo blocked or not
+                        $query = $this->db->query("SELECT account_status FROM " . MLM_DB_PREFIX . "project_info LIMIT 1");
+                        if ($query->num_rows) {
+                            $account_status = $query->row['account_status'];
+                            if($account_status == 'blocked') {
+                                if ($this->customer->isLogged()) {
+                                    $this->customer->logout();
+                                }
+                                echo "<script>alert('Your demo has been blocked.');</script>";
+                                echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                            }
+                        }
+                    }
+                    
+                    // Configure MLM data
+                    $MLM_PLAN = $customer->getMLMPlan();
+                    $MODULE_STATUS = $customer->getModuleStatus();
+                    $USERNAME_CONFIG = $customer->getUsernameConfig();
+                    $site_information = $customer->getSiteInformation();
+                    $ADMIN_USER_ID = $customer->getAdminUserId();
+                    $ADMIN_USER_NAME = $customer->idToUserName($ADMIN_USER_ID);
+                    $maintenance_data = $customer->getMaintanenceData();
+                    $block_ecommerce = $maintenance_data['block_ecommerce'];
+                    $block_register = $maintenance_data['block_register'];
+
+                    define('BLOCK_ECOMMERCE', $block_ecommerce);
+                    define('BLOCK_REGISTER', $block_register);
+                    define('MLM_PLAN', $MLM_PLAN);
+                    define('ADMIN_USER_ID', $ADMIN_USER_ID);
+                    define('ADMIN_USER_NAME', $ADMIN_USER_NAME);
+                    define('USERNAME_TYPE', isset($USERNAME_CONFIG['user_name_type']) ? $USERNAME_CONFIG['user_name_type'] : "");
+
+                    $this->session->data['inf_site_information'] = $site_information;
+                    $this->session->data['inf_module_status'] = $MODULE_STATUS;
+
+                    if ($this->customer->getUserType() != 'admin' && !$maintenance_data['status'] && $maintenance_data['block_login'] && $this->request->get['route'] != 'account/logout') {
+                        if ($this->customer->isLogged()) {
+                            if (is_ajax_request()) {
+                                if (in_array($this->request->get['route'], array('extension/regpayment/bank_transfer/confirm', extension/regpayment/cod/confirm))) {
+                                    echo $this->url->link('account/logout', '', true);
+                                }
+                                else {
+                                    echo json_encode(array('redirect' => $this->url->link('account/logout', '', true)));
+                                }
+                                exit();
+                            }
+                            else {
+                                $this->response->redirect($this->url->link('account/logout', '', true));
+                            }
+                        }
+                    }
+                    if ($this->customer->getUserType() != 'admin' && !$maintenance_data['status'] && $maintenance_data['block_ecommerce']) {
+                        if (strpos($this->request->get['route'], 'checkout') === 0 && strpos($this->request->get['route'], 'checkout/cart') === false) {
+                            $this->session->data['error_redirect'] = $this->language->get('error_repurchase_blocked');
+                            if (is_ajax_request()) {
+                                echo json_encode(array('redirect' => $this->url->link('common/home')));
+                                exit();
+                            }
+                            else {
+                                $this->response->redirect($this->url->link('common/home'));
+                            }
+                        }
+                        if (strpos($this->request->get['route'], 'extension/payment') === 0) {
+                            $this->session->data['error_redirect'] = $this->language->get('error_repurchase_blocked');
+                            if (is_ajax_request()) {
+                                echo json_encode(array('redirect' => $this->url->link('common/home')));
+                                exit();
+                            }
+                            else {
+                                $this->response->redirect($this->url->link('common/home'));
+                            }
+                        }
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+    <file name="admin/controller/startup/startup.php">
+           
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->registry->set('openbay', new Openbay($this->registry));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    // Check whether opencart store enabled in MLM demo or not
+                    $table_query = $this->db->query("SELECT count(*) AS table_count FROM information_schema.TABLES WHERE (TABLE_SCHEMA = '" . DB_DATABASE . "') AND (TABLE_NAME = '" . MLM_DB_PREFIX . "module_status')");
+                    if ($table_query->num_rows) {
+                        $table_count = $table_query->row['table_count'];
+                        if ($table_count) {
+                            $opencart_status_query = $this->db->query("SELECT opencart_status, opencart_status_demo FROM " . MLM_DB_PREFIX . "module_status WHERE id = 1");
+                            foreach ($opencart_status_query->rows as $result) {
+                                if (!($result['opencart_status_demo'] == "yes" && $result['opencart_status'] == "yes")) {
+                                    echo "<script>alert('Store is not enabled in your demo');</script>";
+                                    echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                                }
+                            }
+                        } else {
+                            echo "<script>alert('Invalid Demo URL');</script>";
+                            echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                        }
+                    } else {
+                        echo "<script>alert('Invalid Demo URL');</script>";
+                        echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                    }
+                    
+                    if(DEMO_STATUS == 'yes') {
+                        // Check whether demo blocked or not
+                        $query = $this->db->query("SELECT account_status FROM " . MLM_DB_PREFIX . "project_info LIMIT 1");
+                        if ($query->num_rows) {
+                            $account_status = $query->row['account_status'];
+                            if($account_status == 'blocked') {
+                                echo "<script>alert('Your demo has been blocked.');</script>";
+                                echo "<script>window.location = '" . ROOT_URL . "';</script>";
+                            }
+                        }
+                    }
+                    
+                    $customer = $this->registry->get('customer');
+                    
+                    // Configure MLM data
+                    $MLM_PLAN = $customer->getMLMPlan();
+                    $MODULE_STATUS = $customer->getModuleStatus();
+                    $USERNAME_CONFIG = $customer->getUsernameConfig();
+                    $site_information = $customer->getSiteInformation();
+                    $ADMIN_USER_ID = $customer->getAdminUserId();
+                    $ADMIN_USER_NAME = $customer->idToUserName($ADMIN_USER_ID);
+                    $maintenance_data = $customer->getMaintanenceData();
+                    $block_ecommerce = $maintenance_data['block_ecommerce'];
+                    $block_register = $maintenance_data['block_register'];
+
+                    define('MLM_PLAN', $MLM_PLAN);
+                    define('ADMIN_USER_ID', $ADMIN_USER_ID);
+                    define('ADMIN_USER_NAME', $ADMIN_USER_NAME);
+                    define('USERNAME_TYPE', isset($USERNAME_CONFIG['user_name_type']) ? $USERNAME_CONFIG['user_name_type'] : "");
+
+                    $this->session->data['inf_site_information'] = $site_information;
+                    $this->session->data['inf_module_status'] = $MODULE_STATUS;
+                    define('referral_status', $MODULE_STATUS['referal_status']);
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+</modification>

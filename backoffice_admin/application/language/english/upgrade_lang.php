@@ -1,0 +1,80 @@
+<?php
+
+$lang['package_upgrade'] = "Package Upgrade";
+$lang['current_package'] = "Current Package";
+$lang['select_package'] = "Select Package";
+$lang['upgrade_pack'] = "Package to Upgrade";
+$lang['current_package_details'] = "Membership Package Details";
+$lang['upgrade_package_details'] = "Upgradation Package Details";
+$lang['package_id'] = "ID";
+$lang['package_name'] = "Name";
+$lang['package_price'] = "Price";
+$lang['package_pv'] = "PV";
+$lang['amount_to_pay'] = "Amount to Pay";
+$lang['payment_options'] = "Payment Options";
+$lang['ewallet'] = "E-Wallet";
+$lang['epin'] = "E-Pin";
+$lang['paypal'] = "Paypal";
+$lang['authorize_net'] = "Authorize.Net";
+$lang['blocktrail'] = "Blocktrail";
+$lang['blockchain'] = "Blockchain";
+$lang['bitgo'] = "BitGo";
+$lang['free_upgrade'] = "Free Upgrade";
+$lang['epin_amount'] = "E-Pin Amount";
+$lang['remain_epin_amount'] = "Remaining E-Pin Amount";
+$lang['req_epin_amount'] = "Required E-Pin Amount";
+$lang['transaction_password'] = "Transaction Password";
+$lang['check_ewallet'] = "Check E-Wallet Details";
+$lang['invalid_ewallet_details'] = "Invalid E-Wallet details";
+$lang['valid_ewallet_details'] = "Valid E-Wallet details";
+$lang['low_ewallet_balance'] = "Insufficient E-Wallet balance";
+$lang['check_epin'] = "Check E-Pin details";
+$lang['package_upgrade_success'] = "Package upgraded successfully.";
+$lang['package_upgrade_error'] = "Package upgradation failed.";
+$lang['no_higher_packages'] = "No packages available for upgrade.";
+$lang['low_epin_amount'] = "More E-Pin's required.";
+$lang['invalid_epin_details'] = "Invalid E-Pin details.";
+$lang['paypal_payment_error'] = "Paypal payment failed.";
+$lang['authorize_authentication'] = "Authorize Authentication";
+$lang['click_here_secure_form'] = "Click here for the secure payment form";
+$lang['click_here_to_continue'] = "Click here to continue";
+$lang['authorize_net_payment_error'] = "Authorize.Net payment failed.";
+$lang['blockchain_payment_error'] = "Blockchain payment failed.";
+
+$lang['bitgo_gateway'] = "BitGo Gateway";
+$lang['copy_the_address_scan_qr_code_and_do_payments'] = "Copy The address or scan QR code and do payments";
+$lang['current_session_expired'] = "Current session expired";
+$lang['not_received_payment_please_try_again'] = "Not yet received payment. Please try again!";
+$lang['pay_with_bitgo'] = "Pay with BitGo";
+$lang['bitgo'] = "BitGo";
+
+$lang['pay_with_blockchain'] = "Pay with Blockchain";
+$lang['please_do_not_refresh'] = "Please don't refresh..";
+$lang['waiting_for_payment'] = "Waiting for payment...";
+$lang['blocktrail'] = "Blocktrail";
+$lang['blocktrail_payment']="Blocktrail Payment";
+$lang['blockchain_gateway']="Blockchain Gateway";
+
+$lang['bitcoin'] = "Bitcoin";
+$lang['blocktrail_payment'] = "Blocktrail Payment";
+$lang['please_wait_for_transaction_completion_do_not_press_back_or_refresh_button'] = "Please wait for transaction completion. Don't press back or refresh button";
+$lang['instructions'] = "Instructions";
+$lang['login_to_your_bitcoin_wallet'] = "Login to your Bitcoin Wallet";
+$lang['send_the_given_btc_amount_to'] = "Send the given BTC amount to";
+$lang['waiting_for_response'] = "Waiting for response";
+$lang['you_should_enter_a_new_bitcoin_address_if_you_are_registering_from_local'] = "You should enter a new bitcoin address if you are registering from local";
+$lang['bitcoin_address'] = "Bitcoin Address";
+$lang['invalid_bitcoin_address'] = "Please enter Bitcoin Address";
+$lang['blocktrail_payment_error'] = "Blocktrail payment failed.";
+$lang['sofort'] = "Sofort";
+$lang['click_here_for_the_secure_payment_form'] = "Click here for the secure payment form";
+
+//<!-----------------------V10-----------------------------!>
+$lang['user_name'] = "Username";
+$lang['user_name_required'] = "You must enter username";
+$lang['password_required'] = "You must enter password";
+$lang['transaction_password_required'] = "You must enter transaction password";
+$lang['payeer'] = "Payeer";
+$lang['payeer_authentication'] = "Payeer Authentication";
+$lang['payeer_payment_error'] = "Payeer payment failed";
+$lang['validate_epin'] = "Validate E-pin";

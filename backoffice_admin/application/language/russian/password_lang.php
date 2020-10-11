@@ -1,0 +1,37 @@
+<?php
+$lang['change_admin_password'] = "Изменить пароль администратора";
+$lang['current_password'] = "текущий пароль";
+$lang['new_password'] = "новый пароль";
+$lang['confirm_password'] = "Подтвердите Пароль";
+$lang['change_user_password'] = "Изменить пароль пользователя";
+$lang['you_must_enter_new_password'] = "Вы должны ввести новый пароль";
+$lang['user_name'] = "имя пользователя";
+$lang['the_password_length_should_be_greater_than_6'] = "Длина пароля должна быть больше 6";
+$lang['you_must_enter_your_current_password'] = "Вы должны ввести свой текущий пароль.";
+$lang['you_must_enter_your_new_password_again'] = "Вы должны снова ввести новый пароль.";
+$lang['password_mismatch'] = "Пароли не совпадают...";
+$lang['You_must_enter_user_name'] = "Вы должны ввести имя пользователя";
+$lang['You_cant_change_admin_password'] = "Вы не можете изменить пароль администратора ...";
+$lang['password_updated_successfully'] = "Пароль успешно обновлен.";
+$lang['error_on_password_updation'] = "Ошибка обновления пароля.";
+$lang['you_must_enter_your_new_password'] = "Вы должны ввести новый пароль";
+$lang['you_must_enter_your_confirm_password'] = "Вы должны ввести свой пароль для подтверждения";
+$lang['your_current_password_is_incorrect_or_new_password_is_too_short'] = "Ваш текущий пароль неправильный или новый пароль слишком короткий";
+$lang['special_chars_not_allowed'] = "Разрешены только символы, числа и специальные символы";
+$lang['incorrect_username'] = "Неверное имя пользователя";
+$lang['correct_username'] = "Действительное имя пользователя";
+$lang['loading'] = "Проверка верификации имени пользователя";
+$lang['you_must_enter_password'] = "Вы должны ввести пароль";
+$lang['change_password'] = "Изменить пароль";
+$lang['this_option_is_not_available_in_preset_demos'] = "Этот параметр недоступен в предустановленных демонстрационных версиях";
+$lang['this_option_is_not_available_for_preset_users'] = "Эта опция недоступна для предустановленных пользователей.";
+$lang['invalid_user_name'] = "Неверное имя пользователя";
+$lang['New_password_is_too_short'] = "Новый пароль слишком короткий";
+$lang['password_characters_allowed'] = "Разрешенные символы";
+$lang['update'] = "Обновить";
+$lang['change_username'] = "Изменение имени пользователя";
+$lang['change_credential'] = "Изменить учетные данные";
+$lang['this_field_is_required'] = "Это поле обязательно к заполнению";
+$lang['you_must_enter_confirm_password'] = "Необходимо ввести пароль подтверждения.";
+
+$lang['max_32'] = "Пожалуйста, введите не более 32 символов";

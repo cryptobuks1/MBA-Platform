@@ -1,0 +1,472 @@
+[26-Oct-2019 09:59:17 UTC] PHP Notice:  Undefined variable: _SESSION in /home/demo6iossmlm/public_html/jason/store/index.php on line 23
+[28-Oct-2019 11:23:50 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 452
+[28-Oct-2019 11:23:54 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 452
+[29-Oct-2019 04:45:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function ci_dec() on null in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/step1.php:35
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerRegisterStep1->index()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_startup.php(129): require in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/step1.php on line 35
+[05-Nov-2019 06:53:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Controllerextensionregpaymentstripe' not found in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php:43
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/step8.php(440): Loader->controller('extension/regpa...')
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerRegisterStep8->index()
+#3 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#5 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Obj in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php on line 43
+[05-Nov-2019 08:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAllowedBinaryLeg() on null in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:150
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqc in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 150
+[05-Nov-2019 08:35:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insertUsedEwallet() on null in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:210
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcac in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 210
+[05-Nov-2019 08:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insertUsedEwallet() on null in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:213
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcac in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 213
+[05-Nov-2019 09:01:37 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[05-Nov-2019 09:19:22 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[05-Nov-2019 10:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addOrder() on null in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:216
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-sy in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 216
+[05-Nov-2019 12:08:22 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[07-Nov-2019 05:08:28 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:08:32 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:08:38 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:08:54 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:09:13 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:10:12 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 931
+[07-Nov-2019 05:28:09 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::addStripResponse() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 928
+[07-Nov-2019 05:28:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Stripe\Stripe' not found in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:95
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_startup.p in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 95
+[07-Nov-2019 05:34:11 UTC] PHP Fatal error:  Uncaught Exception: Error: Table 'demo6ios_jason.23326_oc_strip_curl_history' doesn't exist<br />Error No: 1146<br />INSERT INTO 23326_oc_strip_curl_history SET curl_url = 'stripe', curl_type = 'Repuerchase_strip order_id:43', curl_data = 'a:2:{s:6:"amount";d:381.93999999999999772626324556767940521240234375;s:8:"order_id";i:43;}', curl_date = '2019-11-07 05:34:11', curl_result = "Stripe\\Charge JSON: {\n    \"id\": \"ch_1Fc3dHBXrVhEPy4QHkoGaPpJ\",\n    \"object\": \"charge\",\n    \"amount\": 38194,\n    \"amount_refunded\": 0,\n    \"application\": null,\n    \"application_fee\": null,\n    \"application_fee_amount\": null,\n    \"balance_transaction\": \"txn_1Fc3dHBXrVhEPy4QFjPG5Y3V\",\n    \"billing_details\": {\n        \"address\": {\n            \"city\": null,\n            \"country\": null,\n            \"line1\": null,\n            \"line2\": null,\n            \"postal_code\": null,\n            \"state\": null\n        },\n        \"email\": null,\n        \"name\": null,\n        \"phone\": null\n in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 40
+[07-Nov-2019 05:35:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[07-Nov-2019 05:46:08 UTC] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'stripe_customer_id' in 'field list'<br />Error No: 1054<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_G8KT9IMCEANy14',`order_id` = '46', `date_added` = NOW(), `status` = 6, `product_id` = '0', `product_name` = '', `product_quantity` = '', `recurring_id` = '0', `recurring_name` = '', `recurring_description` = 'subscription_added', `recurring_frequency` = '', `recurring_cycle` = '0', `recurring_duration` = '0', `recurring_price` = '0', `trial` = '0', `trial_frequency` = '', `trial_cycle` = '0', `trial_duration` = '0', `trial_price` = '0', `reference` = '{"id":"cus_G8KT9IMCEANy14","object":"customer","account_balance":0,"address":null,"balance":0,"created":1573105568,"currency":null,"default_source":"card_1Fc3oqBXrVhEPy4QAIoMDJjS","delinquent":false,"description":"Customer for ","discount":null,"email":null,"invoice_prefix":"4ADD0EB3","invoice_settings":{"custom_fields":null,"default_payment_method":null,"footer":null},"livemode":false,"met in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 40
+[07-Nov-2019 05:57:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[07-Nov-2019 05:59:26 UTC] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'stripe_customer_id' in 'field list'<br />Error No: 1054<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_G8Khh1dEelwo0f',`order_id` = '47', `date_added` = NOW(), `status` = 6, `product_id` = '0', `product_name` = 'rec1', `product_quantity` = '1', `recurring_id` = '1', `recurring_name` = 'rec1', `recurring_description` = 'subscription_added', `recurring_frequency` = '1', `recurring_cycle` = '1', `recurring_duration` = '1', `recurring_price` = '19.95', `trial` = '1', `trial_frequency` = '1', `trial_cycle` = '1', `trial_duration` = '1', `trial_price` = '0', `reference` = '{"id":"cus_G8Khh1dEelwo0f","object":"customer","account_balance":0,"address":null,"balance":0,"created":1573106366,"currency":null,"default_source":"card_1Fc41gBXrVhEPy4QiPjj5Cds","delinquent":false,"description":"Customer for ","discount":null,"email":null,"invoice_prefix":"BF8F8DAC","invoice_settings":{"custom_fields":null,"default_payment_method":null,"footer":null},"livem in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 40
+[07-Nov-2019 06:02:48 UTC] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'stripe_customer_id' in 'field list'<br />Error No: 1054<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_G8Kk93ieKyUnW6',`order_id` = '48', `date_added` = NOW(), `status` = 6, `product_id` = '0', `product_name` = 'rec1', `product_quantity` = '1', `recurring_id` = '1', `recurring_name` = 'rec1', `recurring_description` = 'subscription_added', `recurring_frequency` = '1', `recurring_cycle` = '1', `recurring_duration` = '1', `recurring_price` = '19.95', `trial` = '1', `trial_frequency` = '1', `trial_cycle` = '1', `trial_duration` = '1', `trial_price` = '0', `reference` = '{"id":"cus_G8Kk93ieKyUnW6","object":"customer","account_balance":0,"address":null,"balance":0,"created":1573106568,"currency":null,"default_source":"card_1Fc44yBXrVhEPy4QWcj8cf4L","delinquent":false,"description":"Customer for ","discount":null,"email":null,"invoice_prefix":"359392AC","invoice_settings":{"custom_fields":null,"default_payment_method":null,"footer":null},"livem in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 40
+[07-Nov-2019 06:04:01 UTC] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'stripe_customer_id' in 'field list'<br />Error No: 1054<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_G8KlzfFhK55XA7',`order_id` = '49', `date_added` = NOW(), `status` = 6, `product_id` = '29', `product_name` = 'rec1', `product_quantity` = '1', `recurring_id` = '1', `recurring_name` = 'rec1', `recurring_description` = 'subscription_added', `recurring_frequency` = '1', `recurring_cycle` = '1', `recurring_duration` = '1', `recurring_price` = '19.95', `trial` = '1', `trial_frequency` = '1', `trial_cycle` = '1', `trial_duration` = '1', `trial_price` = '0', `reference` = '{"id":"cus_G8KlzfFhK55XA7","object":"customer","account_balance":0,"address":null,"balance":0,"created":1573106640,"currency":null,"default_source":"card_1Fc468BXrVhEPy4Qd1C6oSrL","delinquent":false,"description":"Customer for ","discount":null,"email":null,"invoice_prefix":"A51CBA17","invoice_settings":{"custom_fields":null,"default_payment_method":null,"footer":null},"live in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 40
+[07-Nov-2019 06:17:54 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 367
+[07-Nov-2019 06:20:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[07-Nov-2019 06:28:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[07-Nov-2019 09:37:09 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[11-Nov-2019 05:24:26 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[12-Nov-2019 10:22:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Controllerextensionpaymentstripe' not found in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php:43
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/checkout/confirm.php(423): Loader->controller('extension/payme...')
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerCheckoutConfirm->index()
+#3 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#5 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Ob in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php on line 43
+[12-Nov-2019 10:37:06 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 138
+[12-Nov-2019 10:37:16 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 138
+[12-Nov-2019 10:38:02 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 140
+[12-Nov-2019 10:38:14 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 140
+[12-Nov-2019 10:45:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Stripe\Stripe' not found in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:90
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_startup.php(129 in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 90
+[12-Nov-2019 10:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ControllerExtensionPaymentStripe::to_pennies() in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:107
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 107
+[18-Nov-2019 10:03:44 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[18-Nov-2019 10:14:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[18-Nov-2019 12:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[18-Nov-2019 12:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[18-Nov-2019 12:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[19-Nov-2019 06:45:28 UTC] PHP Notice:  Undefined index: customer_id in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_cart_customer.php on line 126
+[22-Nov-2019 06:52:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[22-Nov-2019 07:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[22-Nov-2019 07:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:143
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-s in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 143
+[22-Nov-2019 07:26:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:143
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-s in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 143
+[22-Nov-2019 07:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:143
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-s in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 143
+[22-Nov-2019 08:42:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php:143
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-s in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/payment/stripe.php on line 143
+[22-Nov-2019 09:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[22-Nov-2019 10:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[23-Nov-2019 05:15:37 UTC] PHP Fatal error:  Cannot redeclare ModelCheckoutOrder::updateOrderType() in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_model_checkout_order.php on line 955
+[26-Nov-2019 11:01:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 7
+[26-Nov-2019 11:01:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 10
+[26-Nov-2019 11:01:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 10
+[26-Nov-2019 11:01:24 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'demo6ios_alexan...', 'k@}Y6sGLdpXB', 'demo6ios_jason', '3306')
+#1 /home/demo6iossmlm/public_html/jason/store/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'demo6ios_alexan...', 'k@}Y6sGLdpXB', 'demo6ios_jason', '3306')
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_startup.php(129): require_once('/home/demo6ioss...')
+#3 /home/demo6iossmlm/public_html/jason/store/index.php(24): start('catalog')
+#4 {main}
+  thrown in /home/demo6iossmlm/public_html/jason/store/system/library/db/mysqli.php on line 10
+[20-Dec-2019 11:37:21 UTC] PHP Warning:  session_start(): Session callback expects true/false return value in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_session.php on line 39
+[20-Dec-2019 11:37:21 UTC] PHP Warning:  session_start(): Session object destruction failed in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_session.php on line 39
+[20-Dec-2019 11:37:21 UTC] PHP Warning:  session_start(): Failed to decode session object. Session has been destroyed in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_library_session.php on line 39
+[24-Dec-2019 09:25:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ControllerRegisterSuccess::redirect() in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/success.php:16
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerRegisterSuccess->index()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_s in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/success.php on line 16
+[26-Dec-2019 09:35:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[26-Dec-2019 09:39:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function jsonSerialize() on string in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php:146
+Stack trace:
+#0 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/demo6iossmlm/public_html/jason/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/demo6iossmlm/public_html/jason/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/demo6iossmlm/public_html/jason/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache in /home/demo6iossmlm/public_html/jason/store/catalog/controller/extension/regpayment/stripe.php on line 146
+[24-Jan-2020 10:16:54 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 306
+[24-Jan-2020 10:17:15 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 307
+[24-Jan-2020 10:17:54 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 310
+[24-Jan-2020 10:18:38 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 122
+[24-Jan-2020 10:19:02 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 317
+[24-Jan-2020 10:19:04 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 317
+[24-Jan-2020 10:19:31 UTC] PHP Parse error:  syntax error, unexpected 'ini_set' (T_STRING), expecting function (T_FUNCTION) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 312
+[24-Jan-2020 10:19:33 UTC] PHP Parse error:  syntax error, unexpected 'ini_set' (T_STRING), expecting function (T_FUNCTION) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 312
+[24-Jan-2020 10:19:38 UTC] PHP Parse error:  syntax error, unexpected 'ini_set' (T_STRING), expecting function (T_FUNCTION) in /home/demo6iossmlm/public_html/jason/store/catalog/controller/register/user.php on line 312
+[24-Jan-2020 10:20:45 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:34:17 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:34:22 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:34:38 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:34:54 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:35:01 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:35:54 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:36:01 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:36:27 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:36:35 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[24-Jan-2020 10:37:25 UTC] PHP Fatal error:  Illegal offset type in /home/demo6iossmlm/public_html/jason/store/vqmod/vqcache/vq2-catalog_controller_checkout_cart.php on line 319
+[13-Feb-2020 10:01:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'demo6ios_alexand'@'localhost' (using password: YES) in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 7
+[13-Feb-2020 10:01:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 10
+[13-Feb-2020 10:01:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 10
+[13-Feb-2020 10:01:44 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'demo6ios_alexan...', 'k@}Y6sGLdpXB', 'demo6ios_jason', '3306')
+#1 /home/mbatradingacadem/public_html/office/store/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'demo6ios_alexan...', 'k@}Y6sGLdpXB', 'demo6ios_jason', '3306')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_startup.php(129): require_once('/home/mbatradin...')
+#3 /home/mbatradingacadem/public_html/office/store/index.php(24): start('catalog')
+#4 {main}
+  thrown in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 10
+[04-May-2020 14:27:55 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined method Stripe\HttpClient\CurlClient::setEnableHttp2() in /home/mbatradingacadem/public_html/office/store/catalog/controller/extension/regpayment/stripe.php:129
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 / in /home/mbatradingacadem/public_html/office/store/catalog/controller/extension/regpayment/stripe.php on line 129
+[04-May-2020 14:39:25 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined method Stripe\HttpClient\CurlClient::setEnableHttp2() in /home/mbatradingacadem/public_html/office/store/catalog/controller/extension/regpayment/stripe.php:129
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerExtensionRegPaymentStripe->confirm()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 / in /home/mbatradingacadem/public_html/office/store/catalog/controller/extension/regpayment/stripe.php on line 129
+[16-May-2020 12:06:07 Australia/Brisbane] PHP Warning:  unlink(/home/mbatradingacadem/public_html/office/store/system/storage/cache/cache.currency.1589594206): No such file or directory in /home/mbatradingacadem/public_html/office/store/system/library/cache/file.php on line 17
+[17-May-2020 21:47:02 Australia/Brisbane] PHP Warning:  unlink(/home/mbatradingacadem/public_html/office/store/system/storage/cache/cache.language.1589715975): No such file or directory in /home/mbatradingacadem/public_html/office/store/system/library/cache/file.php on line 17
+[19-May-2020 17:49:20 Australia/Brisbane] PHP Warning:  unlink(/home/mbatradingacadem/public_html/office/store/system/storage/cache/cache.language.1589874552): No such file or directory in /home/mbatradingacadem/public_html/office/store/system/library/cache/file.php on line 17
+[30-May-2020 22:27:09 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''''' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = ''' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername(''')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_login.php(203): Pr in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:27:09 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ZAP''' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP'' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP'')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_login.php in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:27:18 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') UNION ALL select NULL -- '' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP') UNION ALL select NULL -- ' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP') UNION ALL...')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/offi in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:33:03 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''c:\'' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'c:\' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('c:\\')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_login.php(2 in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:41:52 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cat /etc/passwd&amp;''' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP'&amp;cat /etc/passwd&amp;'' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP'&amp;cat /e...')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/stor in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:41:53 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cat /etc/passwd;''' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP';cat /etc/passwd;'' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP';cat /etc/p...')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqca in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:41:58 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type %SYSTEMROOT%\win.ini&amp;''' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP'&amp;type %SYSTEMROOT%\win.ini&amp;'' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP'&amp;type %...')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/pub in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:41:58 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\win.ini'' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP'|type %SYSTEMROOT%\win.ini' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP'|type %SYST...')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqcac in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[30-May-2020 22:42:03 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'get-help'' at line 1<br />Error No: 1064<br />SELECT `user_type` FROM 23326_ft_individual WHERE `user_name` = 'ZAP';get-help' in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/system/library/db.php(16): DB\MySQLi->query('SELECT `user_ty...', Array)
+#1 /home/mbatradingacadem/public_html/office/store/catalog/model/account/inf_register.php(263): DB->query('SELECT `user_ty...')
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_loader.php(178): ModelAccountInfRegister->getUserTypeByUsername('ZAP';get-help')
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#4 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_control in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 40
+[19-Jun-2020 15:41:56 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function data() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:110
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/stor in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 110
+[19-Jun-2020 15:42:24 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function data() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:110
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/stor in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 110
+[19-Jun-2020 15:43:01 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function data() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:4
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/store/ in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 4
+[19-Jun-2020 16:23:55 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:4
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/store/v in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 4
+[19-Jun-2020 16:27:16 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:5
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/store/v in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 5
+[19-Jun-2020 16:28:41 Australia/Brisbane] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php:5
+Stack trace:
+#0 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerAccountAccount->index()
+#1 /home/mbatradingacadem/public_html/office/store/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#2 /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-system_storage_modification_system_engine_action.php(51): ControllerStartupRouter->index()
+#3 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/mbatradingacadem/public_html/office/store/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/mbatradingacadem/public_html/office/store/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/mbatradingacadem/public_html/office/store/v in /home/mbatradingacadem/public_html/office/store/vqmod/vqcache/vq2-catalog_controller_account_account.php on line 5
+[04-Sep-2020 00:26:15 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'o","next_invoice_sequence":1,"phone":null,"preferred_locales":[],"shipping":null' at line 1<br />Error No: 1064<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_HxDpUQeOtG3Cc3',`order_id` = '1819', `date_added` = NOW(), `status` = 6, `product_id` = '29', `product_name` = 'rec1', `product_quantity` = '1', `recurring_id` = '1', `recurring_name` = 'rec1', `recurring_description` = 'subscription_added', `recurring_frequency` = '1', `recurring_cycle` = '1', `recurring_duration` = '1', `recurring_price` = '149', `trial` = '1', `trial_frequency` = '1', `trial_cycle` = '1', `trial_duration` = '1', `trial_price` = '0', `reference` = '{"id":"cus_HxDpUQeOtG3Cc3","object":"customer","address":null,"balance":0,"created":1599143172,"currency":null,"default_source":"card_1HNJOALIrVifq2FPc0Msq2N9","delinquent":false,"description":"Customer in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 42
+[18-Sep-2020 10:17:40 Australia/Brisbane] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Garey","next_invoice_sequence":1,"phone":null,"preferred_locales":[],"shipping":' at line 1<br />Error No: 1064<br />INSERT INTO `23326_oc_order_recurring` SET `stripe_customer_id` = 'cus_I2cXu5Sfo04VBD',`order_id` = '2033', `date_added` = NOW(), `status` = 6, `product_id` = '29', `product_name` = 'rec1', `product_quantity` = '1', `recurring_id` = '1', `recurring_name` = 'rec1', `recurring_description` = 'subscription_added', `recurring_frequency` = '1', `recurring_cycle` = '1', `recurring_duration` = '1', `recurring_price` = '149', `trial` = '1', `trial_frequency` = '1', `trial_cycle` = '1', `trial_duration` = '1', `trial_price` = '0', `reference` = '{"id":"cus_I2cXu5Sfo04VBD","object":"customer","address":null,"balance":0,"created":1600388256,"currency":null,"default_source":"card_1HSXIALIrVifq2FPEDAc7Hxj","delinquent":false,"description":"Customer in /home/mbatradingacadem/public_html/office/store/system/library/db/mysqli.php on line 42

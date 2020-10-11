@@ -1,0 +1,27 @@
+<?php
+$lang['leg_count'] = "Contagem de perna";
+$lang['select_user_name'] = "Selecione o nome de usuário";
+$lang['userid_fullname'] = "Nome completo do usuário";
+$lang['left_point'] = "esquerda Point";
+$lang['right_point'] = "Ponto certo";
+$lang['left_carry'] = "Carry esquerda";
+$lang['right_carry'] = "Carry direita";
+$lang['total_pair'] = "quantidade";
+$lang['amount'] = "quantidade";
+$lang['no_leg_count_found'] = "Ver Comissão detalhes";
+$lang['view_commission_details'] = "Ver detalhes de Renda";
+$lang['view_income_details'] = "Declaração de vista de Renda";
+$lang['view_income_statement'] = "Declaração de vista de Renda";
+$lang['view_ewallet_details'] = "Ver eWallet Detalhes";
+$lang['view_user_epin'] = "Ver Usuário E- pin";
+$lang['user_account'] = "Conta de usuário";
+$lang['user_name'] = "Nome de Usuário";
+$lang['commission_details'] = 'Detalhes Comissão';
+$lang['total'] = "total";
+$lang['view'] = "visão";
+$lang['Username_not_Exists'] = "Nome de usuário não existe";
+$lang['you_must_enter_user_name'] = "Você deve digitar o nome de usuário";
+$lang['rows'] = "fileiras";
+$lang['shows'] = "Shows";
+$lang['binary_details'] = "Detalhes Binários";
+$lang['No_Leg_Count_Found'] = "Nenhuma contagem Perna encontrada";

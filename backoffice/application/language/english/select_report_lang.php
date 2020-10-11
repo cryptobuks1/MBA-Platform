@@ -1,0 +1,142 @@
+<?php
+$lang['select_user'] = "Select User";
+$lang['profile_report'] = "Profile Report";
+$lang['total_payout_report'] = "Total Payout Report"; 
+$lang['weekly_payout'] = "Payout";
+$lang['bank_statement'] = "Bank Statement";
+$lang['enter_count'] = "Enter Count";
+$lang['enter_count_start_from'] = "Enter Count Start From";
+$lang['user_payout_report'] = "User Payout Report";
+$lang['member_wise_payout_report'] = "Member-wise Payout Report";
+$lang['view_bank_statement_report'] = "View Bank Statement Report";
+$lang['you_must_enter_count_from'] = "You must Enter count from..";
+$lang['you_must_enter_count'] = "You Must Enter Count..";
+$lang['you_must_enter_a_valid_user_name'] = "You must Enter a valid Username";
+$lang['payout_release_reports'] = "Payout Released Report";
+$lang['payout_release_report'] = "Payout Released Report";
+$lang['select_payout_released_date'] = "Select Payout Released Date";
+$lang['select_date'] = "Select Date";
+$lang['payout_pending_report'] = "Payout Pending Report";
+$lang['sales_report'] = "Sales Report";
+$lang['fund_transfer_report'] = "Fund Transfer Report";
+$lang['fund_transfer'] = "Fund Transfer";
+$lang['week_wise'] = "Week Wise";
+$lang['search'] = "Search";
+$lang['fund_deduct'] = "Fund Deduct";
+$lang['fund_deduct_report'] = "Fund Deduct Report";
+$lang['city'] = "City";
+$lang['invalid_entry'] = "Invalid Entry";
+$lang['date_submission'] = "Date of Submission";
+$lang['select_rank'] = "Select Rank";
+$lang['commission_report'] = "Commission Report";
+$lang['select_user_name'] = "Select Username";
+$lang['view'] = "View";
+$lang['you_must_select_product'] = "You must select a product";
+$lang['rank_achieve_report'] = "Rank Achievers Report";
+$lang['user_name'] = "Username";
+$lang['you_must_select_to_date'] = "You must select to date";
+$lang['you_must_select_from_date'] = "You must select from date";
+$lang['amount_type'] = "Amount Type";
+$lang['you_must_select_a_to_date_greater_than_from_date'] = "You must select a to date greater than from date";
+
+$lang['you_must_select_a_date'] = "You must select a date";
+$lang['You_must_enter_user_name'] = "You must enter username";
+$lang['all'] = "All";
+$lang['top_earners'] = "Top Earners";
+
+$lang['name'] = "Name";
+$lang['current_balance'] = "Current Balance";
+$lang['total_earnings'] = "Total Earnings";
+$lang['action'] = "Action";
+$lang['no_top_earners'] = "No Top Earners";
+$lang['profile_reports'] = "Profile Reports";
+$lang['joining_report'] = "Joining Report";
+$lang['daily_joining'] = "Daily Joining";
+$lang['weekly_joining'] = "Weekly Joining";
+$lang['date'] = "Date";
+$lang['from_date'] = "From Date";
+$lang['to_date'] = "To Date";
+$lang['epin_report'] = "E-Pin Report";
+$lang['full_epin_report'] = "Full E-Pin Report";
+$lang['details'] = "Details";
+$lang['activate_deactivate_report'] = "Activate Deactivate Report";
+$lang['activate_deactivate_report_dialy'] = "Activate Deactivate Report Daily";
+$lang['activate_deactivate_report_weekely'] = "Activate Deactivate Report Weekly";
+$lang['select_product'] = "Select Report";
+$lang['product_wise_sales_report'] = "Product Wise Sales Report";
+$lang['You_must_select_from_date'] = "You must select from date";
+$lang['You_must_select_to_date'] = "You must select to date";
+$lang['You_must_Select_From_To_Date_Correctly'] = "You must select from to date correctly";
+$lang['You_must_select_a_date'] = "You must select a date";
+$lang['You_must_select_a_Todate_greaterThan_Fromdate'] = "To date should be greater than from date";
+$lang['released_date'] = "Released Date";
+$lang['bank_statement_report'] = "Bank statement report";
+$lang['submit'] = "Submit";
+$lang['you_must_select_from_to_date_correctly'] = "You must select from to date correctly";
+$lang['create_excel'] = "Create excel";
+$lang['digits_only'] = "Digits Only";
+
+$lang['repurchase_report'] = "Purchase Report";
+
+$lang['stair_step_report'] = "Stair Step Commission Report";
+$lang['override_report'] = "Over Ride Commission Report";
+$lang['leader_name'] = "Username"; 
+$lang['full_name'] = "Full Name";
+
+$lang['username'] = "Username";
+$lang['current_rank'] = "Current Rank";
+$lang['next_rank'] = "Next Rank";
+$lang['rank_details'] = "Rank Details";
+$lang['current_referral_count'] = "Current Referral Count";
+$lang['referral_count_for'] = "Referral count for";
+$lang['needed_referral_count'] = "Needed Referral Count";
+$lang['rank_performance_report'] = "Rank Performance Report";
+
+$lang['username'] = "Username";
+//config change report
+$lang['config_change_report'] = "Configuration Changes Report";
+$lang['full_config_changes_report'] = "Full Configuration Changes Report";
+
+$lang['start_date'] = "From Date";
+$lang['end_date'] = "To Date";
+$lang['from_date_greater_than_to_date'] = "To-date should be greater than from-date";
+//E-pin Transfer report
+$lang['epin_transfer_report'] = "E-Pin Transfer Report";
+$lang['please_select_one_option'] = "Please select at least one criteria";
+$lang['from_user'] = "From User";
+$lang['to_user'] = "To User";
+$lang['create_csv'] = "Create CSV";
+
+$lang['select_package'] = "Select Package";
+$lang['register'] = "Register";
+$lang['repurchase'] = "Purchase";
+$lang['week_wise_payout_report'] = "Week Wise Payout Report";
+
+$lang['registration'] = "Registration";
+$lang['admin_debit'] = "Admin Debit";
+$lang['admin_credit'] = "Admin Credit";
+$lang['user_debit'] = "User Debit";
+$lang['user_credit'] = "User Credit";
+$lang['config_history'] = "Configuration History";
+$lang['ip_address'] = "IP Address";
+$lang['you_must_enter_ip_address'] = "You must enter IP address";
+$lang['digits_dot'] = "This field only contains digits and dot operator";
+$lang['table_fill_commission'] = "Table Fill Commission";
+$lang['roi_report'] = "HYIP/ROI Report";
+
+$lang['transfer_details'] = "Transfer Details";
+$lang['please_select_date'] = "You must select date";
+$lang['to_date_greater_than_from_date'] = "To date should be greater than from date";
+$lang['personal_pv_for'] = "Personal PV for";
+$lang['needed_personal_pv'] = "Needed Personal PV";
+$lang['gpv_for'] = "Group PV for";
+$lang['needed_group_pv'] = "Needed Group PV";
+$lang['current_personal_pv'] = "Current Personal PV";
+$lang['current_group_pv'] = "Current Group PV";
+$lang['settings_report'] = "Configuration Log Report";
+$lang['current_downline_count'] = "Current downline count";
+$lang['downline_count_for'] = "Downline count for";
+$lang['needed_downline_count'] = "Needed downline count";
+$lang['total_bonus_report'] = "Total Bonus Report";
+$lang['week_wise_bonus_report'] = "Week-wise Bonus Report";
+$lang['member_wise_bonus_report'] = "Member-wise Bonus Report";

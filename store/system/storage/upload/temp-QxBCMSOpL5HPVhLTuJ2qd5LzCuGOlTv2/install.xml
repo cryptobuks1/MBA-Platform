@@ -1,0 +1,141 @@
+<modification>
+		<id></id>
+		<name>Installation without FTP settings</name>
+		<code>no_ftp</code>
+		<version>1.2.0</version>
+		<author>karapuz (support@ka-station.com)</author>
+		<link>http://www.opencart.com/index.php?route=extension/extension/info&amp;extension_id=19862</link>
+		<file path="admin/controller/extension/installer.php">
+		<operation>
+			<search  index="0"><![CDATA[$data['button_continue'] =]]></search>
+			<add position="after"><![CDATA[//karapuz (no_ftp.ocmod.xml) 
+		$data['text_upload_without_ftp'] = $this->language->get('text_upload_without_ftp');
+		$data['help_upload_without_ftp'] = $this->language->get('help_upload_without_ftp');
+		$data['upload_without_ftp'] = false;
+///karapuz (no_ftp.ocmod.xml) ]]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA['extension/installer/ftp']]></search>
+			<add position="replace"><![CDATA['extension/installer/file_tp_wrapper']]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA[function ftp(]]></search>
+			<add position="before"><![CDATA[//karapuz (no_ftp.ocmod.xml) 
+	static public function cpy($source, $dest) {
+		if(is_dir($source)) {
+			$dir_handle = opendir($source);
+			while ($file = readdir($dir_handle)) {
+				if ($file != "." && $file != "..") {
+					if (is_dir($source . "/" . $file)) {
+						if (!is_dir($dest . "/" . $file)) {
+							mkdir($dest . "/" . $file);
+						}
+						self::cpy($source . "/" . $file, $dest . "/" . $file);
+					} else {
+						copy($source . "/" . $file, $dest . "/" . $file);
+					}
+				}
+			}
+			closedir($dir_handle);
+		} else {
+			copy($source, $dest);
+		}
+	}
+	
+	protected function copyUpload() {
+		$json = array();
+		
+		$directory = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/upload/';
+
+		if (!is_dir($directory)) {
+			$json['error'] = $this->language->get('error_directory');
+			return $json;
+		}
+
+		self::cpy($directory, dirname(DIR_APPLICATION));
+		
+		return $json;
+	}
+	
+	/*
+		This wrapper is used because some hostings block calls to URLs containing '/ftp'. It
+		brokes installation process.
+	*/
+	public function file_tp_wrapper() {
+		return $this->ftp();
+	}
+///karapuz (no_ftp.ocmod.xml) ]]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA[if (!$this->config->get('config_ftp_status')]]></search>
+			<add position="before"><![CDATA[//karapuz (no_ftp.ocmod.xml) 
+		if (!empty($this->request->post['upload_without_ftp'])) {
+			$json = $this->copyUpload();
+			$this->response->addHeader('Content-Type: application/json');
+			$this->response->setOutput(json_encode($json));
+			return;			
+		}
+///karapuz (no_ftp.ocmod.xml) ]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/extension/installer.php">
+		<operation>
+			<search  index="0"><![CDATA[$_['text_clear']]]></search>
+			<add position="after"><![CDATA[//karapuz (no_ftp.ocmod.xml) 
+$_['text_upload_without_ftp'] = 'Upload Without FTP';
+$_['help_upload_without_ftp'] = 'When the checkbox is set, files from the archive will be unpacked to the store directory directly without connecting to it through FTP';
+///karapuz (no_ftp.ocmod.xml) ]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/english/extension/installer.php">
+		<operation>
+			<search  index="0"><![CDATA[$_['text_clear']]]></search>
+			<add position="after"><![CDATA[//karapuz (no_ftp.ocmod.xml) 
+$_['text_upload_without_ftp'] = 'Upload Without FTP';
+$_['help_upload_without_ftp'] = 'When the checkbox is set, files from the archive will be unpacked to the store directory directly without connecting to it through FTP';
+///karapuz (no_ftp.ocmod.xml) ]]></add>
+		</operation>
+	</file>
+	<file path="admin/view/template/extension/installer.tpl">
+		<operation>
+			<search  index="0"><![CDATA[<form class="form]]></search>
+			<add position="after"><![CDATA[<?php /* //karapuz (no_ftp.ocmod.xml)  */?>
+					<div class="form-group">
+            <label class="col-sm-2 control-label" for="input-upload_without_ftp"><span data-toggle="tooltip" title="<?php echo $help_upload_without_ftp; ?>"><?php echo $text_upload_without_ftp; ?></span></label>
+            <div class="col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <?php if ($upload_without_ftp) { ?>
+                  <input type="checkbox" name="upload_without_ftp" value="1" checked="checked" id="input-upload_without_ftp" />
+                  <?php } else { ?>
+                  <input type="checkbox" name="upload_without_ftp" value="1" id="input-upload_without_ftp" />
+                  <?php } ?>
+                  &nbsp; </label>
+              </div>
+            </div>
+          </div>
+<?php /* ///karapuz (no_ftp.ocmod.xml)  */?>]]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA[timer = setInterval(]]></search>
+			<add position="before"><![CDATA[<?php /* //karapuz (no_ftp.ocmod.xml)  */?>
+	if (typeof(timer) != 'undefined' && timer) {
+		clearInterval(timer);	
+	}
+<?php /* ///karapuz (no_ftp.ocmod.xml)  */?>]]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA[n next()]]></search>
+			<add position="after"><![CDATA[<?php /* //karapuz (no_ftp.ocmod.xml)  */?>
+		var custom_params = '';
+		if ($('#input-upload_without_ftp').prop('checked')) {
+			custom_params = '&upload_without_ftp=1';
+		}
+<?php /* ///karapuz (no_ftp.ocmod.xml)  */?>]]></add>
+		</operation>
+		<operation>
+			<search  index="0"><![CDATA['path=' + data.path]]></search>
+			<add position="replace"><![CDATA['path=' + data.path + custom_params]]></add>
+		</operation>
+	</file>
+</modification>

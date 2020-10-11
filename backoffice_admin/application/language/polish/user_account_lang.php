@@ -1,0 +1,33 @@
+<?php
+$lang['view_commission_details'] = "Zobacz szczegóły Komisja";
+$lang['view_income_details'] = "Zobacz szczegóły dochodach";
+$lang['view_income_statement'] = "Podgląd rozliczenia Dochodu";
+$lang['view_ewallet_details'] = "Podgląd danych E-Wallet";
+$lang['view_user_epin'] = "Podgląd E-Pin-u Użytkownika";
+$lang['user_account'] = "konto Użytkownika";
+$lang['user_name'] = "Nazwa Użytkownika";
+$lang['User_account'] = "konto Użytkownika";
+$lang['view_profile'] = "Zobacz Profil";
+$lang['view_refferal_details'] = "Zobacz Skierowanie Szczegóły";;
+$lang['first_name'] = "Imię";
+$lang['last_name'] = "Nazwisko";
+$lang['date_of_birth'] = "Data urodzenia";
+$lang['gender'] = "Płeć";
+$lang['mobile_no'] = "Komórka Nie";
+$lang['email'] = "E-mail";
+$lang['Username_not_Exists'] = "Nazwa użytkownika nie istnieje";$lang['commission_details'] = "Szczegóły Komisji";
+$lang['profile'] = "Profil";
+$lang['income_details'] = "Zyski użytkowników";
+$lang['refferal_details'] = "Polecenia";
+$lang['ewallet_details'] = "Ewallet";
+$lang['user_epin'] = "Użytkownik E-pin";
+$lang['income_statement'] = "Zwolniony dochód";
+$lang['user_epin'] = "Użytkownik E-pin";
+$lang['business_volume'] = "Wielkość firmy";
+$lang['binary_details'] = "Szczegóły binarne";
+
+$lang['view_binary_details'] = "Wyświetl szczegóły binarne";
+$lang['view_business_volume'] = "Wyświetl wolumen biznesowy";
+$lang['User_account'] = "Konto użytkownika";
+$lang['user_overview'] = "Przegląd użytkownika";
+$lang['purchase_wallet'] = "Kup portfel";

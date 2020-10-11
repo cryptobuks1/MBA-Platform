@@ -1,0 +1,140 @@
+2019-11-05 5:41:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Installation without FTP settings
+
+FILE: admin/controller/extension/installer.php
+CODE: $data['button_continue'] =
+LINE: 37
+CODE: 'extension/installer/ftp'
+LINE: 136
+CODE: function ftp(
+LINE: 301
+CODE: if (!$this->config->get('config_ftp_status')
+LINE: 319
+
+FILE: admin/language/en-gb/extension/installer.php
+CODE: $_['text_clear']
+LINE: 17
+
+FILE: admin/view/template/extension/installer.tpl
+CODE: <form class="form
+LINE: 34
+CODE: timer = setInterval(
+LINE: 87
+CODE: n next()
+LINE: 156
+CODE: 'path=' + data.path
+LINE: 167
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+CODE: 'extension/installer/ftp'
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 297
+----------------------------------------------------------------
+2019-11-05 6:33:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Installation without FTP settings
+
+FILE: admin/controller/extension/installer.php
+CODE: $data['button_continue'] =
+LINE: 37
+CODE: 'extension/installer/ftp'
+LINE: 136
+CODE: function ftp(
+LINE: 301
+CODE: if (!$this->config->get('config_ftp_status')
+LINE: 319
+
+FILE: admin/language/en-gb/extension/installer.php
+CODE: $_['text_clear']
+LINE: 17
+
+FILE: admin/view/template/extension/installer.tpl
+CODE: <form class="form
+LINE: 34
+CODE: timer = setInterval(
+LINE: 87
+CODE: n next()
+LINE: 156
+CODE: 'path=' + data.path
+LINE: 167
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+CODE: 'extension/installer/ftp'
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 297
+----------------------------------------------------------------

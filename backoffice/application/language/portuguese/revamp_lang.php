@@ -1,0 +1,52 @@
+<?php
+$lang['upgrade_plan'] = "Plano de atualização";
+$lang['invalid_reference_url_ex'] = "URL de referência inválido! ex";
+$lang['your_request_has_saved_successfully'] = "O seu pedido foi salvo com sucesso!";
+$lang['upgrade_infinite_mlm'] = "Atualize MLM Infinito";
+$lang['please_fill_the_following_details_all_fields_are_mandatory'] = "Por favor, preencha os seguintes dados (todos os campos são obrigatórios).";
+$lang['mlm_plan_details'] = "MLM Detalhes do plano";
+$lang['you_must_enter_mlm_plan_details'] = "Você deve digitar MLM Detalhes do plano";
+$lang['you_must_enter_reference_url'] = "Você deve digitar a URL de Referência";
+$lang['you_must_select_mlm_documents'] = "Você deve selecionar Plano MLM Documentos";
+$lang['do_you_need_shopping_cart_ecommerce'] = "Você precisa de carrinho de compras / e-commerce?";
+$lang['do_you_need_repurchase_monthly_subscribe'] = "Você precisa de recompra / Mensal inscrever?";
+$lang['do_you_need_website_replication'] = "Você precisa website replicação?";
+$lang['reference_url'] = "URL de referência";
+$lang['mlm_plan_documents'] = "MLM Documentos do Plano";
+$lang['your_feedback_send_successfully_thank_you_for_posting_feedback'] = "Seu feedback enviar com sucesso, Obrigado por postar comentários";
+$lang['feedback_sending_failed'] = "Enviando Falha ...";
+$lang['infinite_mlm_feedback'] = "Infinito MLM Comentários";
+$lang['feedback_subject'] = "Comentários Assunto";
+$lang['feedback_details'] = "Feedback Detalhes";
+$lang['send'] = "Enviar";
+$lang['you_must_enter_feedback_subject'] = "Você deve inserir comentários Assunto ...";
+$lang['you_must_enter_feedback_details'] = "Você deve digitar feedback Detalhes ...";
+$lang['send_feedback'] = "Enviar comentários";
+$lang['you_are_already_upgraded_your_plan'] = "Você já está atualizado o seu plano";
+$lang['select_file'] = "Selecione Arquivo";
+$lang['change'] = "mudança";
+$lang['yes'] = "sim";
+
+$lang['reference'] = "referência";
+$lang['example'] = "exemplo";
+$lang['updation_failed'] = "updation falhou";
+$lang['Invalid_Username'] = "Nome De Usuário Inválido";
+$lang['report'] = "Relatório";
+$lang['invalid_entry'] = "Entrada inválida";
+$lang['date_submission'] = "Data de apresentação";
+$lang['Payment_method'] = "Método de pagamento";
+$lang['enter_amount_type'] = "Insira o valor de tipo de";
+
+$lang['feedbacks'] = "Testemunhos";
+
+$lang['update'] = "Atualização ";
+$lang['shopping_status'] = "De Compras Do Estado ";
+$lang['replication_status'] = "Status de replicação ";
+$lang['document'] = "Documento";
+$lang['repurchase_status'] = "Recompra De Estado";
+$lang['invalid_reference_url'] = "URL de referência inválido";
+$lang['please_select_file'] = "Por favor selecione um fle";
+$lang['invalid_file_name'] = "Nome de arquivo inválido";
+$lang['max_size_200MB'] = "O arquivo que você está tentando enviar é maior que 200 MB";
+$lang['filetype_not_allowed'] = "O tipo de arquivo que você está tentando enviar não é permitido";
+$lang['error_uploading_file'] = "Upload de arquivo falhou";

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>News</title>
+
+<base target="_parent">
+
+<link rel="stylesheet" href="news_scroll.css" type="text/css">
+
+</head>
+
+<body class="news-scroll" onMouseover="scrollspeed=0" onMouseout="scrollspeed=current" OnLoad="NewsScrollStart();">
+
+
+<!-- START NEWS FEED -->
+<div id="">
+<div class="scroll-text-if">
+
+<!-- SCROLLER CONTENT STARTS HERE -->
+
+
+
+
+<div class="row">
+<div class="col-sm-4">
+	<img class="tree_icon" src="http://localhost/WC/IMS_v8_working_copy/backoffice/public_html/images/themes/default/tree/active.png" alt="469019" style="width: 42px;" title="">
+</div>
+<div class="col-sm-8">
+	<h4>John</h4>
+	<p>100</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+	<img class="tree_icon" src="http://localhost/WC/IMS_v8_working_copy/backoffice/public_html/images/themes/default/tree/active.png" alt="469019" style="width: 42px;" title="">
+</div>
+<div class="col-sm-8">
+	<h4>John</h4>
+	<p>100</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+	<img class="tree_icon" src="http://localhost/WC/IMS_v8_working_copy/backoffice/public_html/images/themes/default/tree/active.png" alt="469019" style="width: 42px;" title="">
+</div>
+<div class="col-sm-8">
+	<h4>John</h4>
+	<p>100</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+	<img class="tree_icon" src="http://localhost/WC/IMS_v8_working_copy/backoffice/public_html/images/themes/default/tree/active.png" alt="469019" style="width: 42px;" title="">
+</div>
+<div class="col-sm-8">
+	<h4>John</h4>
+	<p>100</p>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- END SCROLLER CONTENT -->
+
+</div>
+</div>
+<!-- END NEWS FEED -->
+
+
+
+
+<!-- YOU DO NOT NEED TO EDIT BELOW THIS LINE -->
+
+<script type="text/javascript">
+
+
+var startdelay 		= 1; 		// START SCROLLING DELAY IN SECONDS
+var scrollspeed		= 1.1;		// ADJUST SCROLL SPEED
+var scrollwind		= 1;		// FRAME START ADJUST
+var speedjump		= 30;		// ADJUST SCROLL JUMPING = RANGE 20 TO 40
+var nextdelay		= 1; 		// SECOND SCROLL DELAY IN SECONDS 0 = QUICKEST
+var topspace		= "2px";	// TOP SPACING FIRST TIME SCROLLING
+var frameheight		= 500;		// IF YOU RESIZE THE CSS HEIGHT, EDIT THIS HEIGHT TO MATCH
+
+
+current = (scrollspeed);
+
+
+function HeightData(){
+AreaHeight=dataobj.offsetHeight
+if (AreaHeight===0){
+setTimeout("HeightData()",( startdelay * 500 ))
+}
+else {
+ScrollNewsDiv()
+}}
+
+function NewsScrollStart(){
+dataobj=document.all? document.all.NewsDiv : document.getElementById("NewsDiv")
+dataobj.style.top=topspace
+setTimeout("HeightData()",( startdelay * 500 ))
+}
+
+function ScrollNewsDiv(){
+dataobj.style.top=scrollwind+'px';
+scrollwind-=scrollspeed;
+if (parseInt(dataobj.style.top)<AreaHeight*(-1)) {
+dataobj.style.top=frameheight+'px';
+scrollwind=frameheight;
+setTimeout("ScrollNewsDiv()",( nextdelay * 500 ))
+}
+else {
+setTimeout("ScrollNewsDiv()",speedjump)
+}}
+
+
+</script>
+
+
+</body>
+</html>

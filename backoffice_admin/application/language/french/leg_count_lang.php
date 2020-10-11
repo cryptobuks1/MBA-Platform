@@ -1,0 +1,27 @@
+<?php
+$lang['leg_count'] = "comte Leg";
+$lang['select_user_name'] = "Sélectionnez un nom d'utilisateur";
+$lang['userid_fullname'] = "Nom d'utilisateur - Nom complet";
+$lang['left_point'] = "gauche Point";
+$lang['right_point'] = "point de droit";
+$lang['left_carry'] = "Carry gauche";
+$lang['right_carry'] = "Carry droit";
+$lang['total_pair'] = "quantité";
+$lang['amount'] = "Montant";
+$lang['no_leg_count_found'] = "Aucune comte de Leg Trouvé";
+$lang['view_commission_details'] = "Voir Commission Détails";
+$lang['view_income_details'] = "Voir les détails sur le revenu";
+$lang['view_income_statement'] = "Déclaration Vue sur le revenu";
+$lang['view_ewallet_details'] = "Voir Ewallet Détails";
+$lang['view_user_epin'] = "Voir l'utilisateur E-broche";
+$lang['user_account'] = "Compte d'utilisateur";
+$lang['user_name'] = "Nom d'utilisateur";
+$lang['commission_details'] ='Détails Commission';
+$lang['total'] = "total";
+$lang['view'] = "vue";
+$lang['Username_not_Exists'] = "Nom d'utilisateur n'existe";
+$lang['you_must_enter_user_name'] = "Vous devez entrer le nom d'utilisateur";
+$lang['rows'] = "rangées";
+$lang['shows'] = "Montre";
+$lang['binary_details'] = "Détails binaires";
+$lang['No_Leg_Count_Found'] = "Aucun chef de jambe trouvé";

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: phpmyconfig.php
+Disallow: linktest.php
+Disallow: /admin/
+Disallow: /docs/
+Disallow: /images/
+Disallow: /libraries/
+Disallow: /themes/
+Disallow: /user/  

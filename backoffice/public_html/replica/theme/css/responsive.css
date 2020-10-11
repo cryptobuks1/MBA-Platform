@@ -1,0 +1,122 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+	.team_social li a{
+        margin-right: 8px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 1024px) {
+	
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-br-none br{ display: none; }
+    .sm-padding{ padding: 15px; }
+	.promo_wrapper .promo_head {
+		padding: 0 0 30px;
+	}
+    .testimonial_items .col-md-4{
+        padding: 15px;
+    }
+    .widget_section,
+    .content_wrapper{
+        padding: 80px 0;
+    }
+    .content_info{
+        padding-top: 0;
+    }
+    .polio-info > h3{
+        font-size: 14px;
+    }
+	.contact_wrapper {
+		padding: 40px 0;
+	}
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.hero_content h1{
+        font-size: 45px;
+    }
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px!important;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p br{
+        display: none;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+	.hero_section{ height: 470px; }
+	.contact_form .form-group .col-sm-6:first-child{
+        margin-bottom: 15px;
+    }
+    .cta_content_2 p{
+        font-size: 14px;
+    }
+	.contact_section{
+		padding: 60px 15px;
+	}
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    .col-xs-6{
+		float: none;
+		width: 100%;
+	}
+    .slider_item{
+        height: 380px;
+    }
+    .subscribe_form .submit {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .subscribe_form .form_input {
+        width: 100%;
+    }
+
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */

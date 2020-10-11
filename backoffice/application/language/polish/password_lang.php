@@ -1,0 +1,37 @@
+<?php
+$lang['change_admin_password'] = "Zmień Hasło Administratora";
+$lang['current_password'] = "Current Password";
+$lang['you_must_enter_your_current_password'] = "Musisz wpisac swoje obecne hasło";
+$lang['you_must_enter_your_new_password_again'] = "You Must Enter Your New Password Again.";
+$lang['password_mismatch'] = "Password Mismatch...";
+$lang['You_must_enter_user_name'] = "You must Enter Username";
+$lang['You_cant_change_admin_password'] = "You can't change admin password...";
+$lang['password_updated_successfully'] = "Password updated successfully.";
+$lang['you_must_enter_your_new_password'] = "Musisz wpisać swoje nowe hasło";
+$lang['you_must_enter_your_confirm_password'] = "You Must Enter Your Confirm Password";
+$lang['your_current_password_is_incorrect_or_new_password_is_too_short'] = "Your current password is incorrect or new password is too short";
+$lang['special_chars_not_allowed'] = "Special characters are not allowed ";
+$lang['change_user_password'] = "Zmień hasło użytkownika";
+$lang['you_must_enter_new_password'] = "Musisz wprowadzić nowe hasło";
+$lang['the_password_length_should_be_greater_than_6'] = "Hasło musi zawierać więcej niż 6 znaków";
+$lang['user_name'] = "Nazwa Użytkownika";
+$lang['new_password'] = "Nowe Hasło";
+$lang['confirm_password'] = "Potwierdź Hasło";
+$lang['incorrect_username'] = "Zła nazwa użytkownika";
+$lang['correct_username'] = "Ważny Nazwa";
+$lang['loading'] = "Sprawdzanie loginu Ważność";
+$lang['you_must_enter_password'] = 'Musisz podać hasło';
+$lang['error_on_password_updation'] = "zmiana hasła nie powiodło się.";
+$lang['change_password'] = "'Zmień hasło'";
+$lang['this_option_is_not_available_in_preset_demos'] = "'Ta opcja nie jest dostępna w fabrycznym demos'";
+$lang['this_option_is_not_available_for_preset_users'] = "Ta opcja nie jest dostępna dla zaprogramowanych użytkowników";
+$lang['invalid_user_name'] = "'Nieprawidłowa Nazwa Użytkownika'";
+$lang['New_password_is_too_short'] = "'Nowe hasło jest zbyt krótkie'";
+$lang['password_characters_allowed'] = "'Znaków'";
+$lang['update'] = "Aktualizacja";
+$lang['change_username'] = "Zmień nazwę użytkownika";
+$lang['change_credential'] = "Zmień poświadczenie";
+$lang['this_field_is_required'] = "To pole jest wymagane";
+$lang['you_must_enter_confirm_password'] = "Musisz wprowadzić hasło potwierdzenia.";
+$lang['max_32'] = "Wprowadź nie więcej niż 32 znaki";
+///////////////////////FOR PASSWORD CONTROLLER------------->END

@@ -1,0 +1,52 @@
+<?php
+$lang['send_transaction_password'] = "Sende Transaktionspasswort";
+$lang['send_password'] = "Sende Passwort";
+$lang['you_dont_have_transaction_password'] = "Du hast kein Transaktionspasswort.";
+$lang['transaction_password_send_successfully'] = "Hinweis : Transaktionspasswort erfolgreich gesendet";
+$lang['transaction_password_will_send_admin'] = "Hinweis: Transaction Passwort wird Nutzers registrierte E-Mail -ID zu senden ";
+$lang['transaction_password_updated_successfully'] = "Transaktionspasswort erfolgreich aktualisiert!";
+$lang['change_transaction_password'] = "Ändere Transaktionspasswort";
+$lang['current_transaction_password'] = "Aktuelles Transaktionspasswort";
+$lang['new_transaction_password'] = "Neues Transaktionspasswort";
+$lang['reenter_new_transaction_password'] = "Wiedereingabe vom neuen Transaktionspasswort";
+$lang['you_must_enter_current_transaction_password'] = "Du musst das aktuelle Transaktionspasswort eingeben";
+$lang['you_must_enter_new_transaction_password'] = "Du musst ein neues Transaktionspasswort eingeben";
+$lang['transaction_password_length_should_be_more_than_8'] = "Die Länge des Transaktionspasswortes sollte mehr als 8 sein";
+$lang['new_transaction_password_mismatch'] = "Die Passwörter stimmen nicht überein";
+$lang['you_must_select_a_username'] = "Du musst ein Benutzernamen auswählen";
+$lang['sorry_failed_to_update_try_again'] = "Entschuldigung! Aktualisierung ist fehlgeschlagen, bitte noch einmal versuchen!";
+$lang['your_current_transaction_password_is_incorrect'] = "Dein aktuelles Transaktionspasswort ist falsch";
+$lang['You_cant_change_admin_transaction_password'] = "Sie nicht ändern Admin Geschäft Passwort ";
+$lang['change_user_transaction_password'] = "Ändere Benutzer Transaktionspasswort";
+$lang['reenter_new_password'] = "Wiedereingabe vom neuen Passwort";
+$lang['you_must_select_user'] = "Sie müssen die Option Benutzername";
+$lang['select_user_name'] = "Wählen Sie Benutzername";
+$lang['new_password'] = "neues Passwort";
+$lang['user_name'] = "Benutzername";
+$lang['old_passcode'] = "Altes Passwort";
+$lang['re_new_passcode'] = "Neues Passwort Erneut Eingeben";
+$lang['error_on_sending_transaction_password'] = "Fehler auf Transaktions Passwort Senden";
+$lang['invalid_user_name'] = "Ungültiger Benutzername";
+$lang['this_option_is_not_available_in_preset_demos'] = "Diese option ist nicht verfügbar in der Preset-demos";
+
+$lang['update'] = "Update";
+$lang['send_transaction_passcode'] = "Sende Transaktionskennwort";
+$lang['forgot_trans_password'] = "Passwort vergessen";
+$lang['email'] = "Email";
+$lang['invalid_username_or_email'] = "Ungültiger Benutzername oder E-Mail-Adresse";
+$lang['invalid_captcha'] = "Ungültiges Captcha";
+$lang['transaction_password_will_send'] = "Hinweis: Das Transaktionskennwort wird an Ihre registrierte E-Mail-ID gesendet";
+$lang['forgot_transaction_password'] = "Passwort vergessen";
+$lang['your_request_has_been_accepted_we_will_send_you_confirmation_mail_please_follow_that_instruction'] = "Ihre Anfrage wurde angenommen. Wir werden Ihnen eine Bestätigungsmail senden. Bitte befolgen Sie diese Anweisungen";
+$lang['current_password'] = "Aktuelles Passwort";
+
+$lang['transaction_password'] = "Transaktions Passwort";
+$lang['not_readable'] = "Nicht lesbar? Ändern Sie den Text.";
+$lang['send_request'] = "Anfrage senden";
+
+$lang['this_option_is_not_available_for_preset_users'] = "Diese Option ist für derzeitige Benutzer nicht verfügbar";
+$lang['transaction_password_changed_successfully'] = "Das Transaktionskennwort wurde erfolgreich geändert";
+$lang['mail_is_send_and_follow_instruction'] = "Hinweis: Wir senden Ihnen eine Bestätigungsmail, folgen Sie bitte dieser Anweisung";
+$lang['You_cant_change_transaction_password'] = "Sie können nur Ihr Transaktionskennwort ändern ";
+$lang['reenter_password'] = "Neues Passwort erneut eingeben";
+$lang['captcha_required'] = "Sie müssen das Captcha eingeben";

@@ -1,0 +1,6 @@
+IMS_HOST:local.mbatradingacademy.com:8890
+IMS_HOST_NAME:hackbookpro.modem
+IMS_SERVER_IP:::1
+IMS_LOCAL_IP:::1
+IMS_LINK:http://local.mbatradingacademy.com:8890/backoffice_admin/admin/payout/getOtpStat
+IMS_DIRECTORY:/Users/henryhardy/Development/MBA/MBA_Platform/platform/backoffice_admin/system/core

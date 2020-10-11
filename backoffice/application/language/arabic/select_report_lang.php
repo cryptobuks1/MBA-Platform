@@ -1,0 +1,144 @@
+<?php
+$lang['select_user'] = "حدد المستخدم";
+$lang['profile_report'] = "ملف التقرير";
+$lang['total_payout_report'] = "إجمالي تعويضات التقرير"; 
+$lang['weekly_payout'] = "دفع تعويضات";
+$lang['bank_statement'] = "بيان من البنك";
+$lang['enter_count'] = "أدخل العد";
+$lang['enter_count_start_from'] = "أدخل بدء العد من";
+$lang['user_payout_report'] = "المستخدم دفع تعويضات التقرير";
+$lang['member_wise_payout_report'] = "الأعضاء الحكمة دفع تعويضات التقرير";
+$lang['view_bank_statement_report'] = "عرض بيان البنك التقرير";
+$lang['you_must_enter_count_from'] = "يجب إدخال عد من..";
+$lang['you_must_enter_count'] = "يجب أن تدخل في العد..";
+$lang['you_must_enter_a_valid_user_name'] = "يجب إدخال اسم مستخدم صالح";
+$lang['payout_release_reports'] = "دفع تعويضات إصدار التقارير";
+$lang['payout_release_report'] = "دفع تعويضات الإفراج عن التقرير";
+$lang['select_payout_released_date'] = "حدد دفع تعويضات تاريخ صدر";
+$lang['select_date'] = "حدد التاريخ";
+$lang['payout_pending_report'] = "دفع تعويضات في انتظار التقرير";
+$lang['sales_report'] = "تقرير مبيعات";
+$lang['fund_transfer_report'] = "صندوق نقل التقرير";
+$lang['fund_transfer'] = "تحويل الأموال";
+$lang['week_wise'] = "الأسبوع الحكمة";
+$lang['search'] = "البحث";
+$lang['fund_deduct'] = "الصندوق بخصم";
+$lang['fund_deduct_report'] = "الصندوق بخصم التقرير";
+$lang['city'] = "المدينة";
+$lang['invalid_entry'] = "إدخال غير صالح";
+$lang['date_submission'] = "تاريخ التقديم";
+$lang['select_rank'] = "حدد رتبة";
+$lang['commission_report'] = "تقرير اللجنة";
+$lang['select_user_name'] = "حدد اسم المستخدم";
+$lang['view'] = "عرض";
+$lang['you_must_select_product'] = "يجب عليك تحديد المنتج";
+$lang['rank_achieve_report'] = "رتبة التحصيل التقرير";
+$lang['user_name'] = "اسم المستخدم";
+$lang['you_must_select_to_date'] = "يجب تحديد موعد";
+$lang['you_must_select_from_date'] = "كنت mustselect من تاريخ";
+$lang['amount_type'] = "المبلغ نوع";
+$lang['you_must_select_a_to_date_greater_than_from_date'] = "يجب تحديد موعد تزيد من تاريخ";
+
+$lang['you_must_select_a_date'] = "يجب تحديد موعد";
+$lang['You_must_enter_user_name'] = "يجب إدخال اسم المستخدم";
+$lang['all'] = "كل";
+$lang['top_earners'] = "من كبار أصحاب";
+
+$lang['name'] = "اسم";
+$lang['current_balance'] = "الرصيد الحالي";
+$lang['total_earnings'] = "إجمالي الأرباح";
+$lang['action'] = "العمل";
+$lang['no_top_earners'] = "لا كبار أصحاب";
+$lang['profile_reports'] = "الملف الشخصي التقارير";
+$lang['joining_report'] = "الانضمام إلى تقرير";
+$lang['daily_joining'] = "يوميا الانضمام";
+$lang['weekly_joining'] = "الأسبوعية الانضمام";
+$lang['date'] = "تاريخ";
+$lang['from_date'] = "من تاريخ";
+$lang['to_date'] = "حتى الآن";
+$lang['epin_report'] = "E-Pin التقرير";
+$lang['full_epin_report'] = "كامل E-Pin التقرير";
+$lang['details'] = "التفاصيل";
+$lang['activate_deactivate_report'] = "تفعيل تعطيل التقرير";
+$lang['activate_deactivate_report_dialy'] = "تفعيل تعطيل التقرير اليومي";
+$lang['activate_deactivate_report_weekely'] = "تفعيل تعطيل التقرير الأسبوعي";
+$lang['select_product'] = "حدد التقرير";
+$lang['product_wise_sales_report'] = "المنتج الحكمة تقرير مبيعات";
+$lang['You_must_select_from_date'] = "يجب تحديد من تاريخ";
+$lang['You_must_select_to_date'] = "يجب تحديد موعد";
+$lang['You_must_Select_From_To_Date_Correctly'] = "يجب تحديد من أن التاريخ صحيح";
+$lang['You_must_select_a_date'] = "يجب تحديد موعد";
+$lang['You_must_select_a_Todate_greaterThan_Fromdate'] = "يجب تحديد من أن التاريخ صحيح";
+$lang['released_date'] = "تاريخ صدر";
+$lang['bank_statement_report'] = "بيان البنك التقرير";
+$lang['submit'] = "تقدم";
+$lang['you_must_select_from_to_date_correctly'] = "يجب تحديد من أن التاريخ صحيح";
+$lang['create_excel'] = "إنشاء excel";
+$lang['digits_only'] = "ارقام فقط";
+
+$lang['repurchase_report'] = "﻿ إعادة الشراء التقرير ";
+
+$lang['stair_step_report'] = "﻿ درج خطوة تقرير اللجنة ";
+$lang['override_report'] = "﻿ حول تقرير اللجنة ركوب ";
+$lang['leader_name'] = "﻿ اسم القائد "; 
+$lang['full_name'] = "الاسم";
+$lang['username'] = "اسم المستخدم";
+//config change report
+$lang['config_change_report'] =  "تقرير تغييرات التكوين";
+$lang['full_config_changes_report'] = "تقرير تغييرات التكوين الكامل";
+$lang['start_date'] = "من التاريخ";
+$lang['end_date'] = "ان يذهب في موعد";
+$lang['from_date_greater_than_to_date'] = "يجب أن يكون التاريخ حتى الآن أكبر من من تاريخ";
+
+//
+
+//E-pin Transfer report
+$lang['epin_transfer_report'] = "E-بين تقرير النقل";
+$lang['from_user'] = "من المستخدم";
+$lang['to_user'] = "إلى المستخدم";
+$lang['please_select_one_option'] = "الرجاء تحديد معيار واحد على الأقل";
+$lang['to_date_greater_than_from_date'] = "يجب أن يكون تاريخ أكبر من تاريخ";
+$lang['username'] = "اسم المستخدم";
+
+$lang['user_name'] = "اسم المستخدم";
+$lang['full_name'] = "الاسم الكامل";
+$lang['current_rank'] = "الرتبة الحالية";
+$lang['next_rank'] = "الرتبة التالية";
+$lang['rank_details'] = "ترتيب التفاصيل";
+$lang['current_referral_count'] = "عدد الإحالات الحالي";
+$lang['referral_count_for'] = "عدد الإحالات ل";
+$lang['needed_referral_count'] = "عدد الإحالات المطلوب";
+$lang['rank_performance_report'] = "ترتيب تقرير الأداء";
+$lang['create_csv'] = "إنشاء ملف كسف";
+$lang['select_package'] = "حدد الحزمة";
+$lang['register'] = "تسجيل";
+$lang['repurchase'] = "شراء";
+$lang['week_wise_payout_report'] = "الأسبوع تقرير العوائد الحكيمة";
+
+$lang['registration'] = "التسجيل";
+$lang['admin_debit'] = "الخصم المسؤول";
+$lang['admin_credit'] = "ائتمان المشرف";
+$lang['user_debit'] = "خصم المستخدم";
+$lang['user_credit'] = "رصيد المستخدم";
+$lang['config_history'] = "تاريخ التهيئة";
+$lang['ip_address'] = "عنوان إب";
+$lang['you_must_enter_ip_address'] = "يجب إدخال عنوان إب";
+$lang['digits_dot'] = "يحتوي هذا الحقل على أرقام ونقاط تشغيل فقط";
+$lang['roi_report'] = "تقرير HYIP/ROI";
+
+$lang['transfer_details'] = "نقل التفاصيل";
+$lang['please_select_date'] = "يجب عليك تحديد التاريخ";
+$lang['to_date_greater_than_from_date'] = "يجب أن يكون التاريخ أكبر من التاريخ";
+$lang['personal_pv_for'] = "PV الشخصية ل";
+$lang['needed_personal_pv'] = "تحتاج الشخصية PV";
+$lang['gpv_for'] = "المجموعة الكهروضوئية ل";
+$lang['needed_group_pv'] = "مطلوب مجموعة PV";
+$lang['current_personal_pv'] = "PV الشخصية الحالية";
+$lang['current_group_pv'] = "المجموعة الحالية PV";
+$lang['settings_report'] = "تقرير سجل التكوين";
+$lang['current_downline_count'] = "عدد الانخفاضات الحالي";
+$lang['downline_count_for'] = "داونلاين العد ل";
+$lang['needed_downline_count'] = "بحاجة إلى عدد داونلين";
+$lang['total_bonus_report'] = "مجموع تقرير المكافآت";
+$lang['week_wise_bonus_report'] = "تقرير مكافأة الأسبوع الحكيم";
+$lang['member_wise_bonus_report'] = "تقرير مكافأة عضو الحكيم";

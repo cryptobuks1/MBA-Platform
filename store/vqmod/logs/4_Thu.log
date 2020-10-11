@@ -1,0 +1,15 @@
+---------- Date: 2019-11-14 11:00:58 ~ IP : 117.200.76.189 ----------
+REQUEST URI : /jason/store/index.php?route=checkout/cart
+MOD DETAILS:
+   modFile   : /home/demo6iossmlm/public_html/jason/store/vqmod/xml/catalog_cart.xml
+   id        : Cart Library : Updates
+   version   : 2.3.0.2
+   vqmver    : 2.6.0
+   author    : Infinite Open Source Solutions
+
+File Name    : catalog/view/theme/parallax/template/checkout/cart.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <div class="qty-arrows">
+
+----------------------------------------------------------------------
+
+

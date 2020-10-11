@@ -1,0 +1,47 @@
+<?php
+
+$lang['view'] = "عرض";
+$lang['select_user_id'] = "معرف المستخدم الاختيار";
+$lang['amount_type'] = " نوع المبلغ";
+$lang['amount_total'] = "المبلغ الإجمالي";
+$lang['income_details'] = "أرباح المستخدم";
+$lang['current_position'] = "الوظيفة الحالية";
+$lang['change_position'] = "تغيير الوظيفة";
+$lang['left'] = "اليسار";
+$lang['right'] = "الحق";
+$lang['you_must_select_user'] = "يجب عليك اختيار اسم المستخدم";
+$lang['user_name'] = "اسم المستخدم";
+$lang['level'] = "مستوى";
+$lang['amount'] = "المبلغ";
+$lang['Total_income'] = "إجمالي الدخل ";
+$lang['binary'] = "ثنائي";
+$lang['perc'] = "  النسبة المئوية لدفع تعويضات لشهر";
+$lang['total_commsion_details'] = "مجموع تفاصيل العمولة";
+$lang['Username_not_Exists'] = "اسم المستخدم ليس موجود";
+$lang['no_income_details_were_found'] = "لا تفاصيل الدخل عثر";
+$lang['pin_purchased'] = "دبوس شراؤها";
+$lang['payout_released'] = "سيصرف المفرج عنهم";
+$lang['referral_commission'] = "لجنة الإحالة";
+$lang['binary_commission'] = "لجنة ثنائية";
+$lang['rank_commission'] = "لجنة الرتبة";
+$lang['level_commission'] = "لجنة مستوى";
+$lang['type_members_name'] = "اسم عضو النوع من هنا";
+$lang['level_commission_by_repurchase'] = "لجنة مستوى من إعادة الشراء";
+$lang['binary_commission_by_repurchase'] = "لجنة ثنائية من إعادة الشراء";
+$lang['board_commission'] = "مجلس ملء اللجنة";
+$lang['table_commission'] = "جدول ملء اللجنة";
+
+$lang['rows'] = "روز";
+$lang['shows'] = "عروض";
+$lang['select_user'] = "حدد المستخدم";
+$lang['from'] = "من";
+$lang['username_not_exists'] = "اسم المستخدم لا توجد";
+$lang['you_must_enter_username'] = "يجب إدخال اسم المستخدم";
+$lang['user_overview'] = "نظرة عامة على المستخدم";
+$lang['select_amount_type'] = "حدد نوع المبلغ";
+$lang['repurchase_level_commission'] = "عمولة المستوى عن طريق الشراء";
+$lang['invalid_user_name'] = "اسم مستخدم غير صالح";
+$lang['daily_investment'] = "الاستثمار اليومي";
+$lang['xup_commission'] = "لجنة X-UP";
+$lang['xup_repurchase_level_commission'] = "لجنة X-UP بالشراء";
+$lang['xup_upgrade_level_commission'] = "X-UP لجنة من خلال ترقية";

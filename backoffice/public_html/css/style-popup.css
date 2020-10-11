@@ -1,0 +1,73 @@
+/* CSS Document */
+#trigger {
+	text-align:center;
+}
+
+/* Style you custom popupbox according to your requirement */
+.popupbox {
+	width:721px;
+	height:400px;
+	background-color:#fff;
+	border:5px solid #000;
+	background-repeat:no-repeat;
+	display: none; /* Hidden as default */
+	float: left;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	
+}
+#fade { 
+	display: none; /* Hidden as default */
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .3;
+	z-index: 9999;
+}
+#intabdiv {
+	text-align:center;
+	padding:15px;
+}
+#close img {
+	text-decoration:none;
+}
+#close {
+	width:50px;
+	height:50px;
+	position: absolute;
+	float:right;
+}
+
+#intabdiv2 {
+	padding:70px;
+}
+#intabdiv2  h2 {
+	font-size:24px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#intabdiv2 p {
+	font-size:12px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
+
+#intabdiv3 {
+	padding:70px;
+}
+#intabdiv3  h2 {
+	font-size:24px;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#intabdiv3 p {
+	font-size:12px;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
+.box_scroll_reg{width:700px;min-height:380px;max-height: 380px;overflow:scroll;}

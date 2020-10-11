@@ -1,0 +1,145 @@
+<?php
+$lang['select_user'] = "Wybierz użytkownika";
+$lang['profile_report'] = "Raport profilu";
+$lang['total_payout_report'] = "Raport łącznych wypłat";
+$lang['bank_statement'] = "Wyciag bankowy";
+$lang['enter_count'] = "Podliczenie";
+$lang['enter_count_start_from'] = "Wprowadź rozpoczęcie liczenia";
+$lang['member_wise_payout_report'] = "Raport wypłat współpracownika";
+$lang['view_bank_statement_report'] = "Zobacz raport wyciagu z banku";
+$lang['you_must_enter_count_from'] = "podliczenie z ";
+$lang['you_must_enter_a_valid_user_name'] = "Musisz wpisać porpawną nazwę użytkownika";
+$lang['payout_release_reports'] = "raport wypłat";
+$lang['select_payout_released_date'] = "wybierz datę wypłat";
+$lang['select_date'] = "wybierz datę";
+$lang['payout_pending_report'] = "raport wypłat oczekujących";
+$lang['you_must_enter_count'] = "Podlicznie";
+$lang['fund_transfer_report'] = "Raport przelewu";
+$lang['fund_transfer'] = "Przelew";
+$lang['week_wise'] = "odnośnie tygodnia";
+$lang['search'] = 'Szukaj';
+$lang['fund_deduct'] = "dedukcja funduszy";
+$lang['fund_deduct_report'] = "Raport dedukcji funduszy";
+$lang['invalid_entry'] = "Nieprawidłowe wprowadzenie";
+$lang['sales_report'] = "Raport sprzedaży";
+$lang['product_wise_sales_report'] = 'Raport odnośnie sprzedaży produktu';
+$lang['rank_achieve_report'] = 'Raport osiagniecia poziomów';
+$lang['commission_report'] = "Raport premii";
+$lang['select_user_name'] = "Wybierz Nazwa użytkownika";
+$lang['view'] = "Podgląd";
+$lang['you_must_select_product'] = "Musisz wybrać produkt";
+$lang['user_name'] = "Nazwa Użytkownika";
+$lang['you_must_select_to_date'] = "Musisz wybrać się do daty";
+$lang['you_must_select_from_date'] = "Ty mustselect od daty";
+$lang['amount_type'] = "kwota Rodzaj";
+$lang['you_must_select_a_to_date_greater_than_from_date'] = "Musisz wybrać większy niż do tej pory od daty";
+$lang['you_must_select_a_date'] = "Musisz wybrać datę";
+$lang['You_must_enter_user_name'] = "Musisz podać nazwę użytkownika";
+$lang['all'] = "wszystko";
+$lang['top_earners'] = "Najlepsi zarabiający";
+
+$lang['name'] = "nazwa";
+$lang['current_balance'] = "Aktualne saldo";
+$lang['total_earnings'] = "Wszystkich Zysk";
+$lang['action'] = "Działanie";
+$lang['no_top_earners'] = "Brak Najlepsi zarabiający";
+$lang['profile_reports'] = "Profil Raporty";
+$lang['joining_report'] = "Raport Dołączonych";
+$lang['daily_joining'] = "Dzienne przyłączonych";
+$lang['weekly_joining'] = "Tygodniowe Dołączenia";
+$lang['date'] = "data";
+$lang['from_date'] = "od Daty";
+$lang['to_date'] = "Do Daty";
+$lang['epin_report'] = "Raport E-Pin";
+$lang['full_epin_report'] = "Pełny raport E-Pin";
+$lang['weekly_payout'] = "wypłata";
+$lang['You_must_select_from_date'] = "wybierz Od Daty...";
+$lang['You_must_select_to_date'] = "Musisz podać datę zakończenia";
+$lang['You_must_select_a_Todate_greaterThan_Fromdate'] = "Musisz wybrać Do dziś większa niż Od daty";
+$lang['You_must_select_a_date'] = "Musisz wybrać datę ..";
+$lang['details'] = "Szczegóły";
+$lang['activate_deactivate_report'] = "Aktywuj Dezaktywacja raport";
+$lang['activate_deactivate_report_dialy'] = "Aktywuj Dezaktywacja raportu dobowego";
+$lang['activate_deactivate_report_weekely'] = "Aktywuj Dezaktywacja Tygodniowy raport";
+
+$lang['released_date'] = "data di rilascio";
+$lang['released_date'] = "data di rilascio";
+$lang['user_payout_report'] = "Użytkownik Wypłata Zgłoś";
+$lang['payout_release_report'] = "Wypłata Zgłoś Release";
+$lang['city'] = "Miasto";
+$lang['date_submission'] = 'Data złożenia';
+$lang['select_rank'] = 'Wybierz Rank';
+$lang['select_product'] = "Wybierz Report";
+$lang['You_must_Select_From_To_Date_Correctly'] = "Musisz wybrać z do data Prawidłowo";
+$lang['bank_statement_report'] = "Raport banku";
+$lang['submit'] = "Złożyć";
+$lang['you_must_select_from_to_date_correctly'] = "Należy wybrać z do Data poprawnie";
+$lang['create_excel'] = "Utwórz w programie Excel";
+$lang['digits_only'] = "Tylko cyfry";
+$lang['repurchase_report'] = "﻿ Raport z przyrzeczeniem odkupu ";
+
+$lang['stair_step_report'] = "﻿ Sprawozdanie Komisji krok schodów ";
+$lang['override_report'] = "﻿ Na sprawozdanie Ride ";
+$lang['leader_name'] = "﻿ Nazwa lidera "; 
+$lang['full_name'] = "Imię i nazwisko";
+$lang['username'] = "Nazwa użytkownika";
+
+$lang['user_name'] = "Nazwa użytkownika";
+$lang['full_name'] = "Imię i nazwisko";
+$lang['current_rank'] = "Aktualna pozycja";
+$lang['next_rank'] = "Następna pozycja";
+$lang['rank_details'] = "Szczegóły rang";
+$lang['current_referral_count'] = "Aktualna liczba odesłań";
+$lang['referral_count_for'] = "Liczba odwołań dla";
+$lang['needed_referral_count'] = "Wymagana liczba odesłań";
+$lang['rank_performance_report'] = "Raport skuteczności rangi";
+$lang['username'] = "Nazwa użytkownika";
+//config change report
+$lang['config_change_report'] = "Raport zmian konfiguracji";
+$lang['full_config_changes_report'] = "pełny raport zmian konfiguracji";
+$lang['start_date'] = "Od daty";
+$lang['end_date'] = "Spotykać się z kimś";
+$lang['from_date_greater_than_to_date'] = "Termin-data powinien być większy niż data-data";
+
+
+//
+//E-pin Transfer report
+$lang['epin_transfer_report'] = "E-pin Transfer Report";
+$lang['from_user'] = "Od użytkownika";
+$lang['to_user'] = "Do użytkownika";
+$lang['please_select_one_option'] = "Wybierz przynajmniej jedno kryterium";
+$lang['to_date_greater_than_from_date'] = "Do daty powinna być większa niż data";
+$lang['create_csv'] = "Utwórz plik CSV";
+$lang['select_package'] = "Wybierz pakiet";
+$lang['register'] = "Zarejestrować";
+$lang['repurchase'] = "Zakup";
+$lang['week_wise_payout_report'] = "Tygodniowy raport wypłat";
+
+$lang['registration'] = "Rejestracja";
+$lang['admin_debit'] = "Polecenie administratora";
+$lang['admin_credit'] = "Admin Credit";
+$lang['user_debit'] = "Polecenie użytkownika";
+$lang['user_credit'] = "Kredyt użytkownika";
+$lang['config_history'] = "Historia konfiguracji";
+
+$lang['ip_address'] = "Adres IP";
+$lang['you_must_enter_ip_address'] = "Musisz podać adres IP";
+$lang['digits_dot'] = "To pole zawiera tylko cyfry i operator kropki";
+$lang['roi_report'] = "HYIP/ROI Report";
+
+$lang['transfer_details'] = "Szczegóły transferu";
+$lang['please_select_date'] = "Musisz wybrać datę";
+$lang['to_date_greater_than_from_date'] = "Do tej pory powinno być więcej niż od daty";
+$lang['personal_pv_for'] = "Osobiste PV dla";
+$lang['needed_personal_pv'] = "Needed Personal PV";
+$lang['gpv_for'] = "Grupa PV dla";
+$lang['needed_group_pv'] = "Needed Group PV";
+$lang['current_personal_pv'] = "Aktualny osobisty PV";
+$lang['current_group_pv'] = "Bieżąca grupa PV";
+$lang['settings_report'] = "Raport Dziennik konfiguracji";
+$lang['current_downline_count'] = "Bieżąca liczba downline";
+$lang['downline_count_for'] = "Liczba linii w dół dla";
+$lang['needed_downline_count'] = "Wymagana liczba downline";
+$lang['total_bonus_report'] = "Całkowity raport bonusowy";
+$lang['week_wise_bonus_report'] = "Tygodniowy raport bonusowy";
+$lang['member_wise_bonus_report'] = "Raport premii dla członków";

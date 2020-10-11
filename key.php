@@ -1,0 +1,14 @@
+<?php exit(0); ?>
+
+
+------ LICENSE FILE DATA -------
+UY88TY12lgSt/KQKBHIUVRmL5OXnf80m
+3RZKoaaYULX382G5lF4P+1pYe7s1o3F+
+JN7KCa/994N8OcgpiDzcvTU7dtM81mSr
+8em6g0LWsRYHTbX77A8epFEIIPRgmUPA
+vEKX9NA4t7UXtnZnfoUN/i2W8a/h6jY/
+mQv33FYdvlsLFdX/YQT2bguspjOuyxSQ
+bLFsU0PRa6GIRRYWUjCbhxi/qDMSthUd
+diRzE8weKHQTa9sd+V1CkGPSfpJ2lNix
+BZZPt47nIyNBBw4lnw7N
+--------------------------------

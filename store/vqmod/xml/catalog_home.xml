@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Catalog Header : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="catalog/controller/common/home.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $this->response->setOutput($this->load->view('common/home', $data));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if (isset($this->session->data['error_redirect']) && $this->session->data['error_redirect']) {
+                        $data['error_redirect'] = $this->session->data['error_redirect'];
+                        $this->session->data['error_redirect'] = '';
+                    }
+                    else {
+                        $data['error_redirect'] = '';
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/parallax/template/common/home.tpl">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <?php echo $header; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if ($error_redirect) { ?>
+                    <div class="container-fluid" style="padding: 0 10px;">
+                        <div class="alert alert-danger">
+                            <button data-dismiss="alert" class="close" type="button">×</button>
+                            <p><?php echo $error_redirect ?></p>
+                        </div>
+                    </div>
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

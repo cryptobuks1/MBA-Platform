@@ -1,0 +1,37 @@
+<?php
+$lang['change_admin_password'] = "Cambiar Contraseña de Administrador";
+$lang['current_password'] = "Contraseña Actual";
+$lang['new_password'] = "Nueva contraseña";
+$lang['confirm_password'] = "Confirmar contraseña";
+$lang['change_user_password'] = "Cambiar Contraseña de Usuario";
+$lang['you_must_enter_new_password'] = "Debe Introducir Nueva Contraseña";
+$lang['user_name'] = "Nombre de Usuario";
+$lang['the_password_length_should_be_greater_than_6'] = "La Longitud de la Contraseña Debe Ser Mayor Que 6";
+$lang['you_must_enter_your_current_password'] = "Debe Introducir la Contraseña Actual.";
+$lang['you_must_enter_your_new_password_again'] = "Debe Introducir su Nueva Contraseña.";
+$lang['password_mismatch'] = "Clave Coincide";
+$lang['You_must_enter_user_name'] = "Debe Introducir el Nombre de Usuario ...";
+$lang['You_cant_change_admin_password...'] = "No Puede Cambiar Contraseña de Admin ";
+$lang['password_updated_successfully'] = "Contraseña Actualizado Correctamente.";
+$lang['you_must_enter_your_new_password'] = "Debe Introducir la Nueva Contraseña ";
+$lang['you_must_enter_your_confirm_password'] = "Debe Introducir su Confirmar Contraseña.";
+$lang['your_current_password_is_incorrect_or_new_password_is_too_short'] = "Su Contraseña Actual es Incorrecta o Nueva Contraseña es Demasiado Corta.";
+$lang['special_chars_not_allowed'] = "Sólo los caracteres, números y! @ # $% & * Se admiten";
+$lang['incorrect_username'] = "Nombre de usuario no válido";
+$lang['correct_username'] = "Nombre de usuario válido";
+$lang['loading'] = "Comprobación de nombre de usuario Validez";
+$lang['you_must_enter_password'] = 'Debe introducir la contraseña';
+$lang['error_on_password_updation'] = "actualización de la contraseña falló.";
+$lang['change_password'] = "'Cambiar contraseña'";
+$lang['this_option_is_not_available_in_preset_demos'] = "'Esta opción no está disponible en el preset demos'";
+$lang['this_option_is_not_available_for_preset_users'] = "'Esta opción no está disponible para el preajuste de los usuarios";
+$lang['invalid_user_name'] = "'Nombre De Usuario No Válido'";
+$lang['New_password_is_too_short'] = "'Nueva contraseña es demasiado corta'";
+$lang['password_characters_allowed'] = "'Caracteres'";
+$lang['update'] = "Actualización";
+$lang['change_username'] = "Cambie el nombre de usuario";
+$lang['change_credential'] = "Cambiar credencial";
+$lang['this_field_is_required'] = "este campo es requerido";
+$lang['you_must_enter_confirm_password'] = "Debe introducir la contraseña de confirmación.";
+
+$lang['max_32'] = "Por favor, introduzca no más de 32 caracteres";

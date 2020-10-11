@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Admin Extension : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="admin/controller/extension/extension.php">
+           
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    'text' => $this->language->get('heading_title') . ' (' . count($files) .')',
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    'text' => $this->language->get('heading_title'),
+                ]]>
+            </add>
+        </operation>
+        
+    </file>
+    <file name="admin/controller/extension/extension/payment.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    $data['extensions'][] = array(
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $module_status = $this->session->data['inf_module_status'];
+                    
+                    if (!in_array($extension, ['epin', 'ewallet', 'cod', 'bank_transfer', 'pp_express','bitgo','block_chain','blocktrail'])) {
+                        continue;
+                    }
+                    if (($module_status['pin_status'] == 'no' && $extension == 'epin') || ($module_status['ewallet_status'] == 'no' && $extension == 'ewallet')) {
+                        continue;
+                    }
+                    
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+    
+</modification>

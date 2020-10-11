@@ -1,0 +1,11 @@
+.mini-product-area {
+    display: none;
+}
+.footer-area {
+    border-top: 3px solid #ff623f;
+    margin-top: 15px;
+}
+.brand-logo-area {
+    padding-top: 0px !important;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,22 @@
+<?php
+$lang['leg_count'] = "会员组织（脚）的数据";
+$lang['userid_fullname'] = "用户名 - 全名";
+$lang['left_point'] = "左脚点数";
+$lang['right_point'] = "右脚点数";
+$lang['left_carry'] = "左脚余额";
+$lang['right_carry'] = "右脚余额";
+$lang['total_pair'] = "对碰总数";
+$lang['amount'] = "点额";
+$lang['no_leg_count_found'] = "没有组织（脚）的数据";
+$lang['view_commission_details'] = "查看佣金详情";
+$lang['view_income_details'] = "查看收入详情";
+$lang['view_income_statement'] = "查看收入表";
+$lang['view_ewallet_details'] = "查看电子钱包详情";
+$lang['view_user_epin'] = "查看用户电子密码";
+$lang['user_account'] = "用户帐号";
+$lang['user_name'] = "用户名";
+$lang['commission_details'] ='佣金详细';
+$lang['total'] = "总数";
+$lang['view'] = "显示";
+$lang['members'] = '会员';
+$lang['users'] = '用户';

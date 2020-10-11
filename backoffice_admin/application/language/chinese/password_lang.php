@@ -1,0 +1,39 @@
+<?php
+$lang['change_admin_password'] = "更换公司管理委密码";
+$lang['current_password'] = "当前密码";
+$lang['new_password'] = "新密码";
+$lang['confirm_password'] = "确认密码";
+$lang['change_user_password'] = "更换会员用户密码";
+$lang['you_must_enter_new_password'] = "请输入新密码";
+$lang['user_name'] = "用户名";
+$lang['the_password_length_should_be_greater_than_6'] = "密码最少需要多过6个字号";
+$lang['you_must_enter_your_current_password'] = "请输入现用的密码";
+$lang['you_must_enter_your_new_password_again'] = "你必須再次輸入新密碼。";
+$lang['password_mismatch'] = "密码不匹配";
+$lang['You_must_enter_user_name'] = "请输入会员用户名";
+$lang['You_cant_change_admin_password'] = "您不能更改管理员密码...";
+$lang['password_updated_successfully'] = "密码更新成功";
+$lang['you_must_enter_your_new_password'] = "您必須輸入您的新密碼 ";
+$lang['you_must_enter_your_confirm_password'] = "您必须输入确认密码";
+$lang['your_current_password_is_incorrect_or_new_password_is_too_short'] = "密码不正确或太短";
+$lang['special_chars_not_allowed'] = "特殊字符不允许 ";
+$lang['special_chars_not_allowed'] = "只有字母，数字和 !@#$%&* 允许";
+$lang['incorrect_username'] = "用户名无效";
+$lang['correct_username'] = "有效的用户名";
+$lang['loading'] = "检查用户名有效性";
+$lang['you_must_enter_password'] = '您必须输入密码';
+$lang['error_on_password_updation'] = "密码更新失败。";
+$lang['change_username'] = "更改用户名";
+$lang['change_credential'] = "更改凭证";
+$lang['change_password'] = "更改密码";
+$lang['this_option_is_not_available_in_preset_demos'] = "此选项在预设演示中不可用";
+$lang['this_option_is_not_available_for_preset_users'] = "此选项不适用于预设用户";
+$lang['invalid_user_name'] = "无效的用户名";
+$lang['New_password_is_too_short'] = "新密码太短";
+$lang['password_characters_allowed'] = "允许的字符";
+$lang['update'] = "更新";
+$lang['this_field_is_required'] = "这是必填栏";
+$lang['you_must_enter_confirm_password'] = "您必须输入确认密码。";
+$lang['max_32'] = "请输入不超过32个字符";
+
+

@@ -1,0 +1,45 @@
+<?php
+$lang['upgrade_plan'] = "Zaktualizuj  Plan";
+$lang['invalid_reference_url_ex'] = "Nieprawidłowy odnośnik URL!";
+$lang['your_request_has_saved_successfully'] = "Pomyślnie zapisano twoją prośbę.";
+$lang['upgrade_infinite_mlm'] = "Zaktualizuj Infinite MLM";
+$lang['please_fill_the_following_details_all_fields_are_mandatory'] = "Proszę wypełnij nastepujące szczegóły (wszystkie pola są wymagane).";
+$lang['mlm_plan_details'] = "Szczegóły planu MLM";
+$lang['you_must_enter_mlm_plan_details'] = "Musisz podać szczegóły dla planu MLM";
+$lang['you_must_enter_reference_url'] = "Musisz wpisać odnośnik URL";
+$lang['you_must_select_mlm_documents'] = "Musisz wybrać dokument MLM";
+$lang['do_you_need_shopping_cart_ecommerce'] = "Czy potrzebujesz sklep internetowy?";
+$lang['do_you_need_repurchase_monthly_subscribe'] = "Czy potrzebujesz kupić ponownie / mieć miesięczną subskrybcje";
+$lang['do_you_need_website_replication'] = "Czy potrzebujesz replikę strony internetowej?";
+$lang['reference_url'] = "Odniesienie URL";
+$lang['mlm_plan_documents'] = "Dokumenty planu MLM";
+$lang['your_feedback_send_successfully_thank_you_for_posting_feedback'] = "Pomyslnie wysłano twój komentarz  Dziękujemy za zamieszczenie komentarza";
+$lang['feedback_sending_failed'] = "Niepowiodło się wysłanie komentarza ";
+$lang['infinite_mlm_feedback'] = "Komentarz odnośnie Infinie MLM";
+$lang['feedback_subject'] = "Temat komentarza";
+$lang['feedback_details'] = "Szczegóły komentarza";
+$lang['send'] = "Wyślij";
+$lang['you_must_enter_feedback_subject'] = "Musisz podać temat komentarza";
+$lang['you_must_enter_feedback_details'] = "Musisz podać szczegóły komentarza";
+$lang['send_feedback'] = "Wyślij opinię";
+$lang['you_are_already_upgraded_your_plan'] = "Jesteś już uaktualniony plan";
+$lang['select_file'] = "Wybierz Plik";
+$lang['change'] = "zmiana";
+$lang['yes'] = "tak";
+
+$lang['reference'] = "odniesienie";
+$lang['example'] = "przykład";
+$lang['updation_failed'] = "updation Failed";
+$lang['feedbacks'] = "Opinie";
+
+$lang['update'] = "Aktualizacja ";
+$lang['shopping_status'] = "Status Handlowego ";
+$lang['replication_status'] = "Stan replikacji ";
+$lang['document'] = "Dokument";
+$lang['repurchase_status'] = "Status Wykluczenia";
+$lang['invalid_reference_url'] = "Nieprawidłowy referencyjny adres URL";
+$lang['please_select_file'] = "Proszę wybrać fle";
+$lang['invalid_file_name'] = "Nieprawidłowa nazwa pliku";
+$lang['max_size_200MB'] = "Plik, który próbujesz przesłać, jest większy niż 200 MB";
+$lang['filetype_not_allowed'] = "Typ pliku, który próbujesz przesłać, jest niedozwolony";
+$lang['error_uploading_file'] = "Nie udało się przesłać pliku";

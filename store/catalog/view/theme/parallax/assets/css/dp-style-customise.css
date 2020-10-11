@@ -1,0 +1,199 @@
+/* ========== General Styling :: START ========== */
+header {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.top-bar {
+    background-color: rgba(255, 255, 255, 0);
+}
+.top-bar ul li a {
+    padding: 2px 12px;
+}
+.top-bar .top-links {
+    float: right;
+}
+.top-links {
+    font-size: 12px;
+}
+.logo img {
+    width: 178px;
+    margin-top: -25px;
+} 
+.sfmenuffect,
+.top-bottom,
+.zoomContainer,
+.product-img-box .icon,
+.footer-area,
+.header-container .header-search,
+.addthis_toolbox,
+.header-menu,
+.breadcrumb-area .breadcrumb,
+.category-products .toolbar,
+.product-collateral .single-product-tab #myTab,
+.nav_vmmenu-area,
+.owl-nav, 
+.our-product-box > .tab-menu,
+#compare-total,
+.lable-new, 
+.ratting-box,
+.product-img .hover-box a.button-search,
+.qty-arrows {
+    display: none!important;
+}
+.product-shop button.btn-button:hover,
+a.btn-button:hover,
+button.btn-button:hover,
+input.btn-button:hover,
+.btn-primary:hover, 
+.btn-default:hover, 
+.btn-primary:focus, 
+.btn-default:focus {
+    background-color: #80682c;
+    border-color: transparent;
+}
+.panel-heading:hover, .panel-heading.active, .panel-heading:active {
+    background-color: #b79f54;
+    border-color: #775626;
+}
+a:hover {
+    color: #b79f54;
+}
+.alert-success a {
+    color: white;
+    background: #73b77b;
+    padding: 2px 9px;
+    border-radius: 3px;
+}
+.alert-success a:hover {
+    background-color:#57985f;
+}
+.alert-success {
+    text-align: center;
+}
+.alert {
+    border-radius: 0px;
+}
+.product-price .new-price:after,
+.cart-sub-total .inner-left-md:after {
+    content: " (USD)";
+    font-size: 12px;
+    font-weight: normal;
+}
+.category-product .container .row .col-sm-4.col-md-3.col-lg-3 {
+    width:0%;
+}
+.category-product .container .row .col-sm-8.col-md-9.col-lg-9 {
+    width:100%;
+}
+.product-shop button.btn-button,
+.tomato-bg {
+    background-color: #a88d49;
+    color: #fff;
+    border-color: transparent;
+}
+.product-shop .new-price, .list-unstyled .editable.instock {
+    color: #a88d49;
+}
+.single-product-tab .nav-tabs > li.active > a, .single-product-tab .nav-tabs > li.active > a:hover, .single-product-tab .nav-tabs > li > a:hover, .single-product-tab .nav-tabs > li > a:focus {
+    border-bottom: 3px solid #333333;
+    color: #333333;
+}
+.single-product-description ul {
+    margin-left: 20px;
+}
+.single-product-description ul li {
+    list-style: disc;
+}
+.page-title > span {
+    border-bottom: 2px solid #80682c;
+}
+.products-name h1,
+.product-hadding span,
+.page-title span {
+    letter-spacing: -2px;
+    font-size: 42px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.product-name > a {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #965c21;
+}
+/* ========== Product Page ========== */
+
+.product-hadding > span {
+    border-bottom: none;
+}
+
+.add-to-cart button.btn-button {
+    width: auto;
+}
+#product .add-to-cart {
+    padding-top:20px;
+}
+.shopping-cart .buttons {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.single-product-tab .tab-content {
+    border: 1px solid #e8e8e8;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    margin-top: -2px;
+}
+.single-product-tab .single-product-description h3:nth-of-type(1) {
+    margin-top:0px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #a88d49;
+}
+.line-color:after {
+    background-color: #b88842;
+}
+.product-view .product-shop > ul.list-unstyled li:nth-of-type(odd) {
+    display: none;
+}
+button.btn-button.cart-button:hover {
+    color: #ffffff;
+}
+.product-view .product-price {
+    padding-bottom:0px;
+}
+
+/* ========== Checkout Cart Page ========== */
+
+/*
+.qty-area .qty-arrows {
+    left: -3px;
+}
+.qty-area .input-text.qty {
+    margin-top: -5px;
+}
+.qty-area .qty-increase {
+    height: auto;
+    width: 18px;
+    line-height: 18px;
+}
+.qty-area .qty-decrease {
+    height: auto;
+    width: 18px;
+    line-height: normal;
+}
+*/
+
+@media (min-width: 768px) {
+.navbar-nav {
+    float: right;
+}
+}

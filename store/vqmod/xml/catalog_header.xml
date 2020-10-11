@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Catalog Header : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="catalog/controller/common/header.php">
+        <operation error="log">
+            <search position="replace" offset="5">
+                <![CDATA[
+                    if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $site_information = $this->session->data['inf_site_information'];
+                    $data['logo'] = ROOT_URL . "uploads/images/logos/" . $site_information['logo'];
+                    $this->load->model('account/inf_register');
+                    $data['registration_allowed'] = $this->model_account_inf_register->isRegistrationAllowed();
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace" offset="3">
+                <![CDATA[
+                    if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $site_information = $this->session->data['inf_site_information'];
+                    $data['icon'] = OFFICE_PATH . "public_html/images/logos/" . $site_information['favicon'];
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->load->language('common/header');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $module_status = $this->session->data['inf_module_status'];
+                    $data['multi_lang_status'] = $module_status['lang_status'];
+                    $data['multi_currency_status'] = $module_status['multy_currency_status'];
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['text_all'] = $this->language->get('text_all');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['note']=$this->language->get('text_note');
+                    $data['module_optional']=$this->language->get('text_module_optional');
+                    $data['click_here']=$this->language->get('text_click_here');
+                    $data['details']=$this->language->get('text_details');
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['contact'] = $this->url->link('information/contact');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $user_type = $this->customer->getUserType();
+                    $directory = ($user_type=='admin') ? 'admin' :'user';
+                    if($user_type == "admin") {
+                        $data['backoffice_url'] = OFFICE_PATH . $directory  . "/home";
+                    } else {
+                        $data['backoffice_url'] = OFFICE_PATH_USER . $directory  . "/home";
+                    }
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $data['text_register'] = $this->language->get('text_register');
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['text_register_new_member'] = $this->language->get('text_register_new_member');
+                    $data['text_my_backoffice'] = $this->language->get('text_my_backoffice');
+                    $data['text_logged_as'] = $this->language->get('text_logged_as');
+                    $data['is_logged'] = $this->customer->isLogged();
+                    $data['user_name'] = $this->customer->getUserName();
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/common/header.tpl">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if($is_logged) { ?>
+                        <div id="top-links" class="nav pull-left"><?php echo $text_logged_as; ?> <a href="<?php echo OFFICE_PATH; ?>" target="_blank"><?php echo $user_name; ?></a> </div>
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if($multi_currency_status == 'yes') { ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $language; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if($multi_lang_status == 'yes') { ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <?php echo $language; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    </header>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="container">
+                        <div class="alert-note" style="padding-top:10px;">
+                            <?php if(DEMO_STATUS=="yes" && $_SERVER['SERVER_NAME'] == "infinitemlmsoftware.com"){ ?>
+                                <div class="alert alert-info">
+                                    <button data-dismiss="alert" class="close" type="button">×</button>
+                                    <p><i class="fa fa-info-circle"></i> <b>Note!</b> This is add-on module. <a href="https://infinitemlmsoftware.com/pricing.php" target="_blank"><b>Click here</b></a> for more details.</p>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace" offset="3">
+                <![CDATA[
+                    <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <li><a href="<?php echo $register; ?>"><?php echo $text_register_new_member; ?></a></li>
+                    <li><a href="<?php echo $backoffice_url; ?>" target="_blank"><?php echo $text_my_backoffice; ?></a></li>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <li><a href="<?php echo $register; ?>"><?php echo $text_register_new_member; ?></a></li>
+                    <li><a href="<?php echo $backoffice_url; ?>" target="_blank"><?php echo $text_my_backoffice; ?></a></li>
+                ]]>
+            </add>
+        </operation>
+        
+    </file>
+    <file name="catalog/view/theme/parallax/template/common/header.tpl">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if($multi_currency_status == 'yes') { ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <?php echo $currency; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    <?php echo $language; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if($multi_lang_status == 'yes') { ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    <?php echo $language; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    </header>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="container-fluid">
+                        <div class="alert-note" style="padding:18px 17px 0 17px;">
+                            <?php if(DEMO_STATUS=="yes" && $_SERVER['SERVER_NAME'] == "infinitemlmsoftware.com"){ ?>
+                                <div class="alert alert-info">
+                                    <button data-dismiss="alert" class="close" type="button">×</button>
+                                    <p><i class="fa fa-info-circle"></i> <b>Note!</b> This is add-on module. <a href="https://infinitemlmsoftware.com/pricing.php" target="_blank"><b>Click here</b></a> for more details.</p>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace" offset="3">
+                <![CDATA[
+                    <li><a href="<?php echo $account; ?>"> <span><?php echo $text_account; ?></span></a></li>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if ($registration_allowed) { ?>
+                    <li><a href="<?php echo $register; ?>"><span><?php echo $text_register_new_member; ?></span></a></li>
+                    <?php } ?>
+                    <li><a href="<?php echo $backoffice_url; ?>" target="_blank"><span><?php echo $text_my_backoffice; ?></span></a></li>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <span class="fa fa-user"></span> <?php echo $text_account; ?>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <span class="fa fa-user"></span> <?php echo $text_account; ?><?php if ($logged) { echo "($user_name)";?><?php } ?>
+                ]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <li><a href="<?php echo $register; ?>"> <span><?php echo $text_register; ?></span></a></li>
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php if ($registration_allowed) { ?>
+                    <li><a href="<?php echo $register; ?>"> <span><?php echo $text_register; ?></span></a></li>
+                    <?php } ?>
+                ]]>
+            </add>
+        </operation>
+        
+    </file>
+    <file name="catalog/view/theme/default/template/common/currency.tpl">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <div class="pull-left">
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="pull-right">
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/common/language.tpl">
+        <operation error="log">
+            <search position="replace">
+                <![CDATA[
+                    <div class="pull-left">
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <div class="pull-right">
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+</modification>

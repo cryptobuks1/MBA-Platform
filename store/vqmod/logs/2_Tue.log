@@ -1,0 +1,21 @@
+---------- Date: 2020-02-11 13:27:35 ~ IP : 103.103.174.106 ----------
+REQUEST URI : /jason/store/index.php?route=extension/payment/cod/confirm&_=1581427645105
+MOD DETAILS:
+   modFile   : /home/demo6iossmlm/public_html/jason/store/vqmod/xml/catalog_checkout.xml
+   id        : Startup : Updates
+   version   : 2.3.0.2
+   vqmver    : 2.6.0
+   author    : Infinite Open Source Solutions
+
+File Name    : catalog/view/theme/parallax/template/mail/order.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <td style="font-size: 12px; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: right; padding: 7px;"><?php echo $product['quantity']; ?></td>
+
+File Name    : catalog/view/theme/parallax/template/mail/order.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <td style="font-size: 12px; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: right; padding: 7px;"><?php echo $product['price']; ?></td>
+
+File Name    : catalog/view/theme/parallax/template/mail/order.tpl(2)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <td style="font-size: 12px; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: right; padding: 7px;" colspan="4"><b><?php echo $total['title']; ?>:</b></td>
+
+----------------------------------------------------------------------
+
+

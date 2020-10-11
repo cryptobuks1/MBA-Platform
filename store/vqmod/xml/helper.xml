@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Helper : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    <file name="system/helper/general.php">
+        <operation error="log">
+            <search position="before">
+                <![CDATA[
+                    if(!function_exists('hash_equals')) {
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if(!function_exists('is_ajax_request')) {
+                        function is_ajax_request() {
+                            return ( ! empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest');
+                        }
+                    }
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

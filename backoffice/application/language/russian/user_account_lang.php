@@ -1,0 +1,34 @@
+<?php
+$lang['view_commission_details'] = "Просмотреть данные комиссии";
+$lang['view_income_details'] = "Просмотреть сведения о доходе";
+$lang['view_income_statement'] = "Просмотреть выпущенный доход";
+$lang['view_ewallet_details'] = "Просмотреть детали Ewallet";
+$lang['view_user_epin'] = "Просмотр пользователя E-pin";
+$lang['user_account'] = "Учетная запись пользователя";
+$lang['user_name'] = "имя пользователя";
+$lang['User_account'] = "Учетная запись пользователя";
+$lang['first_name'] = "Имя";
+$lang['last_name'] = "Фамилия";
+$lang['date_of_birth'] = "Дата рождения";
+$lang['gender'] = "Пол";
+$lang['mobile_no'] = "мобильный";
+$lang['email'] = "Эл. почта";
+$lang['view_profile'] = "Просмотреть профиль";
+$lang['view_refferal_details'] = "Просмотр рефералов";
+$lang['Username_not_Exists'] = "Имя пользователя не существует";
+$lang['commission_details'] = "Информация о комиссии";
+$lang['profile'] = "Профиль";
+$lang['income_details'] = "Доход пользователя";
+$lang['refferal_details'] = "Переходов";
+$lang['ewallet_details'] = "электронный кошелек";
+$lang['user_epin'] = "Пользовательский E-контакт";
+$lang['income_statement'] = "Выпущенный доход";
+$lang['user_epin'] = "Пользовательский E-контакт";
+$lang['business_volume'] = "Объем бизнеса";
+$lang['binary_details'] = "Двоичные данные";
+
+$lang['view_binary_details'] = "Посмотреть двоичные данные";
+$lang['view_business_volume'] = "Посмотреть объем бизнеса";
+$lang['User_account'] = "Учетная запись пользователя";
+$lang['user_overview'] = "Обзор пользователя";
+$lang['purchase_wallet'] = "Купить кошелек";

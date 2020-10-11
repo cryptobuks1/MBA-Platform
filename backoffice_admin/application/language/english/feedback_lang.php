@@ -1,0 +1,35 @@
+<?php
+
+$lang['feedback_deleted_successfully'] = "Feedback deleted successfully";
+$lang['error_on_deleting_feedback'] = "Feedback deletion failed";
+$lang['visitors_name'] = "Visitor's Name";
+$lang['company'] = "Company";
+$lang['phone_no'] = "Phone No";
+$lang['time_to_call'] = "Time To Call";
+$lang['email'] = "E-mail";
+$lang['no_feedback_found'] = "No Feedback Found";
+$lang['delete'] = "Delete";
+$lang['sure_you_want_to_delete_this_feedback_there_is_no_undo'] = "Sure you want to delete this feedback? There is NO undo!";
+$lang['feedbacks'] = "Feedbacks";
+$lang['feedback_details'] = "Feedback Details";
+$lang['feedback_view'] = " Feedback";
+$lang['action'] = "Action";
+$lang['digits_only'] = "Digits Only";
+$lang['rows'] = "Rows";
+$lang['shows'] = "Shows";
+$lang['feed_back_added_successfully'] = "Feedback added successfully";
+$lang['feed_back_failed'] = "Failure on adding feedback";
+$lang['you_must_enter_the_user_name'] = "You must enter the username";
+$lang['phone_number_should_be_atleast_5_digits_long'] = "Please enter at least 5 digits";
+$lang['company_name_should_be_atleast_3_characters_long'] = "Company name should be atleast 3 characters long";
+$lang['company_name_cannot_be_greater_than_32_characters'] = "Company name cannot be greater than 32 characters";
+$lang['email_cannot_be_greater_than_50_characters'] = "Email cannot be longer than 50 characters";
+$lang['comments'] = "Comment";
+$lang['please_enter_your_company_name'] = "You must enter company name";
+$lang['please_type_your_time_to_call'] = "You must select time";
+$lang['you_have_entered_invalid_time'] = "You have entered an invalid  time";
+$lang['please_type_your_e_mail_id'] = "You must enter  e-mail id";
+$lang['please_type_your_comments'] = "You must enter comment";
+$lang['please_type_your_phone_no'] = "You must enter phone number";
+$lang['email_format_is_incorrect'] = "Your email address must be in the format name@domain.com";
+$lang['phone_number_cannot_be_longer_than_32_digits'] = "Please enter no more than 10 digits";

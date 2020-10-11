@@ -1,0 +1,217 @@
+.binary_bg {
+        background-color: #f0f3f4;
+
+    }
+    .tree_main {
+    overflow: auto !important;
+}
+
+    .list-group {
+        padding-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 8px 13px 24px;
+        margin-bottom: -1px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .toooltip {
+        position: absolute;
+        white-space: nowrap;
+        border-collapse: collapse;
+        border: 1px solid;
+        width: 16%;
+        left: 50%;
+        display: none
+    }
+
+
+
+    .node:hover+.toooltip {
+        display: table;
+    }
+
+
+
+
+    .Demo_head_bg p {
+        color: white;
+        font-size: 15px;
+        font-weight: 600
+    }
+
+    .Demo_head_bg {
+        background-color: #40b7e5;
+        padding: 5px;
+    }
+
+    .tree_img_tree img {
+        width: 45px;
+    }
+
+    .tree_img_tree p {
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+
+    .demo_top p {
+        margin-top: 26px
+    }
+
+    .jOrgChart .node {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(114, 102, 186) 0%, rgb(48, 30, 156) 100%) repeat scroll 0 0;
+        border: 2px solid #ccc;
+        color: #fff;
+        display: inline-block;
+        height: 80px;
+        overflow: hidden;
+        width: 85px;
+        word-break: break-all;
+    }
+
+    .demo_name_style {
+
+        background-color: #7166ba;
+        padding: 2px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+    .demo_name_style_red {
+
+        background-color: #dd574c;
+        padding: 2px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+    .demo_name_style_blue {
+
+        background-color: #40b6e4;
+        padding: 2px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+    .jOrgChart td {
+        text-align: center;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    .jOrgChart .node {
+        /* margin-bottom: -5px; */
+        font-size: 12px !important;
+        /* background-color: #35363B; */
+    }
+
+    .jOrgChart .node {
+        /* background-color: #35363B; */
+        display: inline-block;
+        margin: -5px 25px;
+        z-index: 10;
+        overflow: hidden;
+        word-break: break-all
+    }
+
+    .jOrgChart .down {
+        background-color: #6F6F6F;
+        margin: 0px auto;
+    }
+
+
+    .jOrgChart .username {
+        overflow: hidden;
+        width: auto;
+        color: #FFFFFF;
+        background: #807979;
+        padding: 2px 8px;
+        border-radius: 2px;
+    }
+
+    .jOrgChart .right {
+        border-left: 2px solid white;
+    }
+
+    .jOrgChart .top {
+        border-top: 2px solid #6F6F6F;
+    }
+
+    .jOrgChart td {
+        text-align: center;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    .jOrgChart .right {
+        border-left: 2px solid white;
+    }
+
+    .jOrgChart .line {
+        height: 24px;
+        width: 2px;
+    }
+
+    .jOrgChart td {
+        text-align: center;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    .jOrgChart .left {
+        border-right: 2px solid #6F6F6F;
+    }
+
+    .orgChart {
+        overflow: auto;
+        margin-top: 30px;
+        transform-origin: 0% 0% 0px !important;
+        margin-bottom: 20px;
+    }
+
+    .jOrgChart {
+        margin-top: 26px;
+    }
+
+    @media (min-width:1920px) {
+
+        .toooltip {
+            left: 47% !important;
+        }
+
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .toooltip {
+            width: 30% !important;
+        }
+    }
+
+    @media (max-width:768px) {
+
+        .toooltip {
+            width: 30% !important;
+            left: 45% !important;
+        }
+    }
+
+    @media (max-width:767px) {
+
+        .toooltip {
+            width: 64% !important;
+            left: 15% !important;
+        }
+    }

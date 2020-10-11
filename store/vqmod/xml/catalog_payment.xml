@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Startup : Updates</id>
+    <version>2.3.0.2</version>
+    <vqmver>2.6.0</vqmver>
+    <author>Infinite Open Source Solutions</author>
+    
+    <file name="catalog/controller/extension/payment/cod.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('cod_order_status_id'));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                    //$this->load->model('account/inf_register');
+                    //$customer_id = $this->customer->getId();
+                    //$user_id = $this->customer->getUserId();
+                    //$this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    
+                   
+
+                    
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/epin.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($order_id, $this->config->get('epin_order_status_id'));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                    $this->load->model('account/inf_register');
+                    $customer_id = $this->customer->getId();
+                    $user_id = $this->customer->getUserId();
+                    $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                     
+
+                  
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/ewallet.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('bank_transfer_order_status_id'), $comment, true);
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                 
+                    $this->load->model('account/inf_register');
+                    $customer_id = $this->customer->getId();
+                    $user_id = $this->customer->getUserId();
+                    $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                    
+                   
+
+                  
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/bank_transfer.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('bank_transfer_order_status_id'), $comment, true);
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                   
+                    
+                 //   $this->load->model('account/inf_register');
+                  //  $customer_id = $this->customer->getId();
+                  //  $user_id = $this->customer->getUserId();
+                  //  $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                  //  $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                    
+                   
+
+                   
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/bitgo.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('config_order_status_id'));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                   
+                    
+                    $this->load->model('account/inf_register');
+                    $customer_id = $this->customer->getId();
+                    $user_id = $this->customer->getUserId();
+                    $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                    
+                   
+
+                   
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/block_chain.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('config_order_status_id'), $comment, true);
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                   
+                    
+                    $this->load->model('account/inf_register');
+                    $customer_id = $this->customer->getId();
+                    $user_id = $this->customer->getUserId();
+                    $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                    
+                     
+
+                   
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/controller/extension/payment/blocktrail.php">
+        <operation error="log">
+            <search position="after">
+                <![CDATA[
+                    $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('config_order_status_id'));
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    //Add RePurchase to MLM BackOffice //
+                    
+                   
+                    
+                    $this->load->model('account/inf_register');
+                    $customer_id = $this->customer->getId();
+                    $user_id = $this->customer->getUserId();
+                    $this->model_account_inf_register->calculateUserRepurchaseCommissions($this->session->data['order_id'], $customer_id, $user_id);
+                    $this->model_account_inf_register->UpdateConfimed($this->session->data['order_id']);
+                    
+                   
+
+                   
+                ]]>
+            </add>
+        </operation>
+    </file>
+    
+</modification>

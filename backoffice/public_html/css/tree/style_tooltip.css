@@ -1,0 +1,113 @@
+/* Easy Tooltip */
+
+#easyTooltip{
+    margin:0 20px 1em 0;
+    width:260px;
+    max-width:279px;
+    word-break: break-all;
+    padding:8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background: #fff;
+    line-height:130%;			
+}
+
+#easyTooltip h1{
+    font-size:180%;
+    font-weight:normal;
+}
+#easyTooltip h2{
+    font-size:160%;
+    font-weight:normal;
+}	
+
+.img_bg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px!important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: none !important;
+  
+    }
+#easyTooltip h3{
+    font-size:140%;
+    font-weight:normal;
+    margin:0 0 .5em 0;
+    font:13px Arial, Helvetica, sans-serif;
+}	
+#easyTooltip pre{
+    display:block;
+    font:12px "Courier New", Courier, monospace;
+    padding:10px;
+    border:1px solid #bae2f0;
+    background:#e3f4f9;	
+    margin:.5em 0;
+    width:500px;
+}
+#easyTooltip p{
+    margin:0 0 .5em 0;
+    text-align:justify;
+}		
+#easyTooltip img{
+    background:#000;
+    padding:1px;
+    border:2px solid #ccc;
+    float:left;
+    margin-right:10px;
+}	
+
+
+
+.span_username{
+    font-weight:bold; 
+    color:#fff; 
+    font-size:14px;
+}	
+
+.tooltip_div {
+    line-height: 20px;
+}
+
+.tooltip_details {
+    line-height:20px;
+    border-top: 1px solid #16aad8;
+}
+
+.tooltip_table {
+    width:100%;
+    line-height:11px;
+}
+
+/*.tooltip_table tr:nth-child(odd) {
+    background-color:#f5f5f5;
+}
+*/
+/*.tooltip_table tr:nth-child(even) {
+    background-color:#fff;
+}*/
+
+.tooltip_table tr{
+    /*background-color:#e8e8e8;*/
+    background-color: #fff;
+}
+
+.tooltip_table tr td {
+    padding: 5px 15px 5px 15px;
+    color: #333 !important;
+    text-align: center;
+}
+
+.table_pv {
+    text-align: right;
+}
+
+#easyTooltip  td,th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/* // Easy Tooltip */
+

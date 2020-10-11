@@ -1,0 +1,41 @@
+<?php
+$lang['BOARD_VIEW'] = "视图俱乐部";
+$lang['type_members_name'] = "输入会员用户名称";
+$lang['Board_Commission'] = "董事会委员会";
+$lang['commission_setting'] = "委員會設置";
+$lang['club_id'] = "俱乐部编号";
+$lang['club_username'] = "俱乐部会员用户名";
+$lang['club_split'] = "俱乐部均分";
+$lang['invalid_user_id_or_not_found'] = "无效的会员用户编号!!!";
+$lang['enter_club_no'] = "请输入俱乐部编号";
+
+$lang['yes'] = "是";
+
+$lang['board_view'] = "板查看";
+$lang['submit'] = "提交";
+$lang['total'] = '總';
+$lang['board_name'] = '主板名稱';
+$lang['table_name'] = '表名';
+$lang['table_view'] = "表视图";
+$lang['table_id']='表ID';
+$lang['table_username']='表用户名';
+$lang['table_split']='表拆分';
+$lang['view_table']='查看表';
+$lang['show_all_tables']='顯示所有表';
+$lang['show_all_boards']='全部顯示板';
+$lang['table_commission'] = "填写表格委员会";
+$lang['user_club_details'] = "会员用户详细";
+$lang['summary'] = "摘要";
+$lang['no_of_members_in_downline'] = "下线会员数目";
+$lang['directly_enrolled_members'] = "个人注册会员";
+$lang['members_enrolled_in_this_month'] = "总月份注册会员";
+$lang['clubs_splitted'] = "俱乐部均分";
+$lang['clubs_completed'] = "俱乐部完成";
+$lang['club_details'] = "俱乐部详细";
+$lang['invalid_club_no'] = "无效的俱乐部编号!!!";
+$lang['SEARCH_BOARD'] = "搜索俱乐部";
+$lang['board_view_management'] = "董事会视图管理";
+$lang['board_number'] = "必须输入板号";
+$lang['date_of_joining'] = "最新加盟";
+$lang['view_board'] = "查看董事会";
+$lang['invalid_board'] = "无效的董事会！";

@@ -1,0 +1,27 @@
+<?php
+$lang['leg_count'] = "Conde pierna";
+$lang['select_user_name'] = "Seleccione Nombre de usuario";
+$lang['userid_fullname'] = "Nombre de usuario Nombre completo";
+$lang['left_point'] = "apuntar hacia la izquierda";
+$lang['right_point'] = "Punto de derecho";
+$lang['left_carry'] = "Carry Left";
+$lang['right_carry'] = "Carry derecho";
+$lang['total_pair'] = "total Par";
+$lang['amount'] = "cantidad";
+$lang['no_leg_count_found'] = "Sin Conde Pierna Encontrado";
+$lang['view_commission_details'] = "Ver detalles Comisión";
+$lang['view_income_details'] = "Ver detalles de Ingresos";
+$lang['view_income_statement'] = "Declaración de la Renta Vista";
+$lang['view_ewallet_details'] = "Ver detalles Monedero Electrónico";
+$lang['view_user_epin'] = "Ver Usuario E -pin";
+$lang['user_account'] = "Cuenta de usuario";
+$lang['user_name'] = "Nombre de usuario";
+$lang['commission_details'] = 'Detalles Comisión';
+$lang['total'] = "cantidad";
+$lang['view'] = "vista";
+$lang['Username_not_Exists'] = "El usuario no existe";
+$lang['you_must_enter_user_name'] = "Debe introducir el nombre de usuario";
+$lang['rows'] = "filas";
+$lang['shows'] = "espectáculos";
+$lang['binary_details'] = "Detalles binarios";
+$lang['No_Leg_Count_Found'] = "No se encontró el recuento de la pierna Suggest an edit";

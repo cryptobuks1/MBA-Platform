@@ -1,0 +1,32 @@
+<?php
+$lang['total_joining_count'] = "Total Joining Count";
+$lang['daily_joining'] = "Daily Joining";
+$lang['joining_status'] = "Joining Status";
+$lang['daily'] = "Daily";
+$lang['date'] = "Date";
+$lang['search'] = "Search";
+$lang['weekly_joining'] = "Weekly Joining";
+$lang['blocked'] = "Blocked";
+$lang['sponser_name'] = "Sponsor Name";
+$lang['date_of_joining'] = "Date Of Joining";
+$lang['You_must_select_a_date'] = "You must select a date..";
+$lang['You_must_select_from_date'] = "You must select from date...";
+$lang['You_must_select_to_date'] = "You must select to date...";
+$lang['You_must_select_a_Todate_greaterThan_Fromdate'] = "You must select a to date greater than from date";
+$lang['past_expiry_date'] = "The expiry date cannot be in the past...";
+$lang['You_must_Select_From_To_Date_Correctly'] = "You must select from & to date correctly..";
+$lang['user_not_found'] = "User Not Found";
+$lang['pls_select_joining_date'] = "Please select a joining date.";
+$lang['plese_select_from_date'] = "Please select from date.";
+$lang['plese_select_to_date'] = "Please select to date.";
+//Newly added
+$lang['rows'] = "Rows";
+$lang['shows'] = "Shows";
+$lang['submit'] = "Submit";
+$lang['user_name'] = "User name";
+$lang['status'] = "Status";
+$lang['active'] = "Active";
+$lang['new_members'] = "New Members";
+$lang['Today'] = "Today";
+$lang['Yesterday'] = "Yesterday";
+$lang['first_pair'] = "First Pair";

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @version		$Id: install.xml 4582 2016-12-07 09:25:24Z mic $ -->
+<modification>
+	<name>OSWorX - German Translation / Dt. Übersetzung</name>
+	<code>ox_german_translation</code>
+	<version>2.0.2</version>
+    <sver>2.x</sver>
+	<author>OSWorX https://osworx.net</author>
+    <authorUrl>https://osworx.net</authorUrl>
+    <authorEmail>info@osworx.net</authorEmail>
+    <link>https://osworx.net</link>
+    <license>GPL - www.gnu.org/copyleft/gpl.html</license>
+    <date>2016.12.07</date>
+    <description>Complete German Translation&lt;hr /&gt;Vollständige dt. Übersetzung</description>
+</modification>

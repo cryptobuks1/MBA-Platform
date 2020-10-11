@@ -1,0 +1,5 @@
+$(function () {
+    loadDatePicker();
+    loadTimePicker();
+    loadDateTimePicker();
+});

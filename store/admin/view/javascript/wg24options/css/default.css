@@ -1,0 +1,566 @@
+*{ margin: 0 ;padding: 0;}
+.wrapper{ width: 1000px;margin: 0 auto;}
+.wg24-theme-administration-body-bg{background-color:#F8F8F8;float: left;width: 100%;  border-radius: 6px;   border: 1px solid #E4DDDD; position: relative;}
+.wg24-theme-administration-body-bg .administration-heder-box{padding: 10px;height: 113px;}
+.wg24-theme-administration-body-bg .administration-heder-box h1{  color: #414141; font-family: sans-serif;;font-size: 26px;font-weight: normal;text-align: center; }
+.wg24-theme-administration-body-bg .administration-heder-box .social-link{margin-top: 20px;}
+.wg24-theme-administration-body-bg .administration-heder-box .flow-us_twitter{ float: left; background-image: url('../img/twitter-icon.png'); height: 37px;width:240px;}
+.wg24-theme-administration-body-bg .administration-heder-box .theme-name{color:#2eacce ;float: left;text-decoration: none; width: 452px;}
+.wg24-theme-administration-body-bg .administration-heder-box .theme-name h2{font-family: sans-serif; font-size: 26px;font-weight: normal;text-align: center;}
+.wg24-theme-administration-body-bg .administration-heder-box .flow-is-themeforest{ float: right; background-image: url('../img/theme-forest-icon.png'); height: 35px;width: 283px;}
+.wg24-theme-administration-body-bg .admin_tabs_description{margin: 0 auto;width: 800px;}
+.wg24-theme-administration-body-bg .admin-footer-box{padding:15px;float: right;}
+.wg24-theme-administration-body-bg .save-button-bg{background-color: #2eacce ;border: 1px solid #2eacce ;color: #FFFFFF;float: left;font-family: Arial,Helvetica,Verdana;margin-right: 78px;padding:7px;}
+.wg24-theme-administration-body-bg .top-button{border-radius: 0 !important;margin-right: 0 !important; margin-top: 1px;padding: 8px 10px 7px !important; position: absolute;}
+.wg24-theme-administration-body-bg .save-button-bg:hover{ background-color: #414141; cursor: pointer; border: 1px solid #414141;}
+.wg24-theme-administration-body-bg  button, input {line-height: normal;}
+.wg24-theme-administration-body-bg  button, input, select, textarea {font-size: 100%;margin: 0;vertical-align: middle;}
+.wg24-theme-administration-body-bg .for-button-save{background-image: url(../img/success.png);}
+ .wg24-theme-administration-body-bg .for-button-reset{background-image: url(../img/wrong.png);}
+ .wg24-theme-administration-body-bg .for-button-fail{background-image:url(../img/wrong.png);}
+.wg24-theme-administration-body-bg .wg24-pupup-message div{background-repeat: no-repeat;background-position: 15px 40%;padding:25px 25px 25px 50px;}
+ .wg24-theme-administration-body-bg .wg24-pupup-message {z-index: 9999;}
+ .wg24-theme-administration-body-bg .wg24-pupup-message {position:absolute;background:#2eacce ;color:#fff;font-size:23px;text-align:center;margin-left:145px;margin-right:auto;display:none;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+ .switch label{width:auto!important;padding:0!important;}
+    .sw-show, .sw-hide, .sw-show span, .sw-hide span { background: url(../img/switch.gif) repeat-x; display: block; float: left; }
+    .sw-show span, .sw-hide span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+    .sw-show span { background-position: left -90px; padding: 0 10px; }
+    .sw-hide span { background-position: right -180px;padding: 0 10px; }
+    .sw-hide.selected { background-position: 0 -30px; }
+    .sw-hide.selected span { background-position: right -210px; color: #fff; }
+    .sw-show.selected { background-position: 0 -60px; }
+    .sw-show.selected span { background-position: left -150px; color: #fff; }
+    .switch label { cursor: pointer; }
+    .switch input { display: none; }
+
+    updated, .error {
+	display:none!important
+}
+
+.admin_tabs_description .wg24-radio-tile-img {
+	width:50px;
+	height:50px;
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+.admin_tabs_description .screenshot{
+   padding-top:10px; 
+}
+.admin_tabs_description .reset_button{
+   cursor:pointer;
+}
+
+ #javas-message {
+    color: red;
+    float: left;
+    margin: 20px 10px;
+    width: 330px;
+}
+
+.js  .wg24-theme-administration-body-bg #javas-message {
+ display: none;
+ }
+
+
+
+.admin_tabs_description  #text_info{
+	 background-color: #EBEDF4;
+        border:  solid #C2C4D9;
+	border-bottom:1px solid #C2C4D9;
+	border-width:0px 1px 1px 1px;
+	padding: 6px 20px 0px 6px;
+	height: 31px;
+	text-align: right;
+	-moz-box-shadow: inset 0 1px 0 #fcfcfc;
+	-webkit-box-shadow: inset 0 1px 0 #fcfcfc;
+	box-shadow: inset 0 1px 0 #fcfcfc;
+}
+
+
+
+
+.admin_tabs_description .field {
+	margin-bottom: 10px;
+
+}
+.admin_tabs_description .fieldupload  h3.tabs_title {
+	margin: 10px 0 10px 0;
+	padding: 7px 0px;
+	border-bottom: 1px solid #e7e7e7;
+        color:gray;
+}
+.admin_tabs_description .fieldupload .manage {
+	  clear: both;
+    margin: 0 20px 0 0;
+    position: relative;
+    width: 386px;
+}
+.admin_tabs_description .fieldupload .explain {
+   clear: both;
+    color: #414141;
+    font-size: 11px;
+    padding: 5px 3px 0 0;
+    width: auto;
+    
+}
+
+.admin_tabs_description .displayed_flag {
+    float: left;
+    left: 0;
+    margin: 1px 0 0 -20px !important;
+    position: absolute !important;
+}
+
+.admin_tabs_description .field-typography .explain {
+    width: 280px;
+}
+.admin_tabs_description .field-typography .manage {
+    width: 350px;
+}
+
+.admin_tabs_description  .field-color .manage {
+     width: 118px;
+}
+ .admin_tabs_description .field-checkbox .manage {
+    width: 30px;
+}
+
+.admin_tabs_description .field-multicheck .manage input.checkbox {
+	margin-top:9px;
+}
+
+
+
+.admin_tabs_description .sorter {margin-right: -20px;}
+.admin_tabs_description .sorter ul {
+	background: #F9F9F9;
+	border: 1px dashed #E3E3E3;
+	min-height: 40px;
+	padding: 10px 10px 0;
+	width: 145px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+.admin_tabs_description  .sorter ul h3 {
+	margin: 0 0 10px;
+	text-align: center;
+	color: #777;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.admin_tabs_description textarea,  .admin_tabs_description input,  .admin_tabs_description select{
+   background-color: #F8F8F8;
+    border: 1px solid #E4DDDD;
+    border-radius: 3px 3px 3px 3px;
+    color: #414141;
+}
+
+
+
+.admin_tabs_description .manage input, .admin_tabs_description .manage select, .admin_tabs_description .manage textarea {
+	margin-bottom: 9px !important;
+	  background-color: #F8F8F8;
+	border: 1px solid;
+	    border: 1px solid #E4DDDD;
+	width: 380px;
+	padding:7px;
+	font-family: Arial, Verdana, sans-serif, "Lucida Grande", "Lucida Sans Unicode";
+	font-size: 12px;
+}
+ .admin_tabs_description .manage input:hover, .admin_tabs_description .manage textarea:hover {
+	background-color: #ECECEC;
+}
+
+.admin_tabs_description .manage input:focus,  .admin_tabs_description .manage textarea:focus { 
+	background-color: #fff;
+	border-color:#E4DDDD #E4DDDD #E4DDDD #E4DDDD;
+	outline:0;
+}
+
+.admin_tabs_description .manage .upload {
+	width: 380px;
+}
+
+
+.admin_tabs_description .manage select {
+	height: 28px;
+	padding: 4px 5px;
+	width: 380px;
+}
+.admin_tabs_description .manage textarea {
+	width:380px;
+        color:#414141;
+}
+.admin_tabs_description input[type=text] {
+	width: 380px;
+        color:#414141;
+}
+.admin_tabs_description input.checkbox {
+	width: 30px;
+	margin-top:3px;
+}
+.admin_tabs_description input.of-radio {
+	width: 30px;
+}
+label.radio, label.multicheck {
+  position: relative;
+  bottom: 9px;
+}
+
+
+.admin_tabs_description .manage .of-color {
+	float:left;
+	width: 90px;
+	margin-left:5px; 
+}
+
+.admin_tabs_description  .manage .radio-box-picture {
+	border:3px solid #fff;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+.admin_tabs_description .manage .add-radio-picture {
+	border:3px solid #ccc
+}
+.admin_tabs_description .manage .radio-box-picture:hover {
+	opacity:.8;
+}
+
+.admin_tabs_description .manage .radio--piture-title {
+	width:50px;
+	height:50px;
+	border:3px solid #e4dddd;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+.admin_tabs_description .manage .wg24-radio-tile-selected {
+	border:3px solid #e4dddd
+}
+.admin_tabs_description.controls .wg24-radio-tile-selected {
+    border: 3px solid #e4dddd;
+}
+
+ .wg24-theme-administration-body-bg .of-save-popup {
+	position:absolute;
+	background:#414141;
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+        margin-left:250px;
+	display:none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+ .wg24-theme-administration-body-bg .for-button-save{
+	background-image: url(../img/success.png);
+}
+  .wg24-theme-administration-body-bg .for-button-reset{
+	background-image: url(../img/alert.png);
+}
+ .wg24-theme-administration-body-bg .for-button-fail{
+	background-image:url(../img/warning_cancel.png);
+}
+.wg24-theme-administration-body-bg  .wg24-loading-img{
+    background-image:url(../img/loader.gif);
+}
+
+ .wg24-theme-administration-body-bg .of-save-popup div{
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	padding:30px 30px 30px 60px;
+}
+  .wg24-theme-administration-body-bg .of-save-popup {
+	z-index: 9999;
+}
+.admin_tabs_description .manage .radio--piture-title:hover {
+	opacity:.8;
+}
+
+.admin_tabs_description .manage .border-space {
+	width:70px;
+	float:left
+}
+.admin_tabs_description .manage .style-for-border{
+	width:95px;
+	float:left
+}
+.admin_tabs_description .option-tem {
+	display:none;
+	padding-bottom:20px;
+}
+ .admin_tabs_description.option-tem h2 {
+	display:none;
+	border-bottom:3px solid #e7e7e7
+}
+.admin_tabs_description .manage input:focus,  .tab-content select:focus,  .tab-content textarea:focus {
+	background:#fff;
+}
+
+
+.admin_tabs_description.warning {
+	background: #ffeeee no-repeat 10px center;
+	;
+	border: solid #dfbfbf;
+	border-width: 0px 1px 1px 1px;
+	color: #333;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ .wg24-theme-administration-body-bg .reset-button:hover { color: #ef521d; border-color: #888}
+
+
+
+
+ .wg24-theme-administration-body-bg .hidden {
+	display:none
+}
+
+.admin_tabs_description .for-body-picture {
+	max-width:340px;
+	padding: 5px;
+	border:1px solid #e3e3e3;
+	background:#f7f7f7;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.admin_tabs_description .for-body-selected {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size: 12px;
+background:url(../img/select.png) no-repeat right center;
+border-color: #e4dddd #e4dddd #e4dddd #e4dddd;
+border-style: solid;
+border-width: 1px;
+float: left;
+height: 28px;
+width: 380px;
+margin: 0;
+margin-bottom: 9px !important;
+display: block;
+color: #414141;
+position:relative;
+}
+
+ .admin_tabs_description .for-body-selected:hover {background-color:#ECECEC;}
+
+.admin_tabs_description .mini .manage select,  .admin_tabs_description .field .mini .manage, .admin_tabs_description  .manage .typography-size, .admin_tabs_description .manage .border-width, .admin_tabs_description  .manage .mini, .admin_tabs_description .mini .manage input,  .admin_tabs_description .mini .manage {width: 70px;}
+.admin_tabs_description  .manage .typography-face{width: 380px;}
+.admin_tabs_description  .manage .typography-style, #wg24optionpanel  .manage .border-style {width: 95px;}
+.admin_tabs_description .manage .typography-size, .admin_tabs_description .manage .typography-face, .admin_tabs_description  .manage .typography-style,  .admin_tabs_description  .manage .border-width,  .admin_tabs_description .manage .border-style {margin-right:5px;}
+.admin_tabs_description .mini .explain {
+	width:500px;
+}
+.admin_tabs_description .manage .typography-face .of-typography-face{
+	width:300px;
+	float:left
+}
+.admin_tabs_description .of-notice {
+	background: #ffd1d1;
+	border:1px solid #DFDFDF;
+	-moz-border-radius:8px;
+	text-align: center;
+	margin-bottom: 15px
+}
+
+.admin_tabs_description .slider li {
+	width: 345px;
+	border: 1px solid #dfdfdf;
+	background:#f9f9f9;
+	overflow:hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+.admin_tabs_description .slide_header {
+	cursor:move;
+	height:32px;
+	padding-left:10px;
+	padding-right:20px;
+	line-height:32px;
+	background-color: #F1F1F1;
+	margin: 1px 0 -1px 0;
+	border-bottom: 1px solid #dfdfdf;
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+	overflow:hidden;
+	position: relative;
+}
+
+.admin_tabs_description .slide_body {
+	display:none;
+	padding:10px 10px 10px 11px;
+}
+
+
+.admin_tabs_description .slider li input, .admin_tabs_description .slider li textarea, .admin_tabs_description .slider li .screenshot, .admin_tabs_description .slider li .for-body-picture {
+	width:311px;
+}
+
+.admin_tabs_description a.slide_edit_button, .admin_tabs_description a.slide_delete_button {
+	text-indent:-9999px;
+	font-size:0;
+}
+ .wg24-theme-administration-body-bg a.slide_edit_button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width:32px;
+	height:32px;
+	background: url(../img/arrow.png) no-repeat 9px -28px;
+}
+	 .wg24-theme-administration-body-bg a:hover.slide_edit_button {
+	background: url(../img/arrow.png) no-repeat 9px 11px;}
+	
+ .wg24-theme-administration-body-bg a.slide_delete_button { 
+	float: right;
+	margin: 0 0 0 7px;
+	width:16px;
+	height:16px;
+	background: url(../img/icon-delete.png) no-repeat
+}
+
+ .wg24-theme-administration-body-bg .for-body-selected span {
+height: 26px;
+line-height: 26px;
+z-index: 2;
+padding-left: 6px;
+position:absolute;
+left:0;
+}
+
+
+
+.admin_tabs_description .for-body-selected .select {
+cursor: pointer;
+height: 28px;
+margin: 0;
+-moz-opacity: 0;
+filter: alpha(opacity: 0);
+opacity: 0;
+padding: 0;
+position: relative;
+width: inherit;
+z-index: 4;	
+}
+.admin_tabs_description .language_flags{
+   background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #e4dddd;
+    display: none;
+    float: left;
+    margin-left: -99px;
+    margin-right: -70px;
+    margin-top: 14px;
+    padding: 10px;
+    position: absolute;
+    width: 75px;
+}
+
+
+.switch label{
+    width:auto!important;
+    padding:0!important;
+}
+    .sw-show, .sw-hide, .sw-show span, .sw-hide span { background: url(../img/switch.gif) repeat-x ; display: block; float: left; }
+    .sw-show span, .sw-hide span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+    .sw-show span { background-position: left -90px; padding: 0 10px; }
+    .sw-hide span { background-position: right -180px;padding: 0 10px; }
+    .sw-hide.selected { background-position: 0 -30px; }
+    .sw-hide.selected span { background-position: right -210px; color: #fff; }
+    .sw-show.selected { background-position: 0 -60px; }
+    .sw-show.selected span { background-position: left -150px; color: #fff; }
+    .switch label { cursor: pointer; }
+    .switch input { display: none; }
+    
+    
+.admin_tabs_description .fieldupload .managefull{
+	width: 100%!important;
+	margin: 0!important;
+}
+.admin_tabs_description h1{
+     border-bottom: 1px solid #E4DDDD;
+    color: #2eacce ;
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.admin_tabs_description .field-content-title h2{
+     border-bottom: 1px solid #E4DDDD;
+    color: #55c3e5;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+     margin: 5px 0;
+}
+.admin_tabs_description h2.tabs_title{
+    color: #414141;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 8px;  
+}
+
+.admin_tabs_description .option{margin: 0 auto; width: 500px; }
+
+.manage.managefull > div {
+     float: left;
+}
+.fieldupload.field-select {
+    clear: both;
+}
+.upload_button_div{
+    float: none !important;
+}
+.upload_button,.button.reset_button {
+  background: transparent linear-gradient(to bottom, #f9f9f9 0%, #e3e3e3 100%) repeat scroll 0 0;
+  border-color: #ccc #bbb #a0a0a0;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  color: #000;
+  cursor: pointer;
+  margin: 5px 0;
+  outline: medium none;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  vertical-align: middle;
+  white-space: nowrap;
+}
